@@ -6,21 +6,151 @@ class EditorData
 	scaleGridStep=1;
 	autoGroupingDist=10;
 	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=8;
+	};
 	class Camera
 	{
-		pos[]={8627.7344,12.724004,11484.449};
-		dir[]={-0.26250508,-0.17364818,0.94917721};
-		up[]={-0.046286725,0.98480767,0.16736554};
-		aside[]={0.96381974,0,0.26655462};
+		pos[]={11357.532,327.2814,5449.0513};
+		dir[]={-0.59262395,-0.47887611,-0.64768738};
+		up[]={-0.32326967,0.8778767,-0.35330677};
+		aside[]={-0.73777777,6.2864274e-08,0.67505401};
 	};
 };
 binarizationWanted=0;
 sourceName="Mission%201";
+addons[]=
+{
+	"APS"
+};
 class AddonsMetaData
 {
+	class List
+	{
+		items=1;
+		class Item0
+		{
+			className="APS";
+			name="TSB Assets";
+			author="Makarov Ivan Andreyavich";
+		};
+	};
 };
 randomSeed=1096483;
 class ScenarioData
 {
 	author="NotCallMeHacker";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2015;
+		month=6;
+		day=24;
+		hour=10;
+		minute=0;
+		startFogBase=250;
+		forecastFogBase=250;
+		startFogDecay=0.017999999;
+		forecastFogDecay=0.017999999;
+	};
+	class Entities
+	{
+		items=8;
+		class Item0
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={545.97601,67.737,11840.732};
+			};
+			title="Start ALLE";
+			id=0;
+			atlOffset=-0.00046539307;
+		};
+		class Item1
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={5115.7212,18.563999,9565.4756};
+			};
+			title="Ziel Jäger";
+			id=1;
+			atlOffset=-0.00042915344;
+		};
+		class Item2
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={578.70203,28.546,8763.9648};
+			};
+			title="Ausgangsraum PzGren";
+			id=2;
+			atlOffset=0.00036430359;
+		};
+		class Item3
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={2299.606,3.1170001,9249.8887};
+			};
+			title="Recon";
+			id=3;
+			atlOffset=-0.00036358833;
+		};
+		class Item4
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={1993.5833,23.234402,10146.893};
+			};
+			title="Recon";
+			id=4;
+		};
+		class Item5
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={2959.446,4.4770002,9195.7012};
+			};
+			title="Zug";
+			id=5;
+			atlOffset=0.00024604797;
+		};
+		class Item6
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={3561.4009,0.50457025,10279.779};
+			};
+			title="Zug";
+			id=6;
+		};
+		class Item7
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={3561.4009,23.516684,10678.823};
+			};
+			title="Zug";
+			id=7;
+		};
+	};
 };
