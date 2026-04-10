@@ -4,7 +4,7 @@ if (! hasInterface) exitWith {};
 //Start Music
 playMusic "PRIntro";
 
-titleText ["<img image='images\GermanRangersLogo.paa' shadow='0' size='10'/> <br/>
+titleText ["<img image='images\ARRC_Logo_2025v2.paa' shadow='0' size='10'/> <br/>
 			<t color='#ffffff' size='5' font='RobotoCondensed' shadow = '2' >M I S S I O N   E R F Ü L L T</t>
 			<br/>
 			<br/>

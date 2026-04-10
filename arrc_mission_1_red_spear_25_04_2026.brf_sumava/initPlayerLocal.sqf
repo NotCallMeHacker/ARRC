@@ -204,7 +204,7 @@ _playerGrp = group player;
 _condition = {player distance GR_baseFlag < 100 || missionstarted == false};
 
 // Creating a Sub Menu Category GR Base with Logo
-_base_menu = ["GR Base","GR Base","images\GermanRangersLogo.paa",{  },_condition] call ace_interact_menu_fnc_createAction;
+_base_menu = ["GR Base","GR Base","images\ARRC_Logo_2025v2.paa",{  },_condition] call ace_interact_menu_fnc_createAction;
 [(typeOf player), 1, ["ACE_SelfActions"], _base_menu] call ace_interact_menu_fnc_addActionToClass;
 
 //Add Waffenkammer to ACE Menu GR Base
@@ -258,7 +258,7 @@ if (! isMultiplayer) then {
 //------------------------------------------------------------------
 
 // Creating a Sub Menu Category GR Base with Logo
-_mission_control = ["Mission Control","Mission Control","images\GermanRangersLogo.paa",{}, {true}] call ace_interact_menu_fnc_createAction;
+_mission_control = ["Mission Control","Mission Control","images\ARRC_Logo_2025v2.paa",{}, {true}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions"], _mission_control] call ace_interact_menu_fnc_addActionToZeus;
 
 _start_mission = ["Missionsstart","Missionsstart","",{ execVM "scripts\core\MCC_chapter_startMissionIntro.sqf"; },{missionstarted == false}] call ace_interact_menu_fnc_createAction;
@@ -283,7 +283,7 @@ _mission_failed = ["Ende: Mission Failed","Ende: Mission Failed","",{ ["End3"] e
 
 if (_playerGrp == grplima || _playerGrp == grpkilo || _playerGrp == grpfox || _playerGrp == grpvictor || _playerGrp == grphotel) then {
 	// Creating the Admin Control Menu Category GR Base with Logo
-	_adminmenu = ["GR Admin Menu","GR Admin Menu","images\GermanRangersLogo.paa",{}, {true}] call ace_interact_menu_fnc_createAction;
+	_adminmenu = ["GR Admin Menu","GR Admin Menu","images\ARRC_Logo_2025v2.paa",{}, {true}] call ace_interact_menu_fnc_createAction;
 	[(typeOf player), 1, ["ACE_SelfActions"], _adminmenu] call ace_interact_menu_fnc_addActionToClass;
 
 	_avdheal = ["AvD Heal","AvD Heal","a3\ui_f\data\igui\cfg\simpletasks\types\heal_ca.paa",{[player, cursorObject] call ace_medical_treatment_fnc_fullHeal},{true}] call ace_interact_menu_fnc_createAction;
@@ -303,7 +303,7 @@ if (_playerGrp == grplima || _playerGrp == grpkilo || _playerGrp == grpfox || _p
 
 if (_playerGrp == grpmike) then {
 	// Creating the Admin Control Menu Category GR Base with Logo
-	_avdmenu = ["GR AvD Menu","GR Avd Menu","images\GermanRangersLogo.paa",{}, {true}] call ace_interact_menu_fnc_createAction;
+	_avdmenu = ["GR AvD Menu","GR Avd Menu","images\ARRC_Logo_2025v2.paa",{}, {true}] call ace_interact_menu_fnc_createAction;
 	[(typeOf player), 1, ["ACE_SelfActions"], _avdmenu] call ace_interact_menu_fnc_addActionToClass;
 
 	_avdheal = ["AvD Heal","AvD Heal","a3\ui_f\data\igui\cfg\simpletasks\types\heal_ca.paa",{[player, cursorObject] call ace_medical_treatment_fnc_fullHeal},{true}] call ace_interact_menu_fnc_createAction;

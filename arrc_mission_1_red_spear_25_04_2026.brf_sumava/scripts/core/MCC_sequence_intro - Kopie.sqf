@@ -76,7 +76,7 @@ _camera camSetPos [8361.45,7119.49,1.5];
 _camera camCommit 0;
 _camera camSetPos [8361.45,7119.49,5];
 _camera camCommit 5;
-titleText ["<t color='#ffffff' size='1'>B A L A   M U R G H A B - 01.08.2022 - German Rangers<br/>____________________</t><br/><t color='#ffffff' size='5'>Operation Pullback Pt. 3</t><br/><br/><img image='images\GermanRangersLogo.paa' shadow='0' size='8'/><img image='images\cc_Pics\mesc1.paa' shadow='0' size='8'/>", "PLAIN", 0.8, true, true];
+titleText ["<t color='#ffffff' size='1'>B A L A   M U R G H A B - 01.08.2022 - German Rangers<br/>____________________</t><br/><t color='#ffffff' size='5'>Operation Pullback Pt. 3</t><br/><br/><img image='images\ARRC_Logo_2025v2.paa' shadow='0' size='8'/><img image='images\cc_Pics\mesc1.paa' shadow='0' size='8'/>", "PLAIN", 0.8, true, true];
 waitUntil { camCommitted _camera; };
 
 //Camera destroying - terminates the 'camera view'
