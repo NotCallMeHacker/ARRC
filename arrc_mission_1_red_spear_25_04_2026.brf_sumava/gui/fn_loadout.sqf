@@ -18,7 +18,6 @@ removeallWeapons player;
 	params ["_data"];
 	sleep 2;
 	call compile preprocessFileLineNumbers format ['loadouts\%1\loadout\%2.sqf', fraktionV, _data];
-	[tarnfarbeV] call SGN_fnc_replaceTarnfarbe;	
 	sleep 2;
 	player action ["WeaponOnBack", player];
 };

@@ -14,7 +14,7 @@ player setUnitLoadout [
 	["BWA3_Uniform_Fleck",[["ACE_fieldDressing",5],["ACE_elasticBandage",5],["ACE_packingBandage",10],["ACE_salineIV_500",2],["ACE_splint",2],["ACE_tourniquet",2],["kat_chestSeal",2],["ACE_EarPlugs",1],["ACE_CableTie",2],["ItemcTabHCam",1],["ACE_MapTools",1],["ACE_Flashlight_XL50",1],["ACE_painkillers",1,10]]],
 	["BWA3_Vest_Rifleman_Fleck",[["kat_stethoscope",1],["ACE_surgicalKit",1],["kat_BVM",1],["BWA3_30Rnd_556x45_G36",6,30],["BWA3_30Rnd_556x45_G36_Tracer",3,30],["SmokeShell",6,1],["BWA3_12Rnd_45ACP_P12",1,12],["SmokeShellPurple",2,1]]],
 	["BWA3_TacticalPack_Fleck_Medic",[["kat_IV_16",15],["ACE_elasticBandage",30],["kat_larynx",10],["kat_ketamine",5],["kat_fentanyl",5],["kat_IO_FAST",10],["kat_chestSeal",4],["kat_naloxone",1],["kat_ncdKit",3],["kat_nitroglycerin",10],["kat_Pulseoximeter",5],["ACE_salineIV_500",15],["ACE_splint",5],["ACE_suture",30],["ACE_tourniquet",5],["kat_TXA",10],["ACE_epinephrine",5],["kat_X_AED",1],["kat_EACA",10],["kat_accuvac",1],["ACE_bodyBag",3],["kat_Caffeine",3,15],["kat_Penthrox",2,10]]],
-	"BWA3_OpsCore_FastMT_Peltor_Fleck","",["Rangefinder","","","",[],[],""],["ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","ItemWatch","ACE_NVG_Gen2_Black"]],[["ace_arsenal_insignia","BWA3_insignia_03_hauptgefreiter"],["aceax_textureOptions",[]],["ace_earplugs",true]
+	"BWA3_OpsCore_FastMT_Peltor_Fleck","",["Rangefinder","","","",[],[],""],["ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","ItemWatch","ACE_NVG_Gen2_Black"],["ace_arsenal_insignia","BWA3_insignia_03_hauptgefreiter"],["aceax_textureOptions",[]],["ace_earplugs",true]
 ];
 
 //------------------------------------------------------------------
