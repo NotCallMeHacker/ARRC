@@ -4,20 +4,19 @@ _c 		= "//";
 _s 		= "//------------------------------------------------------------------";
 _li		= "https://community.bistudio.com/wiki/Unit_Loadout_Array";
 		
-_loNa 	= player getVariable ["GR_unitLoadout", "UNDEFINED"];
+_loNa 	= player getVariable ["ARRC_unitLoadout", "UNDEFINED"];
 _medT	= 0;
 _engT	= 0;
 _eodT	= false;
 
-if (_loNa in ["Schuetze_EHB"])																			then { _medT = 1; 		}; // EHB
-if (_loNa in ["Lima","ZugSani","Mike_AvD","Mike_Sani","Sanitaeter","Sanitaeter_WaGru","Sierra_NaSi"]) 	then { _medT = 2; 		}; // Arzt
+if (_loNa in ["Schuetze_EHA","Schuetze_EHB","Schuetze_EHC","Sierra_AufSan"]) 	                        then { _medT = 2; 		}; // Sani
 if (_loNa in ["Lima"]) 																					then { _engT = 2; 		}; // Engineer
-if (_loNa in ["Lima"]) 																					then { _eodT = true; 	}; // EOD
+if (_loNa in ["Lima", "Grenadier"]) 																	then { _eodT = true; 	}; // EOD
 
 _lo 	= getUnitLoadout player;
 
 _header = composeText [_s,_br,_s,_br,_c,_br,_c,_tab,_loNa,_br,_c,_br,_s,_br,_s,_br];
-_setVar = composeText ["player setVariable [",str "GR_unitLoadout"+",",str _loNa,"];",_br];
+_setVar = composeText ["player setVariable [",str "ARRC_unitLoadout"+",",str _loNa,"];",_br];
 _array	= composeText ["player setUnitLoadout [", _br, _tab, str (_lo #0)+",", _br, _tab, str (_lo #1)+",", _br, _tab, str (_lo #2)+",", _br, _tab, str (_lo #3)+",", _br, _tab, str (_lo #4)+",", _br, _tab, str (_lo #5)+",", _br, _tab, str (_lo #6)+",", str (_lo #7)+",", str (_lo #8)+",", _br, _tab, str (_lo #9), _br, "];"];
 
 _medic 	= composeText ["player setVariable [",str "ACE_medical_medicClass"+",",str _medT,",","true","];",_br];

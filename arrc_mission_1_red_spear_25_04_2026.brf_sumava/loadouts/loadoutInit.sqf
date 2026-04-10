@@ -6,7 +6,7 @@ if(getMissionConfigValue "compileLoadout" == "true") then {
 	switch (playerSide) do {
 		case west: {
 			
-			_unitLoadOut = player getVariable "GR_unitLoadout";
+			_unitLoadOut = player getVariable "ARRC_unitLoadout";
 			systemChat str _unitLoadOut;
 			_loadOutFile = format ["loadouts\%1\loadout\%2.sqf", fraktionV, _unitLoadOut];
 			systemChat str _loadOutFile;

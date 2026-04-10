@@ -9,32 +9,12 @@ player setVariable ["GR_unitLoadout","Sierra_Scharf"];
 
 //  https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [
-    ["SPS_AI_AXMC338_27_B_PRCFB_F", "muzzle_snds_SPS_AI_B_H", "", "SPS_Optic_SnB_HP_5_45_Black", 
-        ["SPS_AI_AXMC_338_300gr_Berger_Mag", 10], [], ""
-    ],
-    [],
-    ["CUP_hgun_Glock17_blk", "CUP_muzzle_snds_M9", "", "optic_MRD_black", 
-        ["CUP_17Rnd_9x19_glock17", 17], [], ""
-    ],
-    ["CUP_U_B_GER_Fleck_Crye", [
-        ["ACE_CableTie", 4], ["ACE_EarPlugs", 1], ["ACE_IR_Strobe_Item", 1], 
-        ["ItemcTabHCam", 1], ["ACE_epinephrine", 2], ["ACE_morphine", 2], 
-        ["ACE_MapTools", 1], ["ACE_Flashlight_XL50", 1], ["ACE_RangeCard", 1], 
-        ["kat_Caffeine", 1, 15], ["kat_Penthrox", 1, 10]
-    ]],
-    ["CUP_V_B_GER_Armatus_BB_Fleck", [
-        ["CUP_17Rnd_9x19_glock17", 3, 17], ["SmokeShell", 2, 1], ["SmokeShellGreen", 2, 1], 
-        ["tsp_flashbang_m84", 4, 1], ["SPS_AI_AXMC_338_300gr_Berger_Mag", 10, 10]
-    ]],
-    ["CFP_Kitbag_Flecktarn", [
-        ["kat_chestSeal", 5], ["ACE_elasticBandage", 20], ["ACE_epinephrine", 5], 
-        ["ACE_morphine", 5], ["ACE_tourniquet", 4], ["ACE_splint", 2], ["ACE_salineIV_500", 6], 
-        ["ACE_packingBandage", 10], ["ACE_NVG_Gen4_Black_WP", 1], ["CUP_H_OpsCore_Covered_Fleck", 1]
-    ]],
-    "CUP_H_Ger_Cap_EP_Grn1",
-    "CUP_G_PMC_Facewrap_Tropical_Glasses_Dark",
-    ["Rangefinder", "", "", "", [], [], ""],
-    ["ItemMap", "ItemAndroid", "TFAR_anprc152_25", "ItemCompass", "ACE_Altimeter", ""]
+    [["BWA3_G29","","","BWA3_optic_M5Xi_Tremor3_MicroT2",["BWA3_10Rnd_86x70_G29",10],[],"BWA3_bipod_Atlas"],[],
+    ["BWA3_P12","","","",["BWA3_12Rnd_45ACP_P12",12],[],""],
+    ["BWA3_Uniform_Fleck",[["ACE_elasticBandage",5],["ACE_packingBandage",10],["ACE_salineIV_500",2],["ACE_splint",2],["ACE_tourniquet",2],["kat_chestSeal",2],["ACE_EarPlugs",1],["ACE_CableTie",2],["ItemcTabHCam",1],["ACE_MapTools",1],["ACE_Flashlight_XL50",1],["ACE_quikclot",5],["ACE_painkillers",1,10]]],
+    ["BWA3_Vest_JPC_Radioman_Fleck",[["HandGrenade",2,1],["SmokeShell",4,1],["BWA3_12Rnd_45ACP_P12",1,12],["BWA3_10Rnd_86x70_G29",4,10],["BWA3_10Rnd_86x70_G29_Tracer",3,10]]],
+    ["BWA3_AssaultPack_Fleck",[["ACE_EntrenchingTool",1],["ACE_RangeCard",1],["ACE_NVG_Gen4_Black",1],["BWA3_OpsCore_FastMT_SOF_Fleck",1],["ACE_ATragMX",1],["ACE_Kestrel4500",1]]],
+    "BWA3_Booniehat_Fleck","",["Rangefinder","","","",[],[],""],["ItemMap","ItemMicroDAGR","TFAR_anprc152","ItemCompass","ItemWatch",""]],[["ace_arsenal_insignia","BWA3_insignia_03_hauptgefreiter"],["aceax_textureOptions",[]],["ace_earplugs",true]]
 ];
 
 //------------------------------------------------------------------

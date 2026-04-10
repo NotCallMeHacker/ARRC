@@ -12,7 +12,7 @@
 
 params ["_unit"];
 
-createDialog "GR_guiNeuDialog";
+createDialog "ARRC_guiNeuDialog";
 private _display 		= findDisplay 7777;
 private _confirmButton	= _display displayCtrl 1614;
 private _listbox 		= _display displayCtrl 1500;
@@ -36,4 +36,4 @@ private _PlayableGroups = [];
 
 lbSort _listbox; // sort ascending
 
-_confirmButton ctrlAddEventHandler [ "ButtonClick", { [] call GR_fnc_teleport; }];
+_confirmButton ctrlAddEventHandler [ "ButtonClick", { [] call ARRC_fnc_teleport; }];

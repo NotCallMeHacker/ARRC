@@ -2,7 +2,7 @@ import RscPicture;
 import RscButton;
 import RscListBox;
 
-class GR_guiNeuDialog
+class ARRC_guiNeuDialog
 {
 	idd = 7777;
 	
@@ -60,7 +60,7 @@ class GR_guiNeuDialog
 			w = safeZoneW * 0.06542969;
 			h = safeZoneH * 0.109375;
 			style = 48;
-			text = "images\GermanRangersLogo.paa";
+			text = "images\ARRC_Logo_2025v2.paa";
 			colorBackground[] = {1,1,1,1};
 			colorText[] = {1,1,1,1};
 			font = "PuristaMedium";

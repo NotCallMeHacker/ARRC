@@ -12,7 +12,7 @@
 
 params ["_unit"];
 
-createDialog "GR_guiNeuDialog";
+createDialog "ARRC_guiNeuDialog";
 private _display 		= findDisplay 7777;
 private _confirmButton	= _display displayCtrl 1614;
 private _listbox 		= _display displayCtrl 1500;
@@ -22,48 +22,38 @@ _groupName = toLower (groupId group _unit);
 private _groupRoles = [];
 
 // Zugführung
-if (_groupName in ["foxtrot","victor"]) then {
+if (_groupName in ["zulu","yankee"]) then {
 	_groupRoles = GR_ZugFhrRollen;
 };
 
-// Schützengruppe
-if (_groupName in ["alpha","charlie","zulu","x-ray"]) then {
-	_groupRoles = GR_SchuetzenRollen;
+// Zulu Zug Gruppen
+if (_groupName in ["alpha","bravo","charlie","delta"]) then {
+	_groupRoles = ARRC_ZuluZugRollen;
 };
 
-// Waffengruppe
-if (_groupName in ["bravo","yankee"]) then {
-	_groupRoles = GR_WaffenRollen;
+// Yankee Zug Gruppen
+if (_groupName in ["echo","foxtrot", "golf", "hotel"]) then {
+	_groupRoles = ARRC_YankeeZugRollen;
 };
 
 // Scharfschützentrupps
 if (_groupName in ["sierra"]) then {
-	_groupRoles = GR_ScharfRollen;
+	_groupRoles = ARRC_KpSierraRollen;
 };
 
 // Kilo - Kompanieführung
 if (_groupName in ["kilo"]) then {
-	_groupRoles = GR_KiloRollen;
+	_groupRoles = ARRC_KiloRollen;
 };
 
-// Hotel - Zeus
-if (_groupName in ["hotel"]) then {
-	_groupRoles = GR_HotelRollen;
-};
-
-// Mike - San-Unterstützungs Einheit
-if (_groupName in ["mike"]) then {
-	_groupRoles = GR_MikeRollen;
+// X-Ray - Zeus
+if (_groupName in ["xray"]) then {
+	_groupRoles = ARRC_XrayRollen;
 };
 
 // Lima - Unterstützungstrupp
 if (_groupName in ["lima"]) then {
-	_groupRoles = GR_LimaRollen;
-};
-
-// Romeo - Feuerunterstützungstrupp
-if (_groupName in ["romeo"]) then {
-	_groupRoles = GR_RomeoRollen;
+	_groupRoles = ARRC_LimaRollen;
 };
 
 // fill listbox
@@ -72,4 +62,4 @@ if (_groupName in ["romeo"]) then {
 	_listbox lbSetData [_index, (_x select 1)];
 } forEach _groupRoles;
 
-_confirmButton ctrlAddEventHandler [ "ButtonClick", { [] spawn GR_fnc_loadout; }];
+_confirmButton ctrlAddEventHandler [ "ButtonClick", { [] spawn ARRC_fnc_loadout; }];

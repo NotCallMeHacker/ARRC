@@ -9,8 +9,8 @@
 	Return values:
 	-none		
 */
-class GR_gui {
-	tag = "GR";
+class ARRC_gui {
+	tag = "ARRC";
 	class fnc {
 		file = "gui";				
 		class createLoadoutDialog{};

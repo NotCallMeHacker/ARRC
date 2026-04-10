@@ -9,21 +9,19 @@ player setVariable ["GR_unitLoadout","Schuetze_EHB"];
 
 //	https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [
-	["CUP_arifle_G36KA3_grip_wdl","","CUP_acc_LLM_od","CUP_optic_Elcan_SpecterDR_RMR_od_PIP",["CUP_30Rnd_556x45_G36_wdl",30],[],""],
-	[],
-	["CUP_hgun_M17_Black","","","",["CUP_17Rnd_9x19_M17_Black",17],[],""],
-	["CUP_U_B_GER_Fleck_Crye",[["ACE_fieldDressing",5],["ACE_elasticBandage",5],["ACE_packingBandage",5],["kat_chestSeal",2],["ACE_morphine",1],["ACE_salineIV_500",2],["ACE_splint",2],["ACE_tourniquet",2],["ACE_CableTie",2],["ACE_EarPlugs",1],["ItemcTabHCam",1],["ACE_IR_Strobe_Item",2],["ACE_Flashlight_XL50",1],["ACE_MapTools",1]]],
-	["gerrng_PlateCarrier1_Flecktarn",[["CUP_NVG_PVS15_black",1],["GerRng_rations_HydrationBladder_3L",1],["CUP_17Rnd_9x19_M17_Black",1,17],["SmokeShell",2,1],["CUP_HandGrenade_M67",2,1],["CUP_30Rnd_TE1_Red_Tracer_556x45_G36",2,30],["CUP_30Rnd_556x45_G36_wdl",6,30]]],
-	["B_Kitbag_rgr",[["ACE_adenosine",5],["ACE_fieldDressing",20],["ACE_elasticBandage",30],["ACE_packingBandage",20],["ACE_bodyBag",2],["ACE_epinephrine",10],["ACE_morphine",1],["ACE_salineIV_500",20],["ACE_splint",10],["ACE_tourniquet",2],["kat_IV_16",10],["kat_BVM",1],["kat_chestSeal",10],["kat_fentanyl",5],["kat_larynx",15],["kat_nitroglycerin",5],["kat_TXA",5],["kat_Penthrox",1,10]]],
-	"CUP_H_OpsCore_Covered_Fleck_SF","",[],
-	["ItemMap","","TFAR_anprc152","ItemCompass","ItemWatch",""]
+	[["BWA3_G38","","BWA3_acc_VarioRay_irlaser_black","BWA3_optic_EOTech_Mag_Off",["BWA3_30Rnd_556x45_G36",30],[],""],[],
+	["BWA3_P12","","","",["BWA3_12Rnd_45ACP_P12",12],[],""],
+	["BWA3_Uniform_Fleck",[["ACE_fieldDressing",5],["ACE_elasticBandage",5],["ACE_packingBandage",10],["ACE_salineIV_500",2],["ACE_splint",2],["ACE_tourniquet",2],["kat_chestSeal",2],["ACE_EarPlugs",1],["ACE_CableTie",2],["ItemcTabHCam",1],["ACE_MapTools",1],["ACE_Flashlight_XL50",1],["ACE_painkillers",1,10]]],
+	["BWA3_Vest_Rifleman_Fleck",[["BWA3_30Rnd_556x45_G36",7,30],["BWA3_30Rnd_556x45_G36_Tracer",4,30],["BWA3_30Rnd_556x45_G36_AP",2,30],["SmokeShell",6,1],["BWA3_12Rnd_45ACP_P12",1,12]]],
+	["BWA3_TacticalPack_Fleck_Medic",[["ACE_EntrenchingTool",1],["kat_IV_16",15],["ACE_elasticBandage",30],["kat_larynx",10],["kat_ketamine",5],["kat_fentanyl",5],["kat_IO_FAST",10],["kat_BVM",1],["kat_chestSeal",4],["kat_naloxone",1],["kat_ncdKit",3],["kat_nitroglycerin",10],["kat_Pulseoximeter",5],["ACE_salineIV_500",15],["ACE_splint",5],["kat_stethoscope",1],["ACE_surgicalKit",1],["ACE_suture",30],["ACE_tourniquet",5],["kat_TXA",4],["ACE_epinephrine",5],["kat_Caffeine",3,15],["kat_Penthrox",2,10]]],
+	"BWA3_OpsCore_FastMT_Peltor_Fleck","",["Rangefinder","","","",[],[],""],["ItemMap","ItemGPS","TFAR_anprc152","ItemCompass","ItemWatch","ACE_NVG_Gen2_Black"]],[["ace_arsenal_insignia","BWA3_insignia_03_hauptgefreiter"],["aceax_textureOptions",[]],["ace_earplugs",true]]
 ];
 
 //------------------------------------------------------------------
 //	ACE Optionen fuer Spieler
 //------------------------------------------------------------------
 //	Medic:
-player setVariable ["ACE_medical_medicClass",1,true];
+player setVariable ["ACE_medical_medicClass",2,true];
 
 //	Combat Engineer:
 player setVariable ["ACE_isEngineer",0,true];

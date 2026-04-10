@@ -9,14 +9,12 @@ player setVariable ["GR_unitLoadout","TrpFhr"];
 
 //	https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [
-	["CUP_arifle_G36KA3_grip_wdl","","CUP_acc_LLM_od","CUP_optic_Elcan_SpecterDR_RMR_od",["CUP_30Rnd_556x45_G36_wdl",30],[],""],
-	[],
-	["CUP_hgun_M17_Black","","","",["CUP_17Rnd_9x19_M17_Black",17],[],""],
-	["CUP_U_B_GER_Fleck_Crye",[["ACE_fieldDressing",5],["ACE_elasticBandage",5],["ACE_packingBandage",5],["kat_chestSeal",2],["ACE_morphine",1],["ACE_salineIV_500",2],["ACE_splint",2],["ACE_tourniquet",2],["ACE_CableTie",2],["ACE_EarPlugs",1],["ItemcTabHCam",1],["ACE_IR_Strobe_Item",2],["ACE_Flashlight_XL50",1],["ACE_MapTools",1]]],
-	["gerrng_PlateCarrier1_Flecktarn",[["ACE_EntrenchingTool",1],["tsp_lockpick",1],["CUP_NVG_PVS15_black",1],["tsp_breach_shock",1],["GerRng_rations_HydrationBladder_3L",1],["CUP_17Rnd_9x19_M17_Black",1,17],["CUP_HandGrenade_M67",3,1],["SmokeShell",4,1],["SmokeShellRed",1,1],["SmokeShellGreen",1,1],["CUP_30Rnd_556x45_G36_wdl",6,30],["CUP_30Rnd_TE1_Red_Tracer_556x45_G36_wdl",2,30],["tsp_breach_popper_mag",2,1],["tsp_breach_stick_mag",2,1]]],
-	[],
-	"CUP_H_OpsCore_Covered_Fleck_SF","",["Rangefinder","","","",[],[],""],
-	["ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ItemWatch",""]
+	[["BWA3_G38","","BWA3_acc_VarioRay_irlaser_black","BWA3_optic_EOTech_Mag_Off",["BWA3_30Rnd_556x45_G36",30],[],""],[],
+	["BWA3_P12","","","",["BWA3_12Rnd_45ACP_P12",12],[],""],
+	["BWA3_Uniform_Fleck",[["ACE_fieldDressing",5],["ACE_elasticBandage",5],["ACE_packingBandage",10],["ACE_salineIV_500",2],["ACE_splint",2],["ACE_tourniquet",2],["kat_chestSeal",2],["ACE_EarPlugs",1],["ACE_CableTie",2],["ItemcTabHCam",1],["ACE_MapTools",1],["ACE_Flashlight_XL50",1],["ACE_painkillers",1,10]]],
+	["BWA3_Vest_JPC_Rifleman_Fleck",[["BWA3_30Rnd_556x45_G36",7,30],["BWA3_30Rnd_556x45_G36_Tracer",4,30],["BWA3_30Rnd_556x45_G36_AP",2,30],["HandGrenade",2,1],["SmokeShell",2,1],["BWA3_12Rnd_45ACP_P12",1,12]]],
+	["BWA3_AssaultPack_Fleck",[["ACE_Clacker",1],["ACE_HuntIR_monitor",1],["SmokeShell",4,1],["SmokeShellPurple",2,1],["SmokeShellBlue",2,1],["ACE_Chemlight_HiBlue",2,1],["ACE_HandFlare_Green",1,1],["BWA3_30Rnd_556x45_G36",3,30],["BWA3_30Rnd_556x45_G36_Tracer",2,30]]],
+	"BWA3_OpsCore_FastMT_Peltor_Fleck","",["Rangefinder","","","",[],[],""],["ItemMap","ItemAndroid","TFAR_anprc152","ItemCompass","ItemWatch","ACE_NVG_Gen2_Black"]],[["ace_arsenal_insignia","BWA3_insignia_07_stabsunteroffizier"],["aceax_textureOptions",[]],["ace_earplugs",true]]
 ];
 
 //------------------------------------------------------------------

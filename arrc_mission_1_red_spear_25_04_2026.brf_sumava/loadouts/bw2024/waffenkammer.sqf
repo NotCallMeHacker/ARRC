@@ -16,10 +16,10 @@ if (!(isNull objectParent player)) exitWith {
 };
 
 // Get Player Role
-_unitLoadout = player getVariable "GR_unitLoadout";
+_unitLoadout = player getVariable "ARRC_unitLoadout";
 
 // Needed for waitUntil after Arsenal is closed, combined with Event Handler on Arsenal
-player setVariable ["GR_arsenalClosed", false];
+player setVariable ["ARRC_arsenalClosed", false];
 
 _rearm = false;
 
@@ -42,7 +42,7 @@ _packListe = [];
 	if ([_x,_unitLoadout] call BIS_fnc_inString) then {	
 		_packListe = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\%2.sqf", fraktionV, _x];	
 	};
-} forEach GR_Packlisten;
+} forEach ARRC_Packlisten;
 
 // Packliste Leer -> Arsenal aus dem Inventar des Spielers erstellen
 if ((count _packListe) < 1) then  {
@@ -54,16 +54,10 @@ private _uniqueWeaponSelection = [
 	"Schuetze_LMG",
 	"Grenadier",
 	"Sierra_Aufkl",
-	"Sierra_AufSan",
-	"Sierra_Breacher",
 	"Sierra_GrpFhr",
-	"Sierra_MG",
 	"Sierra_NaSi",
-	"Sierra_San",
 	"Sierra_Scharf",
-	"Sierra_Schuetze",
 	"Sierra_Spotter",
-	"Sierra_TF"
 
 ];
 if(!(_unitLoadout in _uniqueWeaponSelection)) then {
@@ -176,10 +170,10 @@ else {
 };
 
 // Add Event Handler for closing the Arsenal
-GR_ARSENAL_DISPLAY_ID = ["ace_arsenal_displayClosed", { player setVariable ["GR_arsenalClosed", true]; ["ace_arsenal_displayClosed", GR_ARSENAL_DISPLAY_ID] call CBA_fnc_removeEventHandler; } ] call CBA_fnc_addEventHandler;
+ARRC_ARSENAL_DISPLAY_ID = ["ace_arsenal_displayClosed", { player setVariable ["ARRC_arsenalClosed", true]; ["ace_arsenal_displayClosed", ARRC_ARSENAL_DISPLAY_ID] call CBA_fnc_removeEventHandler; } ] call CBA_fnc_addEventHandler;
 
 // Wait until Arsenal is closed by Player
-waitUntil { player getVariable "GR_arsenalClosed" };
+waitUntil { player getVariable "ARRC_arsenalClosed" };
 
 // clear Arsenal
 [player, true, false] call ace_arsenal_fnc_removeVirtualItems;

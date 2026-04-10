@@ -26,16 +26,16 @@ _targetGroup = lbdata[1500, _index];
 switch (_targetGroup) do {
 	case "Kilo": {		_jumpTarget = (units grpkilo select 0); };
 	case "Lima": {		_jumpTarget = (units grplima select 0); };
-	case "Mike": {		_jumpTarget = (units grpmike select 0); };
-	case "Romeo": {		_jumpTarget = (units grpromeo select 0); };
-	case "Foxtrot": {	_jumpTarget = (units grpfox select 0); };
-	case "Victor": {	_jumpTarget = (units grpvictor select 0); };
+	case "Zulu": {	_jumpTarget = (units grpzulu select 0); };
+	case "Yankee": {	_jumpTarget = (units grpyankee select 0); };
 	case "Alpha": {		_jumpTarget = (units grpalpha select 0); };
 	case "Bravo": {		_jumpTarget = (units grpbravo select 0); };
 	case "Charlie": {	_jumpTarget = (units grpcharlie select 0); };
-	case "Zulu": {		_jumpTarget = (units grpzulu select 0); };
-	case "X-Ray": {		_jumpTarget = (units grpxray select 0); };
-	case "Yankee": {	_jumpTarget = (units grpyankee select 0); };	
+	case "Delta": {		_jumpTarget = (units grpdelta select 0); };
+	case "Echo": {		_jumpTarget = (units grpecho select 0); };
+	case "Foxtrot": {		_jumpTarget = (units grpfoxtrot select 0); };
+	case "Golf": {	_jumpTarget = (units grpgolf select 0); };	
+	case "Hotel": {		_jumpTarget = (units grphotel select 0); };
 	case "Sierra": {	_jumpTarget = (units grpsierra select 0); };				
 };
 
@@ -43,15 +43,16 @@ if (player == _jumpTarget) then {
 	switch (_targetGroup) do {
 		case "Kilo": {		_jumpTarget = (units grpkilo select 1); };
 		case "Lima": {		_jumpTarget = (units grplima select 1); };
-		case "Mike": {		_jumpTarget = (units grpmike select 1); };
-		case "Foxtrot": {	_jumpTarget = (units grpfox select 1); };
-		case "Victor": {	_jumpTarget = (units grpvictor select 1); };
+		case "Zulu": {	_jumpTarget = (units grpzulu select 1); };
+		case "Yankee": {	_jumpTarget = (units grpyankee select 1); };
 		case "Alpha": {		_jumpTarget = (units grpalpha select 1); };
 		case "Bravo": {		_jumpTarget = (units grpbravo select 1); };
 		case "Charlie": {	_jumpTarget = (units grpcharlie select 1); };
-		case "Zulu": {		_jumpTarget = (units grpzulu select 1); };
-		case "X-Ray": {		_jumpTarget = (units grpxray select 1); };
-		case "Yankee": {	_jumpTarget = (units grpyankee select 1); };	
+		case "Delta": {	_jumpTarget = (units grpdelta select 1); };
+		case "Echo": {		_jumpTarget = (units grpzulu select 1); };
+		case "Foxtrot": {		_jumpTarget = (units grpxray select 1); };
+		case "Golf": {	_jumpTarget = (units grpyankee select 1); };	
+		case "Hotel": {	_jumpTarget = (units grphotel select 1); };
 		case "Sierra": {	_jumpTarget = (units grpsierra select 1); };	
 	};
 };
