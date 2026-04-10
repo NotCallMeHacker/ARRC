@@ -18,7 +18,7 @@
 ARRC_ZugFhrRollen = [
 	["Zugführer","ZugFhr"],
 	["Stellvertretender Zugführer","ZugFhr"],
-	["Schütze-EH-C","Schuetze_EHC"],
+	["Schütze-EH-C","Schuetze_EHC"]
 ];
 
 //-----------------------------------------------------------------------------
