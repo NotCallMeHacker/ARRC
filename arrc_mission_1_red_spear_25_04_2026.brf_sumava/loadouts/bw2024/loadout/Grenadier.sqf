@@ -5,7 +5,7 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-player setVariable ["GR_unitLoadout","Grenadier"];
+player setVariable ["ARRC_unitLoadout","Grenadier"];
 
 //	https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [

@@ -5,7 +5,7 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-player setVariable ["GR_unitLoadout","Richschuetze"];
+player setVariable ["ARRC_unitLoadout","Richschuetze"];
 
 //	https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [

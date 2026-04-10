@@ -5,7 +5,7 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-player setVariable ["GR_unitLoadout","Fahrer"];
+player setVariable ["ARRC_unitLoadout","Fahrer"];
 
 //	https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [

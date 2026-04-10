@@ -5,7 +5,7 @@
 //
 //------------------------------------------------------------------
 //------------------------------------------------------------------
-player setVariable ["GR_unitLoadout","Sierra_Spotter"];
+player setVariable ["ARRC_unitLoadout","Sierra_Spotter"];
 
 //    https://community.bistudio.com/wiki/Unit_Loadout_Array
 player setUnitLoadout [
