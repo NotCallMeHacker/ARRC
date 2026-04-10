@@ -10,7 +10,6 @@ if(getMissionConfigValue "compileLoadout" == "true") then {
 			systemChat str _unitLoadOut;
 			_loadOutFile = format ["loadouts\%1\loadout\%2.sqf", fraktionV, _unitLoadOut];
 			systemChat str _loadOutFile;
-			[tarnfarbeV] call SGN_fnc_replaceTarnfarbe;
 		};
 		case east: {
 			_unitLoadOut = player getVariable "OPF_unitLoadout";

@@ -5,7 +5,6 @@ class SGN {
 		class createArsenalACE{};	
 		class createPacklisteACE{};		
 		class exportLoadOutArray{};
-		class replaceTarnfarbe{};
 		class rollDice{}; 
 		class infoHintHC{};
 	};
