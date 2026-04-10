@@ -35,7 +35,7 @@ ARRC_ZuluZugRollen = [
 	["Grenadier","Grenadier"],
 	["Schütze","Schuetze"],
 	["Schütze-EH-A","Schuetze_EHA"],
-	["Schütze-LMG","Schuetze_LMG"],
+	["Schütze-LMG","Schuetze_LMG"]
 	
 ];
 
@@ -53,7 +53,7 @@ ARRC_YankeeZugRollen = [
 	["Grenadier","Grenadier"],
 	["Richtschütze","Richtschuetze"],
 	["Fahrer","Fahrer"],
-	["Schütze-LMG","Schuetze_LMG"],
+	["Schütze-LMG","Schuetze_LMG"]
 ];
 
 //-----------------------------------------------------------------------------
@@ -67,7 +67,7 @@ ARRC_KpSierraRollen = [
 	["Aufklärungssanitäter","Sierra_AufSan"],
 	["Scharfschütze","Sierra_Scharf"],
 	["Spotter","Sierra_Spotter"],
-	["Nahsicherer","Sierra_NaSi"],
+	["Nahsicherer","Sierra_NaSi"]
 ];
 
 //-----------------------------------------------------------------------------
