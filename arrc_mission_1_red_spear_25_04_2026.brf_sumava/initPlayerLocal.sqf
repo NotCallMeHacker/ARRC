@@ -214,13 +214,13 @@ if (getMissionConfigValue "allowWaffenkammer" == "true") then {
 };
 
 // Add Teleport to ACE Menu GR Base
-_teleport_action = ["Teleporter","Teleporter","a3\ui_f\data\igui\cfg\simpletasks\types\move_ca.paa",{ [player] spawn GR_fnc_createTeleportDialog; },_condition] call ace_interact_menu_fnc_createAction;
+_teleport_action = ["Teleporter","Teleporter","a3\ui_f\data\igui\cfg\simpletasks\types\move_ca.paa",{ [player] spawn ARRC_fnc_createTeleportDialog; },_condition] call ace_interact_menu_fnc_createAction;
 [player, 1, ["ACE_SelfActions","GR Base"], _teleport_action] call ace_interact_menu_fnc_addActionToObject;
 
 // Add Loadout to ACE Menu GR Base
 if (getMissionConfigValue "allowLoadouts" == "true") then {
 	// neue function für Zug 3.0	
-	_loadout_action = ["Loadouts","Loadouts","a3\ui_f\data\gui\rsc\rscdisplayarsenal\handgun_ca.paa",{ [player] spawn GR_fnc_createLoadoutDialog; },_condition] call ace_interact_menu_fnc_createAction;
+	_loadout_action = ["Loadouts","Loadouts","a3\ui_f\data\gui\rsc\rscdisplayarsenal\handgun_ca.paa",{ [player] spawn ARRC_fnc_createLoadoutDialog; },_condition] call ace_interact_menu_fnc_createAction;
 	[player, 1, ["ACE_SelfActions","GR Base"], _loadout_action] call ace_interact_menu_fnc_addActionToObject;	
 };
 
