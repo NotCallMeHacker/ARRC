@@ -46,10 +46,10 @@
     // vests
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "CUP_V_B_GER_Pvest_Fleck_RFL",
-    "CUP_V_B_GER_Pvest_Trop_RFL",
-    "CUP_V_B_GER_Pvest_Fleck_RFL_LT",
-    "CUP_V_B_GER_Pvest_Trop_RFL_LT",
+    "CUP_V_B_GER_Pvest_Fleck_Med",
+    "CUP_V_B_GER_Pvest_Trop_Med",
+    "CUP_V_B_GER_Pvest_Fleck_Med_LT",
+    "CUP_V_B_GER_Pvest_Trop_Med_LT",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // backpacks
@@ -67,7 +67,7 @@
     // goggles
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    
+    "CUP_G_TK_roundGlasses",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // NVGs
@@ -113,7 +113,7 @@
     "ACE_bodyBag",
     "ACE_epinephrine",
     "ACE_salineIV",
-    "ACE_splint",
+    "ACE_surgicalKit",
     "kat_IV_16",
     "kat_Carbonate",
     "kat_BVM",
@@ -125,8 +125,8 @@
     "kat_naloxone",
     "kat_nitroglycerin",
     "kat_Penthrox",
-    "kat_TXA",
     "kat_Pulseoximeter",
+    "kat_TXA",
     "kat_stethoscope",
     "kat_ncdKit",
     
