@@ -46,16 +46,23 @@
     // vests
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "CUP_V_B_GER_Pvest_Fleck_Med",
-    "CUP_V_B_GER_Pvest_Trop_Med",
-    "CUP_V_B_GER_Pvest_Fleck_Med_LT",
-    "CUP_V_B_GER_Pvest_Trop_Med_LT",
+    "BWA3_Vest_Medic_Fleck",
+    "BWA3_Vest_Medic_Tropen",
+    "BWA3_Vest_Medic_Multi",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // backpacks
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    
+    "BWA3_AssaultPack_Fleck_Medic",
+    "BWA3_Kitbag_Fleck_Medic",
+    "BWA3_TacticalPack_Fleck_Medic",
+    "BWA3_AssaultPack_Tropen_Medic",
+    "BWA3_Kitbag_Tropen_Medic",
+    "BWA3_TacticalPack_Tropen_Medic",
+    "BWA3_AssaultPack_Multi_Medic",
+    "BWA3_Kitbag_Multi_Medic",
+    "BWA3_TacticalPack_Multi_Medic",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Helme
@@ -67,7 +74,7 @@
     // goggles
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "CUP_G_TK_roundGlasses",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // NVGs
@@ -110,28 +117,45 @@
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     "ACE_adenosine",
+    "ACE_fieldDressing",
+    "ACE_elasticBandage",
+    "ACE_packingBandage",
+    "ACE_quikclot",
     "ACE_bodyBag",
     "ACE_epinephrine",
+    "ACE_morphine",
+    "ACE_salineIV_500",
     "ACE_salineIV",
+    "ACE_splint",
     "ACE_surgicalKit",
+    "ACE_suture",
+    "ACE_tourniquet",
     "kat_IV_16",
+    "kat_amiodarone",
     "kat_Carbonate",
+    "kat_atropine",
     "kat_BVM",
-    "kat_EACA",
+    "kat_pocketBVM",
+    "kat_Caffeine",
+    "kat_chestSeal",
     "kat_IO_FAST",
     "kat_fentanyl",
     "kat_ketamine",
     "kat_larynx",
     "kat_naloxone",
-    "kat_nitroglycerin",
-    "kat_Penthrox",
-    "kat_Pulseoximeter",
-    "kat_TXA",
-    "kat_stethoscope",
     "kat_ncdKit",
-    
-    "GerRng_kat_changes_glucometerSet",
-    "GerRng_kat_changes_GSCI",
+    "kat_nitroglycerin",
+    "kat_norepinephrine",
+    "kat_Painkiller",
+    "kat_Penthrox",
+    "kat_pocketBVM",
+    "kat_oxygentank_150",
+    "kat_oxygentank_300",
+    "kat_Pulseoximeter",
+    "kat_stethoscope",
+    "kat_TXA",
+    "kat_lorazepam",
+    "kat_phenylephrine",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 1

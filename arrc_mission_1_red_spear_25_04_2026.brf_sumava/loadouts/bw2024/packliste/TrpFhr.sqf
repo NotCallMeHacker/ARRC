@@ -4,44 +4,13 @@
     // Waffen
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "CUP_arifle_AG36",
-    "CUP_arifle_G36A_AG36_RIS_camo",
-    "CUP_arifle_G36A_AG36_RIS_wdl",
-    "CUP_arifle_G36A3_AG36",
-    "CUP_arifle_G36A3_AG36_camo",
-    "CUP_arifle_G36A3_AG36_wdl",
-    "CUP_arifle_HK416_CQB_AG36",
-    "CUP_arifle_HK416_CQB_AG36_Desert",
-    "CUP_arifle_HK416_CQB_AG36_Wood",
-    "CUP_arifle_HK416_AGL_Black",
-    "CUP_arifle_HK416_AGL_Desert",
-    "CUP_arifle_HK416_AGL_Wood",
-    "CUP_arifle_HK417_12_AG36",
-    "CUP_arifle_HK417_12_AG36_Desert",
-    "CUP_arifle_HK417_12_AG36_Wood",
-
-    //SPS
-    "SPS_hk416_14_5_glm_hk_black_f",
-    "SPS_hk416_14_5_glm_hk_sf_black_f",
-    "SPS_hk416_14_5_glm_hk_a7_black_f",
-    "SPS_hk416_14_5_glm_hk_ctr_black_f",
-    "SPS_hk416_14_5_glm_hk_ctr_sf_black_f",
-    "SPS_hk416_14_5_glm_hk_ctr_a7_black_f",
-    "SPS_hk416_16_5_glm_hk_black_f",
-    "SPS_hk416_16_5_glm_hk_sf_black_f",
-    "SPS_hk416_16_5_glm_hk_a7_black_f",
-    "SPS_hk416_16_5_glm_hk_ctr_black_f",
-    "SPS_hk416_16_5_glm_hk_ctr_sf_black_f",
-    "SPS_hk416_16_5_glm_hk_ctr_a7_black_f",
-
+    "BWA3_G27",
+    "BWA3_G27_tan",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Visiere
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "CUP_optic_ZeissZPoint",
-    "CUP_optic_ZeissZPoint_desert",
-    "CUP_optic_ZeissZPoint_wood",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Pointer
@@ -65,8 +34,6 @@
     // Launcher
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "CUP_launch_HCPF3",
-    "CUP_launch_M72A6",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // uniforms
@@ -78,11 +45,18 @@
     // vests
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "CUP_V_B_GER_Pvest_Fleck_TL",
-    "CUP_V_B_GER_Pvest_Trop_TL",
-    "CUP_V_B_GER_Pvest_Fleck_TL_LT",
-    "CUP_V_B_GER_Pvest_Trop_TL_LT",
-    "V_Chestrig_rgr",
+    "BWA3_Vest_Leader_Fleck",
+    "BWA3_Vest_JPC_Rifleman_Fleck",
+    "BWA3_Vest_JPC_Radioman_Fleck",
+    "BWA3_Vest_JPC_Leader_Fleck",
+    "BWA3_Vest_Leader_Tropen",
+    "BWA3_Vest_JPC_Rifleman_Tropen",
+    "BWA3_Vest_JPC_Radioman_Tropen",
+    "BWA3_Vest_JPC_Leader_Tropen",
+    "BWA3_Vest_Leader_Multi",
+    "BWA3_Vest_JPC_Rifleman_Multi",
+    "BWA3_Vest_JPC_Radioman_Multi",
+    "BWA3_Vest_JPC_Leader_Multi",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // backpacks
@@ -126,16 +100,12 @@
     // magazines
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "CUP_1Rnd_HE_M203",
-    "CUP_1Rnd_HEDP_M203",
-    "UGL_FlareWhite_F",
-    "UGL_FlareGreen_F",
-    "UGL_FlareRed_F",
-    "UGL_FlareCIR_F",
-    "CUP_1Rnd_StarCluster_Red_M203",
-    "1Rnd_SmokeRed_Grenade_shell",
-    "1Rnd_SmokeGreen_Grenade_shell",
-    "1Rnd_Smoke_Grenade_shell",
+    "BWA3_20Rnd_762x51_G28",
+    "BWA3_20Rnd_762x51_G28_AP",
+    "BWA3_20Rnd_762x51_G28_SD",
+    "BWA3_20Rnd_762x51_G28_Tracer_Dim",
+    "BWA3_20Rnd_762x51_G28_Tracer",
+    "BWA3_20Rnd_762x51_G28_LR",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw
@@ -149,12 +119,6 @@
     // explosives / Put
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "DemoCharge_Remote_Mag",
-    "tsp_breach_popper_mag",
-    "tsp_breach_popper_auto_mag",
-    "tsp_breach_linear_mag",
-    "tsp_breach_linear_auto_mag",
-    "tsp_breach_stick_mag",
 
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
@@ -168,17 +132,10 @@
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     "ACE_Clacker",
-    "ACE_M26_Clacker",
-    "tsp_breach_shock",
-    "tsp_lockpick",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 2
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "GerRng_bandoliers_grenade_8_8_exp_40mm",
-    "GerRng_bandoliers_grenade_8_8_flare_40mm",
-    "GerRng_bandoliers_grenade_8_8_smoke_40mm",
-    "GerRng_bandoliers_grenade_3_3_flare_hand",
-    "GerRng_bandoliers_rifle_5_5_417_30Rnd"
+
 ];

@@ -284,6 +284,7 @@
     "ACE_Chemlight_White",
     "ACE_Chemlight_HiWhite",
     "ACE_Chemlight_HiYellow",
+    "ACE_M84",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // explosives / Put
@@ -327,3 +328,5 @@
     "ACE_IR_strobe_Item",
     "ACE_rope3",
     "ItemcTabHCam"
+
+    ];
