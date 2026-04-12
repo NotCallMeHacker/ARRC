@@ -97,6 +97,9 @@ _whitelistedMods = 	[
 						"@Metis Enhanced", "2799167087",
 						"@BWMod", "1200127537",
 
+						//ASA Modliste
+						"@[ASA] Arma 3 Squad Alliance - ARRC Modliste", "3704645388",
+
 						//Additional Maps
 						"@Jbad", "520618345",
 						"@Bala Murghab, Afghanistan", "2781043850",
