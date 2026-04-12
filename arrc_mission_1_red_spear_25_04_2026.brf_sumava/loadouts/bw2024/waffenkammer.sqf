@@ -53,7 +53,7 @@ private _uniqueWeaponSelection = [
 	"Schuetze_DM",
 	"Schuetze_LMG",
 	"Grenadier",
-	"Sierra_Aufkl",
+	"Sierra_AufSan",
 	"Sierra_GrpFhr",
 	"Sierra_NaSi",
 	"Sierra_Scharf",
