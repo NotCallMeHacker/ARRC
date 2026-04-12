@@ -46,10 +46,7 @@
     // vests
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "CUP_V_B_GER_Pvest_Fleck_Med",
-    "CUP_V_B_GER_Pvest_Trop_Med",
-    "CUP_V_B_GER_Pvest_Fleck_Med_LT",
-    "CUP_V_B_GER_Pvest_Trop_Med_LT",
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // backpacks
@@ -67,7 +64,7 @@
     // goggles
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "CUP_G_TK_roundGlasses",
+    
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // NVGs
@@ -110,28 +107,26 @@
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     "ACE_adenosine",
-    "ACE_bodyBag",
+    "ACE_fieldDressing",
+    "ACE_elasticBandage",
+    "ACE_packingBandage",
+    "ACE_quikclot",
     "ACE_epinephrine",
+    "ACE_morphine",
+    "ACE_salineIV_500",
     "ACE_salineIV",
-    "ACE_surgicalKit",
-    "kat_IV_16",
+    "ACE_splint",
+    "ACE_suture",
+    "ACE_tourniquet",
     "kat_Carbonate",
     "kat_BVM",
-    "kat_EACA",
-    "kat_IO_FAST",
-    "kat_fentanyl",
-    "kat_ketamine",
+    "kat_Caffeine",
+    "kat_chestSeal",
     "kat_larynx",
-    "kat_naloxone",
-    "kat_nitroglycerin",
+    "kat_Painkiller",
     "kat_Penthrox",
-    "kat_Pulseoximeter",
-    "kat_TXA",
-    "kat_stethoscope",
-    "kat_ncdKit",
-    
-    "GerRng_kat_changes_glucometerSet",
-    "GerRng_kat_changes_GSCI",
+    "kat_oxygentank_150",
+    "kat_oxygentank_300",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 1

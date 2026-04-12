@@ -10,13 +10,19 @@
     // Visiere
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Pointer
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     
+    // ------------------------------------------------------------------
+    // ------------------------------------------------------------------
+    // Muzzle
+    // ------------------------------------------------------------------
+    // ------------------------------------------------------------------
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Bipods
@@ -28,7 +34,7 @@
     // Secondarys
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    
+
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Launcher
@@ -63,6 +69,89 @@
     "BWA3_AssaultPack_Multi_Medic",
     "BWA3_Kitbag_Multi_Medic",
     "BWA3_TacticalPack_Multi_Medic",
+
+    "tfw_ilbeMR3000_whip_flk",
+    "tfw_ilbeMR3000_whipext_flk",
+    "tfw_ilbeMR3000_blade_flk",
+    "tfw_ilbeMR3000_DD_flk",
+
+    "tfw_ilbeMR3000_whip_trp",
+    "tfw_ilbeMR3000_whipext_trp",
+    "tfw_ilbeMR3000_blade_trp",
+    "tfw_ilbeMR3000_DD_trp",
+
+    "tfw_ilbeRT1523_whip_flk",
+    "tfw_ilbeRT1523_whipext_flk",
+    "tfw_ilbeRT1523_blade_flk",
+    "tfw_ilbeRT1523_DD_flk",
+
+    "tfw_ilbeRT1523_whip_trp",
+    "tfw_ilbeRT1523_whipext_trp",
+    "tfw_ilbeRT1523_blade_trp",
+    "tfw_ilbeRT1523_DD_trp",
+
+
+    "tfw_ilbeMR3000_whip_alphaflk",
+    "tfw_ilbeMR3000_whipext_alphaflk",
+    "tfw_ilbeMR3000_blade_alphaflk",
+    "tfw_ilbeMR3000_DD_alphaflk",
+
+    "tfw_ilbeMR3000_whip_alphatrp",
+    "tfw_ilbeMR3000_whipext_alphatrp",
+    "tfw_ilbeMR3000_blade_alphatrp",
+    "tfw_ilbeMR3000_DD_alphatrp",
+
+    "tfw_ilbeRT1523_whip_alphaflk",
+    "tfw_ilbeRT1523_whipext_alphaflk",
+    "tfw_ilbeRT1523_blade_alphaflk",
+    "tfw_ilbeRT1523_DD_alphaflk",
+
+    "tfw_ilbeRT1523_whip_alphatrp",
+    "tfw_ilbeRT1523_whipext_alphatrp",
+    "tfw_ilbeRT1523_blade_alphatrp",
+    "tfw_ilbeRT1523_DD_alphatrp",
+
+
+    "tfw_ilbeMR3000_whip_bravoflk",
+    "tfw_ilbeMR3000_whipext_bravoflk",
+    "tfw_ilbeMR3000_blade_bravoflk",
+    "tfw_ilbeMR3000_DD_bravoflk",
+
+    "tfw_ilbeMR3000_whip_bravotrp",
+    "tfw_ilbeMR3000_whipext_bravotrp",
+    "tfw_ilbeMR3000_blade_bravotrp",
+    "tfw_ilbeMR3000_DD_bravotrp",
+
+    "tfw_ilbeRT1523_whip_bravoflk",
+    "tfw_ilbeRT1523_whipext_bravoflk",
+    "tfw_ilbeRT1523_blade_bravoflk",
+    "tfw_ilbeRT1523_DD_bravoflk",
+
+    "tfw_ilbeRT1523_whip_bravotrp",
+    "tfw_ilbeRT1523_whipext_bravotrp",
+    "tfw_ilbeRT1523_blade_bravotrp",
+    "tfw_ilbeRT1523_DD_bravotrp",
+
+
+    "tfw_ilbeMR3000_whip_charlieflk",
+    "tfw_ilbeMR3000_whipext_charlieflk",
+    "tfw_ilbeMR3000_blade_charlieflk",
+    "tfw_ilbeMR3000_DD_charlieflk",
+
+    "tfw_ilbeMR3000_whip_charlietrp",
+    "tfw_ilbeMR3000_whipext_charlietrp",
+    "tfw_ilbeMR3000_blade_charlietrp",
+    "tfw_ilbeMR3000_DD_charlietrp",
+
+    "tfw_ilbeRT1523_whip_charlieflk",
+    "tfw_ilbeRT1523_whipext_charlieflk",
+    "tfw_ilbeRT1523_blade_charlieflk",
+    "tfw_ilbeRT1523_DD_charlieflk",
+
+    "tfw_ilbeRT1523_whip_charlietrp",
+    "tfw_ilbeRT1523_whipext_charlietrp",
+    "tfw_ilbeRT1523_blade_charlietrp",
+    "tfw_ilbeRT1523_DD_charlietrp",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Helme
@@ -86,25 +175,31 @@
     // binoculars
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    
+    "Rangefinder",
+    "Laserdesignator_02_ghex_F",
+    "ACE_Vector",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // items
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    
+    "Itemandroid",
+    "ItemMicroDAGR",
+    "ItemGPS",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // magazines
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    
+    "Laserbatteries",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    
+    "B_IR_Grenade",
+    "ACE_HandFlare_Red",
+    "ACE_HandFlare_Green",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // explosives / Put
@@ -131,13 +226,17 @@
     "ACE_suture",
     "ACE_tourniquet",
     "kat_IV_16",
+    "kat_accuvac",
+    "kat_X_AED",
     "kat_amiodarone",
     "kat_Carbonate",
     "kat_atropine",
+    "kat_AED",
     "kat_BVM",
     "kat_pocketBVM",
     "kat_Caffeine",
     "kat_chestSeal",
+    "kat_EACA",
     "kat_IO_FAST",
     "kat_fentanyl",
     "kat_ketamine",
@@ -154,6 +253,7 @@
     "kat_Pulseoximeter",
     "kat_stethoscope",
     "kat_TXA",
+    "ACE_personalAidKit",
     "kat_lorazepam",
     "kat_phenylephrine",
     // ------------------------------------------------------------------
@@ -161,7 +261,7 @@
     // Misc 1
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "kat_CarryStretcherBag",
+    
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Misc 2
@@ -174,5 +274,16 @@
     "ace_marker_flags_red",
     "ace_marker_flags_white",
     "ace_marker_flags_yellow",
-    "ace_marker_flags_green"
+    "ace_marker_flags_green",
+    "ace_flags_black",
+    "ace_flags_blue",
+    "ace_flags_green",
+    "ace_flags_orange",
+    "ace_flags_purple",
+    "ace_flags_red",
+    "ace_flags_white",
+    "ace_flags_yellow",
+    "ACE_UAVBattery",
+    "kat_gasmaskFilter",
+    "kat_sealant",
 ];

@@ -53,7 +53,7 @@ private _uniqueWeaponSelection = [
 	"Schuetze_DM",
 	"Schuetze_LMG",
 	"Grenadier",
-	"Sierra_Aufkl",
+	"Sierra_AufSan",
 	"Sierra_GrpFhr",
 	"Sierra_NaSi",
 	"Sierra_Scharf",
@@ -65,88 +65,7 @@ if(!(_unitLoadout in _uniqueWeaponSelection)) then {
     _packListe append _gemeinsameWaffen;
 };
 
-private _417blacklist =[
-	"Schuetze_EHB",
-	"Schuetze_LMG",
-	"Grenadier",
-	"Breacher",
-	"GrpFhr",
-	"GrpFhr_WaGru",
-	"Spezialpionier",
-	"Waffen_Spez",
-	"Waffen_Assi",
-	"ZugFhr",
-	"ZugSani",
-	"Sierra_Aufkl",
-	"Sierra_AufSan",
-	"Sierra_Breacher",
-	"Sierra_GrpFhr",
-	"Sierra_MG",
-	"Sierra_NaSi",
-	"Sierra_San",
-	"Sierra_Scharf",
-	"Sierra_Schuetze",
-	"Sierra_Spotter",
-	"Sierra_TF"
-];
-if(!(_unitLoadout in _417blacklist)) then {
-    //HK417
-	_HK417 = 
-	[
-		//HK417
-		"CUP_arifle_HK417_12",
-		"CUP_arifle_HK417_12_Desert",
-		"CUP_arifle_HK417_12_Wood",
-		"CUP_20Rnd_762x51_HK417",
-		"CUP_20Rnd_762x51_HK417_Camo_Desert",
-		"CUP_20Rnd_762x51_HK417_Camo_Wood",
-		"CUP_20Rnd_TE1_Red_Tracer_762x51_HK417",
-		"SPS_hk417_13_vfg_black_f",
-    	"SPS_hk417_13_afg_black_f",
-    	"SPS_hk417_13_glm_black_f",
-    	"SPS_hk417_13_vfg_ral8000_f",
-   	 	"SPS_hk417_13_afg_ral8000_f",
-   		"SPS_hk417_13_glm_ral8000_f",
-   		"SPS_hk417_13_vfg_fde_f",
-   		"SPS_hk417_13_afg_fde_f",
-  		"SPS_hk417_13_glm_fde_f",
-   		"SPS_hk417_16_vfg_black_f",
-  		"SPS_hk417_16_afg_black_f",
-   		"SPS_hk417_16_glm_black_f",
-    	"SPS_hk417_16_vfg_ral8000_f",
-    	"SPS_hk417_16_afg_ral8000_f",
-    	"SPS_hk417_16_glm_ral8000_f",
-    	"SPS_hk417_16_vfg_fde_f",
-    	"SPS_hk417_16_afg_fde_f",
-    	"SPS_hk417_16_glm_fde_f",
-		"SPS_hk417_13_vfg_ral8000_f",
-    	"SPS_hk417_13_afg_ral8000_f",
-    	"SPS_hk417_13_glm_ral8000_f",
-    	"SPS_hk417_13_vfg_ral8000_f",
-    	"SPS_hk417_13_afg_ral8000_f",
-    	"SPS_hk417_13_glm_ral8000_f",
-    	"SPS_hk417_13_vfg_fde_f",
-    	"SPS_hk417_13_afg_fde_f",
-    	"SPS_hk417_13_glm_fde_f",
-    	"SPS_hk417_16_vfg_ral8000_f",
-    	"SPS_hk417_16_afg_ral8000_f",
-    	"SPS_hk417_16_glm_ral8000_f",
-    	"SPS_hk417_16_vfg_ral8000_f",
-    	"SPS_hk417_16_afg_ral8000_f",
-    	"SPS_hk417_16_glm_ral8000_f",
-    	"SPS_hk417_16_vfg_fde_f",
-    	"SPS_hk417_16_afg_fde_f",
-    	"SPS_hk417_16_glm_fde_f",
-    	"SPS_20Rnd_762x51mm_M80A1_EPR",
-    	"SPS_20Rnd_762x51mm_M80A1_EPR_IR",
-    	"SPS_20Rnd_762x51mm_M80A1_EPR_Tracer",
-    	"ACE_20Rnd_762x51_Mag_Tracer",
-    	"ACE_20Rnd_762x51_M993_AP_Mag",
-    	"CUP_20Rnd_762x51_DMR",
-    	"CUP_20Rnd_TE1_Red_Tracer_762x51_DMR"
-	];
-    _packListe append _HK417;
-};
+
 //Kleidung und items
 _gemeinsamesMaterial = call compile preprocessFileLineNumbers format ["loadouts\%1\packliste\GemeinsamesMaterial.sqf", fraktionV];
 _packListe append _gemeinsamesMaterial;

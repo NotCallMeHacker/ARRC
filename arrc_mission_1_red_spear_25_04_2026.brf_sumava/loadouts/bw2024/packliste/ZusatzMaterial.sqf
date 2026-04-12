@@ -7,5 +7,6 @@
 //------------------------------------------------------------------
 [
 	//"H_Hat_Tinfoil_F"
-	"CUP_T10_Parachute_backpack"
+	"BWA3_Beret_Falli",
+    "BWA3_Beret_PzGren",
 ];

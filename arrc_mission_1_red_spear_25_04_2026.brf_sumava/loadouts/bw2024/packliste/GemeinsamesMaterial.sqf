@@ -97,8 +97,6 @@
     // Helme
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
-    "BWA3_Beret_Falli",
-    "BWA3_Beret_PzGren",
     "BWA3_M92_Fleck",
     "BWA3_OpsCore_FastMT_Fleck",
     "BWA3_OpsCore_FastMT_Peltor_Fleck",
