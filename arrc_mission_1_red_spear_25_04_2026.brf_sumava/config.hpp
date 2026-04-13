@@ -35,13 +35,14 @@ intro 				= "Video";		// Choose the Intro Music that is played (please delete mm
 									// "BHD" Black Hawk Down | Düster, Ethnische Trommeln | 0:41
 									// "KA" King Arthur | Episch, Laut | 0:58
 									// "Video" Musik wird im Intro-File festgelegt
+									// TODO: add intro
 
-einleitung 			= "Viribus unitis";
-auftrag 			= "Auftrag: <br/>1. Auftrag<br/>2. Auftrag<br/>3. Auftrag";
-titleOrtEinheit		= "A L T I S - DD.MM.YYYY - German Rangers";
-titleMissionsname 	= "Missionsname";
+einleitung 			= "Audentis fortuna iuvat";
+auftrag 			= "Auftrag: <br/>1. Auftrag<br/>2. Auftrag<br/>3. Auftrag"; // TODO
+titleOrtEinheit		= "Š u m a v a - 25.04.2026 - ARRC";
+titleMissionsname 	= "Red Spear";
 
-tickerCountry 		= "Altis, Ost-Region";
+tickerCountry 		= "Sinești, Westliches Moldawien";
 tickerLocation 		= "Map-Location";
 
 outro 				= "Video";		// Hier kannst du die Musik wählen, die bei einem Erfolgreichen Missionsende gespielt wird Rock

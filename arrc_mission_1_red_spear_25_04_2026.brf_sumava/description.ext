@@ -6,7 +6,7 @@
 #include "IGC\IGC_guis.hpp"
 
 //Mission Head ==================================================
-author			= "GerRng Mission Making Team";
+author			= "ARRC Team";
 loadScreen 		= "a3\map_malden\data\ui_malden_ca.paa";
 
 OnLoadName 		= "ARRC | Red Spear - Mission 1";
@@ -204,7 +204,7 @@ class CfgDebriefing
 	{
 		title = "Mission Erfüllt";
 		subtitle = "Sammeln zur Nachbesprechung.";
-		description = "Auftrag erfolgreich abgeschlossen! Sammeln sie sich im Lagezentrum zur Nachbesprechung.";
+		description = "Auftrag erfolgreich abgeschlossen! Sammeln sie sich den Debrief Räumen zur Nachbesprechung.";
 		pictureBackground = "images\ARRC_Logo_2025v2.paa";		
 		pictureColor[] = {0.0,0.3,0.6,1};
 	};
@@ -213,7 +213,7 @@ class CfgDebriefing
 	{
 		title = "To be Continued";
 		subtitle = "";
-		description = "Biwak aufschlagen und Wachnachbereitung vorbereiten. Sammeln sie sich im Lagezentrum zur Nachbesprechung.";
+		description = "Biwak aufschlagen und Wachnachbereitung vorbereiten. Sammeln sie sich den Debrief Räumen zur Nachbesprechung.";
 		pictureBackground = "images\ARRC_Logo_2025v2.paa";		
 		pictureColor[] = {0.0,0.3,0.6,1};
 	};
@@ -222,7 +222,7 @@ class CfgDebriefing
 	{
 		title = "Mission Fehlgeschlagen";
 		subtitle = "Sammeln zur Nachbesprechung.";
-		description = "Auftrag nicht erfüllt! Sammeln sie sich im Lagezentrum zur Nachbesprechung.";
+		description = "Auftrag nicht erfüllt! Sammeln sie sich den Debrief Räumen zur Nachbesprechung.";
 		pictureBackground = "images\ARRC_Logo_2025v2.paa";		
 		pictureColor[] = {0.0,0.3,0.6,1};
 	};

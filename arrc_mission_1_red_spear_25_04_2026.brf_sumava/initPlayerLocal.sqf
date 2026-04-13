@@ -200,31 +200,31 @@ if (isClass(configFile >> "cfgPatches" >> "task_force_radio")) then {
 
 _playerGrp = group player;
 
-//Bestimmt wann das GR Menü angezeigt wird. Im Umkreis der Basis (Radius 50m)und vor Missionsstart.
+//Bestimmt wann das ARRCMenü angezeigt wird. Im Umkreis der Basis (Radius 50m)und vor Missionsstart.
 _condition = {player distance GR_baseFlag < 100 || missionstarted == false};
 
-// Creating a Sub Menu Category GR Base with Logo
-_base_menu = ["GR Base","GR Base","images\ARRC_Logo_2025v2.paa",{  },_condition] call ace_interact_menu_fnc_createAction;
+// Creating a Sub Menu Category ARRCBase with Logo
+_base_menu = ["ARRCBase","ARRCBase","images\ARRC_Logo_2025v2.paa",{  },_condition] call ace_interact_menu_fnc_createAction;
 [(typeOf player), 1, ["ACE_SelfActions"], _base_menu] call ace_interact_menu_fnc_addActionToClass;
 
-//Add Waffenkammer to ACE Menu GR Base
+//Add Waffenkammer to ACE Menu ARRCBase
 if (getMissionConfigValue "allowWaffenkammer" == "true") then { 
 	_waffenkammer = ["Waffenkammer","Waffenkammer","a3\ui_f\data\gui\rsc\rscdisplayarsenal\spacegarage_ca.paa",{ execVM waffenkammerpfad; },_condition] call ace_interact_menu_fnc_createAction;
-	[(typeOf player), 1, ["ACE_SelfActions","GR Base"], _waffenkammer] call ace_interact_menu_fnc_addActionToClass;
+	[(typeOf player), 1, ["ACE_SelfActions","ARRCBase"], _waffenkammer] call ace_interact_menu_fnc_addActionToClass;
 };
 
-// Add Teleport to ACE Menu GR Base
+// Add Teleport to ACE Menu ARRCBase
 _teleport_action = ["Teleporter","Teleporter","a3\ui_f\data\igui\cfg\simpletasks\types\move_ca.paa",{ [player] spawn ARRC_fnc_createTeleportDialog; },_condition] call ace_interact_menu_fnc_createAction;
-[player, 1, ["ACE_SelfActions","GR Base"], _teleport_action] call ace_interact_menu_fnc_addActionToObject;
+[player, 1, ["ACE_SelfActions","ARRCBase"], _teleport_action] call ace_interact_menu_fnc_addActionToObject;
 
-// Add Loadout to ACE Menu GR Base
+// Add Loadout to ACE Menu ARRCBase
 if (getMissionConfigValue "allowLoadouts" == "true") then {
 	// neue function für Zug 3.0	
 	_loadout_action = ["Loadouts","Loadouts","a3\ui_f\data\gui\rsc\rscdisplayarsenal\handgun_ca.paa",{ [player] spawn ARRC_fnc_createLoadoutDialog; },_condition] call ace_interact_menu_fnc_createAction;
-	[player, 1, ["ACE_SelfActions","GR Base"], _loadout_action] call ace_interact_menu_fnc_addActionToObject;	
+	[player, 1, ["ACE_SelfActions","ARRCBase"], _loadout_action] call ace_interact_menu_fnc_addActionToObject;	
 };
 
-// Add Würfeln Category to ACE Menu GR Equipment
+// Add Würfeln Category to ACE Menu ARRCEquipment
 _diceMain = ["GR_diceMain","Würfeln","a3\3den\data\displays\display3den\toolbar\widget_local_ca.paa",{  },{true}] call ace_interact_menu_fnc_createAction;
 [player, 1, ["ACE_SelfActions", "GerRng_equip"], _diceMain] call ace_interact_menu_fnc_addActionToObject; 
 
@@ -257,7 +257,7 @@ if (! isMultiplayer) then {
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
-// Creating a Sub Menu Category GR Base with Logo
+// Creating a Sub Menu Category ARRCBase with Logo
 _mission_control = ["Mission Control","Mission Control","images\ARRC_Logo_2025v2.paa",{}, {true}] call ace_interact_menu_fnc_createAction;
 [["ACE_ZeusActions"], _mission_control] call ace_interact_menu_fnc_addActionToZeus;
 
@@ -282,32 +282,32 @@ _mission_failed = ["Ende: Mission Failed","Ende: Mission Failed","",{ ["End3"] e
 //------------------------------------------------------------------
 
 if (_playerGrp == grplima || _playerGrp == grpkilo || _playerGrp == grpfox || _playerGrp == grpvictor || _playerGrp == grphotel) then {
-	// Creating the Admin Control Menu Category GR Base with Logo
-	_adminmenu = ["GR Admin Menu","GR Admin Menu","images\ARRC_Logo_2025v2.paa",{}, {true}] call ace_interact_menu_fnc_createAction;
+	// Creating the Admin Control Menu Category ARRCBase with Logo
+	_adminmenu = ["ARRCAdmin Menu","ARRCAdmin Menu","images\ARRC_Logo_2025v2.paa",{}, {true}] call ace_interact_menu_fnc_createAction;
 	[(typeOf player), 1, ["ACE_SelfActions"], _adminmenu] call ace_interact_menu_fnc_addActionToClass;
 
 	_avdheal = ["AvD Heal","AvD Heal","a3\ui_f\data\igui\cfg\simpletasks\types\heal_ca.paa",{[player, cursorObject] call ace_medical_treatment_fnc_fullHeal},{true}] call ace_interact_menu_fnc_createAction;
-	[(typeOf player), 1, ["ACE_SelfActions","GR Admin Menu"], _avdheal] call ace_interact_menu_fnc_addActionToClass;
+	[(typeOf player), 1, ["ACE_SelfActions","ARRCAdmin Menu"], _avdheal] call ace_interact_menu_fnc_addActionToClass;
 
-	[(typeOf player), 1, ["ACE_SelfActions","GR Admin Menu"], _start_mission] call ace_interact_menu_fnc_addActionToClass;
+	[(typeOf player), 1, ["ACE_SelfActions","ARRCAdmin Menu"], _start_mission] call ace_interact_menu_fnc_addActionToClass;
 
-	[(typeOf player), 1, ["ACE_SelfActions","GR Admin Menu"], _mission_succesful] call ace_interact_menu_fnc_addActionToClass;
+	[(typeOf player), 1, ["ACE_SelfActions","ARRCAdmin Menu"], _mission_succesful] call ace_interact_menu_fnc_addActionToClass;
 	
-	[(typeOf player), 1, ["ACE_SelfActions","GR Admin Menu"], _to_be_continued] call ace_interact_menu_fnc_addActionToClass;
+	[(typeOf player), 1, ["ACE_SelfActions","ARRCAdmin Menu"], _to_be_continued] call ace_interact_menu_fnc_addActionToClass;
 	
-	[(typeOf player), 1, ["ACE_SelfActions","GR Admin Menu"], _mission_failed] call ace_interact_menu_fnc_addActionToClass;
+	[(typeOf player), 1, ["ACE_SelfActions","ARRCAdmin Menu"], _mission_failed] call ace_interact_menu_fnc_addActionToClass;
 	
 	_checkHCs = ["Check HCs","Check HCs","a3\ui_f\data\igui\cfg\simpletasks\types\intel_ca.paa",{[[player], SGN_fnc_infoHintHC] remoteExec ["spawn", 2];},{true}] call ace_interact_menu_fnc_createAction;
-	[player, 1, ["ACE_SelfActions","GR Admin Menu"], _checkHCs] call ace_interact_menu_fnc_addActionToObject;
+	[player, 1, ["ACE_SelfActions","ARRCAdmin Menu"], _checkHCs] call ace_interact_menu_fnc_addActionToObject;
 };
 
 if (_playerGrp == grpmike) then {
-	// Creating the Admin Control Menu Category GR Base with Logo
-	_avdmenu = ["GR AvD Menu","GR Avd Menu","images\ARRC_Logo_2025v2.paa",{}, {true}] call ace_interact_menu_fnc_createAction;
+	// Creating the Admin Control Menu Category ARRCBase with Logo
+	_avdmenu = ["ARRC AvD Menu","ARRC Avd Menu","images\ARRC_Logo_2025v2.paa",{}, {true}] call ace_interact_menu_fnc_createAction;
 	[(typeOf player), 1, ["ACE_SelfActions"], _avdmenu] call ace_interact_menu_fnc_addActionToClass;
 
 	_avdheal = ["AvD Heal","AvD Heal","a3\ui_f\data\igui\cfg\simpletasks\types\heal_ca.paa",{[player, cursorObject] call ace_medical_treatment_fnc_fullHeal},{true}] call ace_interact_menu_fnc_createAction;
-	[(typeOf player), 1, ["ACE_SelfActions","GR AvD Menu"], _avdheal] call ace_interact_menu_fnc_addActionToClass;
+	[(typeOf player), 1, ["ACE_SelfActions","ARRC AvD Menu"], _avdheal] call ace_interact_menu_fnc_addActionToClass;
 };
 
 //------------------------------------------------------------------

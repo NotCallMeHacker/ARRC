@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=4966;
+		nextID=4968;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=160;
+		nextID=196;
 	};
 	class Camera
 	{
-		pos[]={7498.5928,202.30399,10558.862};
-		dir[]={-0.20450844,-0.55588478,-0.80583322};
-		up[]={-0.13674884,0.83121741,-0.53884983};
-		aside[]={-0.96936697,-6.2864274e-07,0.24601032};
+		pos[]={648.01971,76.820999,11910.058};
+		dir[]={0.71665919,-0.6775791,0.16583911};
+		up[]={0.66048074,0.73510754,0.15284106};
+		aside[]={0.22546811,7.6678407e-07,-0.97435099};
 	};
 };
 binarizationWanted=0;
@@ -115,7 +115,7 @@ class AddonsMetaData
 		class Item1
 		{
 			className="bwa3_puma";
-			name="Bundeswehr - SPz Puma";
+			name="Bundeswehr - IFV Puma";
 			author="BW-Mod";
 			url="http://www.bwmod.de/index.php/download";
 		};
@@ -146,7 +146,7 @@ class AddonsMetaData
 		class Item6
 		{
 			className="bwa3_logistics";
-			name="Bundeswehr - Multi A4 FSA Module";
+			name="Bundeswehr - Multi A4 FSA Modules";
 			author="BW-Mod";
 			url="http://www.bwmod.de/index.php/download";
 		};
@@ -160,8 +160,8 @@ class AddonsMetaData
 		class Item8
 		{
 			className="cba_main";
-			name="Community Base Addons - Hauptkomponente";
-			author="CBA-Team";
+			name="Community Base Addons - Main Component";
+			author="CBA Team";
 			url="https://www.github.com/CBATeam/CBA_A3";
 		};
 		class Item9
@@ -340,7 +340,7 @@ class AddonsMetaData
 		class Item34
 		{
 			className="bwa3_units";
-			name="Bundeswehr - Charaktere und Bekleidungen";
+			name="Bundeswehr - Characters and Clothing";
 			author="BW-Mod";
 			url="http://www.bwmod.de/index.php/download";
 		};
@@ -376,7 +376,7 @@ class AddonsMetaData
 		{
 			className="lambs_wp";
 			name="LAMBS Danger WP";
-			author="LAMBS Danger Entwicklerteam";
+			author="LAMBS Danger Dev Team";
 		};
 		class Item40
 		{
@@ -10868,7 +10868,7 @@ class Mission
 					};
 					id=1438;
 					type="rhs_msv_crew";
-					atlOffset=-0.013622284;
+					atlOffset=-1.5440102;
 				};
 				class Item1
 				{
@@ -10885,7 +10885,7 @@ class Mission
 					};
 					id=1439;
 					type="rhs_msv_crew";
-					atlOffset=-0.013622284;
+					atlOffset=-0.068498611;
 				};
 				class Item2
 				{
@@ -10902,7 +10902,7 @@ class Mission
 					};
 					id=1440;
 					type="rhs_msv_crew_commander";
-					atlOffset=-0.013622284;
+					atlOffset=-0.068498611;
 				};
 				class Item3
 				{
@@ -11020,7 +11020,7 @@ class Mission
 					};
 					id=1443;
 					type="rhs_msv_crew";
-					atlOffset=-0.0089473724;
+					atlOffset=-0.93401718;
 				};
 				class Item1
 				{
@@ -11031,13 +11031,12 @@ class Mission
 						angles[]={0.0016558425,4.5346885,6.2715225};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=1444;
 					type="rhs_msv_crew";
-					atlOffset=-0.0089473724;
+					atlOffset=0.72488403;
 				};
 				class Item2
 				{
@@ -11048,13 +11047,13 @@ class Mission
 						angles[]={0.0016558425,4.5346885,6.2715225};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=1445;
 					type="rhs_msv_crew_commander";
-					atlOffset=-0.0089473724;
+					atlOffset=0.72488403;
 				};
 				class Item3
 				{
@@ -11214,7 +11213,7 @@ class Mission
 					};
 					id=1448;
 					type="rhs_msv_crew";
-					atlOffset=-0.016778946;
+					atlOffset=-0.68090057;
 				};
 				class Item1
 				{
@@ -11225,13 +11224,12 @@ class Mission
 						angles[]={6.2332263,4.5076838,0.0083366306};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=1449;
 					type="rhs_msv_crew";
-					atlOffset=-0.016778946;
+					atlOffset=0.97802544;
 				};
 				class Item2
 				{
@@ -11242,13 +11240,13 @@ class Mission
 						angles[]={6.2332263,4.5076838,0.0083366306};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=1450;
 					type="rhs_msv_crew_commander";
-					atlOffset=-0.016778946;
+					atlOffset=0.97802544;
 				};
 				class Item3
 				{
@@ -11420,7 +11418,7 @@ class Mission
 					};
 					id=1461;
 					type="rhs_msv_armoredcrew";
-					atlOffset=-1.9073486e-06;
+					atlOffset=-0.39282799;
 				};
 				class Item1
 				{
@@ -11431,13 +11429,13 @@ class Mission
 						angles[]={0.056606073,0,6.2748561};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=1462;
 					type="rhs_msv_armoredcrew";
-					atlOffset=-1.9073486e-06;
+					atlOffset=1.8052883;
 				};
 				class Item2
 				{
@@ -12116,7 +12114,7 @@ class Mission
 					};
 					id=1488;
 					type="rhs_msv_armoredcrew";
-					atlOffset=-0.00023651123;
+					atlOffset=0.21347809;
 				};
 				class Item1
 				{
@@ -12127,13 +12125,13 @@ class Mission
 						angles[]={6.278194,5.8714514,0.048295192};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=1489;
 					type="rhs_msv_armoredcrew";
-					atlOffset=-0.00023651123;
+					atlOffset=1.6905022;
 				};
 			};
 			class Attributes
@@ -13251,7 +13249,7 @@ class Mission
 					};
 					id=1525;
 					type="rhs_msv_emr_rifleman";
-					atlOffset=-0.0033378601;
+					atlOffset=-0.72317123;
 				};
 			};
 			class Attributes
@@ -13321,7 +13319,6 @@ class Mission
 					};
 					id=1553;
 					type="rhs_msv_crew";
-					atlOffset=-2.6702881e-05;
 				};
 				class Item1
 				{
@@ -13332,13 +13329,12 @@ class Mission
 						angles[]={0,4.8766041,6.278194};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=1554;
 					type="rhs_msv_crew";
-					atlOffset=-2.6702881e-05;
+					atlOffset=2.321106;
 				};
 				class Item2
 				{
@@ -13349,13 +13345,13 @@ class Mission
 						angles[]={0,4.8766041,6.278194};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=1555;
 					type="rhs_msv_crew";
-					atlOffset=-2.6702881e-05;
+					atlOffset=2.321106;
 				};
 			};
 			class Attributes
@@ -14600,7 +14596,7 @@ class Mission
 					};
 					id=1622;
 					type="rhs_msv_emr_rifleman";
-					atlOffset=-0.00040435791;
+					atlOffset=-0.26821899;
 				};
 			};
 			class Attributes
@@ -15114,13 +15110,13 @@ class Mission
 						angles[]={6.0745974,5.2567534,6.0070887};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=1654;
 					type="rhs_msv_emr_crew";
-					atlOffset=-0.19463611;
+					atlOffset=3.9949884;
 				};
 				class Item1
 				{
@@ -15131,13 +15127,12 @@ class Mission
 						angles[]={6.0745974,5.2567534,6.0070887};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=1655;
 					type="rhs_msv_emr_crew";
-					atlOffset=-0.19463611;
+					atlOffset=6.6380329;
 				};
 				class Item2
 				{
@@ -15148,13 +15143,12 @@ class Mission
 						angles[]={6.0745974,5.2567534,6.0070887};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=1656;
 					type="rhs_msv_emr_crew_commander";
-					atlOffset=-0.19463611;
+					atlOffset=6.6380329;
 				};
 				class Item3
 				{
@@ -15216,7 +15210,7 @@ class Mission
 				};
 			};
 			id=1653;
-			atlOffset=-0.19463611;
+			atlOffset=-0.19463623;
 		};
 		class Item68
 		{
@@ -15234,7 +15228,7 @@ class Mission
 			};
 			id=1657;
 			type="rhs_bmp3mera_msv";
-			atlOffset=-0.19463611;
+			atlOffset=-0.19463623;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15295,13 +15289,13 @@ class Mission
 						angles[]={6.2665229,5.3078241,5.9332104};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=1659;
 					type="rhs_msv_emr_crew";
-					atlOffset=-0.13254416;
+					atlOffset=3.3709402;
 				};
 				class Item1
 				{
@@ -15312,13 +15306,12 @@ class Mission
 						angles[]={6.2665229,5.3078241,5.9332104};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=1660;
 					type="rhs_msv_emr_crew";
-					atlOffset=-0.13254416;
+					atlOffset=6.013875;
 				};
 				class Item2
 				{
@@ -15329,13 +15322,12 @@ class Mission
 						angles[]={6.2665229,5.3078241,5.9332104};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=1661;
 					type="rhs_msv_emr_crew_commander";
-					atlOffset=-0.13254416;
+					atlOffset=6.013875;
 				};
 				class Item3
 				{
@@ -15397,7 +15389,7 @@ class Mission
 				};
 			};
 			id=1658;
-			atlOffset=-0.13254416;
+			atlOffset=-0.13254428;
 		};
 		class Item70
 		{
@@ -15415,7 +15407,7 @@ class Mission
 			};
 			id=1662;
 			type="rhs_bmp3m_msv";
-			atlOffset=-0.13254416;
+			atlOffset=-0.13254428;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15476,13 +15468,13 @@ class Mission
 						angles[]={6.0070887,5.8348708,6.0539536};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=1664;
 					type="rhs_msv_emr_crew";
-					atlOffset=-0.15792239;
+					atlOffset=2.4459934;
 				};
 				class Item1
 				{
@@ -15493,13 +15485,12 @@ class Mission
 						angles[]={6.0070887,5.8348708,6.0539536};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=1665;
 					type="rhs_msv_emr_crew";
-					atlOffset=-0.15792239;
+					atlOffset=5.0891876;
 				};
 				class Item2
 				{
@@ -15510,13 +15501,12 @@ class Mission
 						angles[]={6.0070887,5.8348708,6.0539536};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=1666;
 					type="rhs_msv_emr_crew_commander";
-					atlOffset=-0.15792239;
+					atlOffset=5.0891876;
 				};
 				class Item3
 				{
@@ -15578,7 +15568,7 @@ class Mission
 				};
 			};
 			id=1663;
-			atlOffset=-0.15792239;
+			atlOffset=-0.15792251;
 		};
 		class Item72
 		{
@@ -15595,7 +15585,7 @@ class Mission
 			};
 			id=1667;
 			type="rhs_bmp3_late_msv";
-			atlOffset=-0.15792239;
+			atlOffset=-0.15792251;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16248,7 +16238,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10846.411,1.9720008,9171.1396};
+						position[]={10846.411,1.972001,9171.1396};
 					};
 					side="East";
 					flags=5;
@@ -16259,14 +16249,14 @@ class Mission
 					};
 					id=1690;
 					type="rhs_msv_emr_machinegunner";
-					atlOffset=1.9073486e-06;
+					atlOffset=2.0265579e-06;
 				};
 				class Item4
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10848.411,1.5587687,9171.1396};
+						position[]={10848.411,1.5587689,9171.1396};
 					};
 					side="East";
 					flags=5;
@@ -16276,14 +16266,14 @@ class Mission
 					};
 					id=1691;
 					type="rhs_msv_emr_machinegunner_assistant";
-					atlOffset=1.9073486e-06;
+					atlOffset=2.0265579e-06;
 				};
 				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10850.411,0.70897627,9171.1396};
+						position[]={10850.411,0.70897639,9171.1396};
 					};
 					side="East";
 					flags=5;
@@ -16293,14 +16283,14 @@ class Mission
 					};
 					id=1692;
 					type="rhs_msv_emr_machinegunner";
-					atlOffset=1.9073486e-06;
+					atlOffset=2.0265579e-06;
 				};
 				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10852.411,-0.093581513,9171.1396};
+						position[]={10852.411,-0.093581416,9171.1396};
 					};
 					side="East";
 					flags=5;
@@ -16310,14 +16300,14 @@ class Mission
 					};
 					id=1693;
 					type="rhs_msv_emr_machinegunner_assistant";
-					atlOffset=1.6540289e-06;
+					atlOffset=1.7508864e-06;
 				};
 				class Item7
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10854.411,-0.79390353,9171.1396};
+						position[]={10854.411,-0.79390341,9171.1396};
 					};
 					side="East";
 					flags=5;
@@ -16327,7 +16317,7 @@ class Mission
 					};
 					id=1694;
 					type="rhs_msv_emr_grenadier_rpg";
-					atlOffset=1.9073486e-06;
+					atlOffset=2.0265579e-06;
 				};
 				class Item8
 				{
@@ -16447,7 +16437,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10448.434,1.9108659,8543.0381};
+						position[]={10448.434,1.910866,8543.0381};
 					};
 					side="East";
 					flags=5;
@@ -16457,14 +16447,14 @@ class Mission
 					};
 					id=1701;
 					type="rhs_msv_emr_LAT";
-					atlOffset=1.9073486e-06;
+					atlOffset=2.0265579e-06;
 				};
 				class Item6
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={10450.434,1.4974821,8543.0381};
+						position[]={10450.434,1.4974822,8543.0381};
 					};
 					side="East";
 					flags=5;
@@ -16474,7 +16464,7 @@ class Mission
 					};
 					id=1702;
 					type="rhs_msv_emr_rifleman";
-					atlOffset=1.9073486e-06;
+					atlOffset=2.0265579e-06;
 				};
 				class Item7
 				{
@@ -16834,13 +16824,12 @@ class Mission
 						angles[]={6.22824,4.6403594,6.2665191};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=1716;
 					type="rhs_msv_armoredcrew";
-					atlOffset=-0.00071048737;
+					atlOffset=0.72405052;
 				};
 				class Item1
 				{
@@ -16851,13 +16840,13 @@ class Mission
 						angles[]={6.22824,4.6403594,6.2665191};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=1717;
 					type="rhs_msv_armoredcrew";
-					atlOffset=-0.00071048737;
+					atlOffset=2.9209976;
 				};
 				class Item2
 				{
@@ -17025,13 +17014,12 @@ class Mission
 						angles[]={6.228241,4.6402898,0.0049914722};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=1724;
 					type="rhs_msv_armoredcrew";
-					atlOffset=-0.0098323822;
+					atlOffset=0.55907249;
 				};
 				class Item1
 				{
@@ -17042,13 +17030,13 @@ class Mission
 						angles[]={6.228241,4.6402898,0.0049914722};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=1725;
 					type="rhs_msv_armoredcrew";
-					atlOffset=-0.0098323822;
+					atlOffset=2.7573299;
 				};
 				class Item2
 				{
@@ -18538,7 +18526,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9177.5312,38.708408,9168.1621};
+						position[]={9177.5313,38.708408,9168.1621};
 					};
 					side="East";
 					flags=5;
@@ -19392,7 +19380,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9066.5566,37.438358,8852.6562};
+						position[]={9066.5566,37.438358,8852.6563};
 					};
 					side="East";
 					flags=5;
@@ -22146,7 +22134,7 @@ class Mission
 					};
 					id=2343;
 					type="rhs_msv_crew";
-					atlOffset=-1.5258789e-05;
+					atlOffset=1.5258789e-05;
 				};
 				class Item1
 				{
@@ -22157,13 +22145,12 @@ class Mission
 						angles[]={0.046633169,4.5401773,6.2748489};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=2344;
 					type="rhs_msv_crew";
-					atlOffset=-1.5258789e-05;
+					atlOffset=2.3237371;
 				};
 				class Item2
 				{
@@ -22174,13 +22161,13 @@ class Mission
 						angles[]={0.046633169,4.5401773,6.2748489};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=2345;
 					type="rhs_msv_crew";
-					atlOffset=-1.5258789e-05;
+					atlOffset=2.3237371;
 				};
 			};
 			class Attributes
@@ -22284,13 +22271,12 @@ class Mission
 						angles[]={0,4.9292984,0.003311686};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=2347;
 					type="rhs_msv_crew";
-					atlOffset=-5.3405762e-05;
+					atlOffset=0.2816658;
 				};
 				class Item1
 				{
@@ -22301,13 +22287,12 @@ class Mission
 						angles[]={0,4.9292984,0.003311686};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=2348;
 					type="rhs_msv_crew";
-					atlOffset=-5.3405762e-05;
+					atlOffset=2.0727329;
 				};
 				class Item2
 				{
@@ -22318,13 +22303,13 @@ class Mission
 						angles[]={0,4.9292984,0.003311686};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=2349;
 					type="rhs_msv_crew";
-					atlOffset=-5.3405762e-05;
+					atlOffset=2.0727329;
 				};
 			};
 			class Attributes
@@ -22381,7 +22366,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7329.9712,24.254301,8767.5312};
+				position[]={7329.9712,24.254301,8767.5313};
 				angles[]={0,4.9292984,0.003311686};
 			};
 			side="East";
@@ -22428,14 +22413,14 @@ class Mission
 						angles[]={6.2132993,4.332911,0.013336525};
 					};
 					side="East";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						skill=0.40000001;
 					};
 					id=2363;
 					type="rhs_msv_emr_rifleman";
-					atlOffset=-3.8146973e-06;
+					atlOffset=0.94671059;
 				};
 			};
 			class Attributes
@@ -22829,13 +22814,12 @@ class Mission
 										angles[]={0.0033296358,4.8860865,0.028325468};
 									};
 									side="East";
-									flags=4;
 									class Attributes
 									{
 									};
 									id=1241;
 									type="rhs_msv_crew";
-									atlOffset=-0.0064697266;
+									atlOffset=5.6123543;
 								};
 								class Item1
 								{
@@ -22846,13 +22830,12 @@ class Mission
 										angles[]={0.0033296358,4.8860865,0.028325468};
 									};
 									side="East";
-									flags=4;
 									class Attributes
 									{
 									};
 									id=1242;
 									type="rhs_msv_crew";
-									atlOffset=-0.0064697266;
+									atlOffset=7.9067893;
 								};
 								class Item2
 								{
@@ -22863,13 +22846,13 @@ class Mission
 										angles[]={0.0033296358,4.8860865,0.028325468};
 									};
 									side="East";
-									flags=6;
+									flags=2;
 									class Attributes
 									{
 									};
 									id=1243;
 									type="rhs_msv_crew";
-									atlOffset=-0.0064697266;
+									atlOffset=7.9067893;
 								};
 							};
 							class Attributes
@@ -23218,13 +23201,12 @@ class Mission
 										angles[]={6.1703339,4.2273893,6.218277};
 									};
 									side="East";
-									flags=4;
 									class Attributes
 									{
 									};
 									id=1246;
 									type="rhs_msv_crew";
-									atlOffset=-0.00207901;
+									atlOffset=1.0763264;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -23284,7 +23266,6 @@ class Mission
 									};
 									id=1247;
 									type="rhs_msv_crew";
-									atlOffset=-0.00207901;
 								};
 							};
 							class Attributes
@@ -23811,7 +23792,7 @@ class Mission
 									};
 									id=1251;
 									type="rhs_msv_crew";
-									atlOffset=-0.017440081;
+									atlOffset=-2.8975277;
 								};
 								class Item1
 								{
@@ -23828,7 +23809,7 @@ class Mission
 									};
 									id=1252;
 									type="rhs_msv_crew";
-									atlOffset=-0.017440081;
+									atlOffset=-0.66372871;
 								};
 							};
 							class Attributes
@@ -24808,7 +24789,7 @@ class Mission
 									};
 									id=1292;
 									type="rhs_msv_crew";
-									atlOffset=-0.00010871887;
+									atlOffset=2.3841858e-07;
 								};
 								class Item1
 								{
@@ -24825,7 +24806,7 @@ class Mission
 									};
 									id=1293;
 									type="rhs_msv_crew";
-									atlOffset=-0.00010871887;
+									atlOffset=2.3841858e-07;
 								};
 							};
 							class Attributes
@@ -25395,7 +25376,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={3594.6428,1.7700162,10256.07};
+										position[]={3594.6428,1.7700163,10256.07};
 										angles[]={0,0,0.013327583};
 									};
 									side="East";
@@ -25405,14 +25386,14 @@ class Mission
 									};
 									id=1314;
 									type="rhs_msv_driver";
-									atlOffset=3.0994415e-06;
+									atlOffset=3.2186508e-06;
 								};
 							};
 							class Attributes
 							{
 							};
 							id=1313;
-							atlOffset=3.0994415e-06;
+							atlOffset=3.2186508e-06;
 						};
 						class Item25
 						{
@@ -25429,7 +25410,7 @@ class Mission
 							};
 							id=1315;
 							type="RHS_Ural_MSV_01";
-							atlOffset=-0.0082936287;
+							atlOffset=-0.0082937479;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -25691,7 +25672,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={3648.9426,1.5122232,10231.838};
+										position[]={3648.9426,1.5122234,10231.838};
 									};
 									side="East";
 									flags=7;
@@ -25781,14 +25762,14 @@ class Mission
 									};
 									id=1332;
 									type="rhs_msv_emr_sergeant";
-									atlOffset=3.0994415e-06;
+									atlOffset=3.2186508e-06;
 								};
 								class Item1
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={3651.9426,1.321443,10226.838};
+										position[]={3651.9426,1.3214431,10226.838};
 									};
 									side="East";
 									flags=5;
@@ -25798,14 +25779,14 @@ class Mission
 									};
 									id=1333;
 									type="rhs_msv_emr_grenadier_rpg";
-									atlOffset=4.0531158e-06;
+									atlOffset=4.1723251e-06;
 								};
 								class Item2
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={3653.9426,1.321443,10226.838};
+										position[]={3653.9426,1.3214431,10226.838};
 									};
 									side="East";
 									flags=5;
@@ -25816,14 +25797,14 @@ class Mission
 									};
 									id=1334;
 									type="rhs_msv_emr_strelok_rpg_assist";
-									atlOffset=4.0531158e-06;
+									atlOffset=4.1723251e-06;
 								};
 								class Item3
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={3655.9426,1.321443,10226.838};
+										position[]={3655.9426,1.3214431,10226.838};
 									};
 									side="East";
 									flags=5;
@@ -25833,14 +25814,14 @@ class Mission
 									};
 									id=1335;
 									type="rhs_msv_emr_machinegunner";
-									atlOffset=4.0531158e-06;
+									atlOffset=4.1723251e-06;
 								};
 								class Item4
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={3657.9426,1.321443,10226.838};
+										position[]={3657.9426,1.3214431,10226.838};
 									};
 									side="East";
 									flags=5;
@@ -25850,14 +25831,14 @@ class Mission
 									};
 									id=1336;
 									type="rhs_msv_emr_LAT";
-									atlOffset=4.0531158e-06;
+									atlOffset=4.1723251e-06;
 								};
 								class Item5
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={3659.9426,1.321442,10226.838};
+										position[]={3659.9426,1.3214421,10226.838};
 									};
 									side="East";
 									flags=5;
@@ -25867,14 +25848,14 @@ class Mission
 									};
 									id=1337;
 									type="rhs_msv_emr_rifleman";
-									atlOffset=3.0994415e-06;
+									atlOffset=3.2186508e-06;
 								};
 							};
 							class Attributes
 							{
 							};
 							id=1331;
-							atlOffset=3.0994415e-06;
+							atlOffset=3.2186508e-06;
 						};
 						class Item28
 						{
@@ -27929,7 +27910,7 @@ class Mission
 			fillName="SolidFull";
 			a=100;
 			b=10;
-			angle=56.384808;
+			angle=56.384792;
 			id=2454;
 			atlOffset=16.858498;
 			class CustomAttributes
@@ -27961,7 +27942,7 @@ class Mission
 			fillName="SolidFull";
 			a=100;
 			b=10;
-			angle=56.384804;
+			angle=56.384789;
 			id=2455;
 			atlOffset=16.859089;
 			class CustomAttributes
@@ -27993,7 +27974,7 @@ class Mission
 			fillName="SolidFull";
 			a=100;
 			b=10;
-			angle=56.3848;
+			angle=56.384785;
 			id=2456;
 			atlOffset=16.861506;
 			class CustomAttributes
@@ -29901,7 +29882,6 @@ class Mission
 					};
 					id=2523;
 					type="BWA3_Helipilot_NH90";
-					atlOffset=-0.0049972534;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -29949,7 +29929,7 @@ class Mission
 					};
 					id=2524;
 					type="BWA3_Helipilot_NH90";
-					atlOffset=-0.0049972534;
+					atlOffset=-0.16663361;
 				};
 			};
 			class Attributes
@@ -30065,6 +30045,7 @@ class Mission
 					};
 					id=2527;
 					type="BWA3_Helipilot_NH90";
+					atlOffset=-0.1889801;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30112,6 +30093,7 @@ class Mission
 					};
 					id=2528;
 					type="BWA3_Helipilot_NH90";
+					atlOffset=-0.35322571;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30255,6 +30237,7 @@ class Mission
 					};
 					id=2531;
 					type="BWA3_Helipilot_NH90";
+					atlOffset=-0.20920563;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30302,6 +30285,7 @@ class Mission
 					};
 					id=2532;
 					type="BWA3_Helipilot_NH90";
+					atlOffset=-0.37345123;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30458,7 +30442,7 @@ class Mission
 					};
 					id=2535;
 					type="BWA3_Helipilot_NH90";
-					atlOffset=-0.0019989014;
+					atlOffset=-0.087562561;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30506,7 +30490,7 @@ class Mission
 					};
 					id=2536;
 					type="BWA3_Helipilot_NH90";
-					atlOffset=-0.0019989014;
+					atlOffset=-0.2494278;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -30745,7 +30729,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7572.6562,27.560467,10833.194};
+				position[]={7572.6563,27.560467,10833.194};
 				angles[]={6.278194,1.9964097,6.2715225};
 			};
 			side="Empty";
@@ -33299,7 +33283,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="Hotel1";
+											value="Lagedarsteller1";
 										};
 									};
 								};
@@ -33367,7 +33351,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="Hotel2";
+											value="Lagedarsteller2";
 										};
 									};
 								};
@@ -33571,7 +33555,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="Hotel3";
+											value="Lagedarsteller3";
 										};
 									};
 								};
@@ -33639,7 +33623,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="Hotel4";
+											value="Lagedarsteller4";
 										};
 									};
 								};
@@ -33950,7 +33934,7 @@ class Mission
 										class data
 										{
 											singleType="STRING";
-											value="Hotel5";
+											value="Lagedarsteller5";
 										};
 									};
 								};
@@ -34093,16 +34077,16 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={633.29572,66.641441,11933.436};
-										angles[]={0,4.8721018,0};
+										position[]={620.98926,66.702194,11915.835};
+										angles[]={0,4.8721042,0};
 									};
 									side="West";
 									flags=7;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Hotel""];";
-										name="Hotel1";
-										description="Zeus@HOTEL";
+										init="this setVariable [""ARRC_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Lagedarsteller""];";
+										name="Lagedarsteller1";
+										description="Zeus@LAGEDARSTELLER";
 										isPlayable=1;
 										class Inventory
 										{
@@ -34155,15 +34139,15 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={632.98895,66.641441,11931.471};
-										angles[]={0,4.8721018,0};
+										position[]={620.68225,66.709763,11913.87};
+										angles[]={0,4.8721042,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Hotel""];";
-										name="Hotel2";
+										init="this setVariable [""ARRC_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Lagedarsteller""];";
+										name="Lagedarsteller2";
 										description="Zeus";
 										isPlayable=1;
 										class Inventory
@@ -34217,15 +34201,15 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={632.68042,66.64769,11929.495};
-										angles[]={0,4.8721018,0};
+										position[]={620.37323,66.717384,11911.895};
+										angles[]={0,4.8721042,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Hotel""];";
-										name="Hotel3";
+										init="this setVariable [""ARRC_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Lagedarsteller""];";
+										name="Lagedarsteller3";
 										description="Lagedarsteller 1";
 										isPlayable=1;
 										class Inventory
@@ -34279,15 +34263,15 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={632.37189,66.653534,11927.519};
-										angles[]={0,4.8721018,0};
+										position[]={620.06525,66.724998,11909.918};
+										angles[]={0,4.8721042,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Hotel""];";
-										name="Hotel4";
+										init="this setVariable [""ARRC_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Lagedarsteller""];";
+										name="Lagedarsteller4";
 										description="Lagedarsteller 2";
 										isPlayable=1;
 										class Inventory
@@ -34341,15 +34325,15 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={632.06329,66.654564,11925.543};
-										angles[]={0,4.8721018,0};
+										position[]={619.75623,66.732033,11907.942};
+										angles[]={0,4.8721042,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Hotel""];";
-										name="Hotel5";
+										init="this setVariable [""ARRC_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Lagedarsteller""];";
+										name="Lagedarsteller5";
 										description="Lagedarsteller 3";
 										isPlayable=1;
 										class Inventory
@@ -34401,7 +34385,7 @@ class Mission
 							};
 							class Attributes
 							{
-								name="GrpHotel";
+								name="GrpLagedarsteller";
 							};
 							id=4168;
 						};
@@ -34411,13 +34395,13 @@ class Mission
 							side="West";
 							class Entities
 							{
-								items=2;
+								items=3;
 								class Item0
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={636.78497,66.641441,11929.854};
+										position[]={623.80542,66.695404,11915.057};
 										angles[]={0,4.8721018,0};
 									};
 									side="West";
@@ -34425,7 +34409,7 @@ class Mission
 									class Attributes
 									{
 										rank="MAJOR";
-										init="this setVariable [""GR_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Kilo""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Kilo""];";
 										name="Kilo1";
 										description="Kompanieführer@Kilo";
 										isPlayable=1;
@@ -34480,7 +34464,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={636.47827,66.641441,11927.89};
+										position[]={623.49872,66.702972,11913.093};
 										angles[]={0,4.8721018,0};
 									};
 									side="West";
@@ -34488,7 +34472,7 @@ class Mission
 									class Attributes
 									{
 										rank="CAPTAIN";
-										init="this setVariable [""GR_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Kilo""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Kilo""];";
 										name="Kilo2";
 										description="Stellvertretender Kompanieführer@Kilo";
 										isPlayable=1;
@@ -34506,6 +34490,69 @@ class Mission
 										};
 									};
 									id=4176;
+									type="B_officer_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item2
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={623.26465,66.709648,11911.322};
+										angles[]={0,4.8721042,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CAPTAIN";
+										init="this setVariable [""ARRC_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Kilo""];";
+										name="Kilo3";
+										description="Funker@Kilo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=4967;
 									type="B_officer_F";
 									class CustomAttributes
 									{
@@ -34581,13 +34628,13 @@ class Mission
 							side="West";
 							class Entities
 							{
-								items=8;
+								items=5;
 								class Item0
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={640.58466,66.641441,11928.261};
+										position[]={625.88312,66.691444,11914.169};
 										angles[]={0,4.8735151,0};
 									};
 									side="West";
@@ -34595,7 +34642,7 @@ class Mission
 									class Attributes
 									{
 										rank="SERGEANT";
-										init="this setVariable [""GR_unitLoadout"", ""Sierra_GrpFhr""];" \n "group this setGroupId [""Sierra""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Sierra_GrpFhr""];" \n "group this setGroupId [""Sierra""];";
 										name="Sierra1";
 										description="Gruppenführer@Sierra";
 										isPlayable=1;
@@ -34676,7 +34723,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={642.56067,66.641441,11927.952};
+										position[]={627.85913,66.68866,11913.86};
 										angles[]={0,4.8998523,0};
 									};
 									side="West";
@@ -34684,7 +34731,7 @@ class Mission
 									class Attributes
 									{
 										health=0.97482562;
-										init="this setVariable [""GR_unitLoadout"", ""Sierra_AufSan""];" \n "group this setGroupId [""Sierra""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Sierra_AufSan""];" \n "group this setGroupId [""Sierra""];";
 										name="Sierra2";
 										description="Aufklärungssanitäter";
 										isPlayable=1;
@@ -34765,92 +34812,16 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={640.89319,66.641441,11930.237};
-										angles[]={0,4.8840919,0};
-									};
-									side="West";
-									flags=4;
-									class Attributes
-									{
-										rank="CORPORAL";
-										init="this setVariable [""GR_unitLoadout"", ""Sierra_TF""];" \n "group this setGroupId [""Sierra""];";
-										name="Sierra3";
-										description="Truppführer";
-										isPlayable=1;
-										class Inventory
-										{
-											class uniform
-											{
-												typeName="CUP_U_B_GER_Fleck_Crye";
-												isBackpack=0;
-											};
-											map="ItemMap";
-											compass="ItemCompass";
-											watch="ItemWatch";
-											radio="ItemRadio";
-										};
-									};
-									id=4180;
-									type="B_Soldier_TL_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male07ENG";
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.98000002;
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="TFAR_freq_sr";
-											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="56";
-												};
-											};
-										};
-										nAttributes=3;
-									};
-								};
-								class Item3
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={642.86926,66.641441,11929.929};
-										angles[]={0,4.8858371,0};
+										position[]={629.81232,66.685997,11913.505};
+										angles[]={0,4.8858395,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Sierra_Schuetze""];" \n "group this setGroupId [""Sierra""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Sierra_Schuetze""];" \n "group this setGroupId [""Sierra""];";
 										name="Sierra4";
-										description="Schütze";
+										description="SCharfschütze";
 										isPlayable=1;
 										class Inventory
 										{
@@ -34924,185 +34895,21 @@ class Mission
 										nAttributes=4;
 									};
 								};
-								class Item4
+								class Item3
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={642.25214,66.641441,11925.977};
-										angles[]={0,4.8858371,0};
+										position[]={631.5611,66.680862,11913.277};
+										angles[]={0,4.8858395,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Sierra_Schuetze""];" \n "group this setGroupId [""Sierra""];";
-										name="Sierra7";
-										description="Schütze";
-										isPlayable=1;
-										class Inventory
-										{
-											class uniform
-											{
-												typeName="CUP_U_B_GER_Fleck_Crye";
-												isBackpack=0;
-											};
-											map="ItemMap";
-											compass="ItemCompass";
-											watch="ItemWatch";
-											radio="ItemRadio";
-										};
-									};
-									id=4182;
-									type="B_recon_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="ace_isMedic";
-											expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1;
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male02ENG";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.99000001;
-												};
-											};
-										};
-										class Attribute3
-										{
-											property="TFAR_freq_sr";
-											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="57";
-												};
-											};
-										};
-										nAttributes=4;
-									};
-								};
-								class Item5
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={640.27606,66.641441,11926.285};
-										angles[]={0,4.8840919,0};
-									};
-									side="West";
-									flags=4;
-									class Attributes
-									{
-										rank="CORPORAL";
-										init="this setVariable [""GR_unitLoadout"", ""Sierra_TF""];" \n "group this setGroupId [""Sierra""];";
-										name="Sierra6";
-										description="Truppführer";
-										isPlayable=1;
-										class Inventory
-										{
-											class uniform
-											{
-												typeName="CUP_U_B_GER_Fleck_Crye";
-												isBackpack=0;
-											};
-											map="ItemMap";
-											compass="ItemCompass";
-											watch="ItemWatch";
-											radio="ItemRadio";
-										};
-									};
-									id=4183;
-									type="B_Soldier_TL_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male07ENG";
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.98000002;
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="TFAR_freq_sr";
-											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="57";
-												};
-											};
-										};
-										nAttributes=3;
-									};
-								};
-								class Item6
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={644.84528,66.641441,11929.62};
-										angles[]={0,4.8858371,0};
-									};
-									side="West";
-									flags=5;
-									class Attributes
-									{
-										init="this setVariable [""GR_unitLoadout"", ""Sierra_Schuetze""];" \n "group this setGroupId [""Sierra""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Sierra_Spotter""];" \n "group this setGroupId [""Sierra""];";
 										name="Sierra5";
-										description="Schütze";
+										description="Spotter";
 										isPlayable=1;
 										class Inventory
 										{
@@ -35176,21 +34983,21 @@ class Mission
 										nAttributes=4;
 									};
 								};
-								class Item7
+								class Item4
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={644.22821,66.641441,11925.668};
-										angles[]={0,4.8858371,0};
+										position[]={633.22211,66.675758,11913.02};
+										angles[]={0,4.8858395,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Sierra_Schuetze""];" \n "group this setGroupId [""Sierra""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Sierra_NahSi""];" \n "group this setGroupId [""Sierra""];";
 										name="Sierra8";
-										description="Schütze";
+										description="Nah-Sicherer";
 										isPlayable=1;
 										class Inventory
 										{
@@ -35207,6 +35014,7 @@ class Mission
 									};
 									id=4185;
 									type="B_recon_F";
+									atlOffset=7.6293945e-06;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -35283,7 +35091,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={647.80939,66.641441,11929.157};
+										position[]={638.95947,66.641441,11950.96};
 										angles[]={0,4.8520823,0};
 									};
 									side="West";
@@ -35291,7 +35099,7 @@ class Mission
 									class Attributes
 									{
 										rank="CORPORAL";
-										init="this setVariable [""GR_unitLoadout"", ""Romeo_TF""];" \n "group this setGroupId [""Romeo""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Romeo_TF""];" \n "group this setGroupId [""Romeo""];";
 										name="Romeo1";
 										description="Gruppenführer / Staffelführer@Romeo";
 										isPlayable=1;
@@ -35398,14 +35206,14 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={647.50085,66.641441,11927.181};
+										position[]={638.65094,66.641441,11948.983};
 										angles[]={0,4.8565159,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Romeo_Arty""];" \n "group this setGroupId [""Romeo""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Romeo_Arty""];" \n "group this setGroupId [""Romeo""];";
 										name="Romeo2";
 										description="WSO@Romeo";
 										isPlayable=1;
@@ -35499,14 +35307,14 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={647.19226,66.641441,11925.205};
+										position[]={638.34235,66.641441,11947.008};
 										angles[]={0,4.8565159,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Romeo_Arty""];" \n "group this setGroupId [""Romeo""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Romeo_Arty""];" \n "group this setGroupId [""Romeo""];";
 										name="Romeo3";
 										description="WSO@Romeo";
 										isPlayable=1;
@@ -35614,7 +35422,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={639.81323,66.641441,11923.32};
+										position[]={633.77081,66.641441,11954.588};
 										angles[]={0,4.8721013,0};
 									};
 									side="West";
@@ -35622,7 +35430,7 @@ class Mission
 									class Attributes
 									{
 										rank="SERGEANT";
-										init="this setVariable [""GR_unitLoadout"", ""Mike_AvD""];" \n "group this setGroupId [""Mike""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Mike_AvD""];" \n "group this setGroupId [""Mike""];";
 										name="Mike1";
 										description="Arzt vom Dienst@Mike";
 										isPlayable=1;
@@ -35690,14 +35498,14 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={641.78931,66.641441,11923.012};
+										position[]={635.74689,66.641441,11954.279};
 										angles[]={0,4.8668132,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Mike_SvD""];" \n "group this setGroupId [""Mike""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Mike_SvD""];" \n "group this setGroupId [""Mike""];";
 										name="Mike2";
 										description="Sanitäter vom Dienst@Mike";
 										isPlayable=1;
@@ -35765,14 +35573,14 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={639.5047,66.641449,11921.345};
+										position[]={633.46228,66.641449,11952.612};
 										angles[]={0,4.8668132,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Mike_SaniP""];" \n "group this setGroupId [""Mike""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Mike_SaniP""];" \n "group this setGroupId [""Mike""];";
 										name="Mike3";
 										description="Sanitäter / Fahrzeugführer@Mike";
 										isPlayable=1;
@@ -35841,14 +35649,14 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={638.88757,66.647339,11917.393};
+										position[]={632.84515,66.641441,11948.66};
 										angles[]={0,4.8668132,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Mike_Sani""];" \n "group this setGroupId [""Mike""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Mike_Sani""];" \n "group this setGroupId [""Mike""];";
 										name="Mike7";
 										description="Sanitäter@Mike";
 										isPlayable=1;
@@ -35916,14 +35724,14 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={641.48077,66.641449,11921.036};
+										position[]={635.43835,66.641449,11952.304};
 										angles[]={0,4.8686457,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Mike_SaniL""];" \n "group this setGroupId [""Mike""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Mike_SaniL""];" \n "group this setGroupId [""Mike""];";
 										name="Mike4";
 										description="Leichter Sanitäter@Mike";
 										isPlayable=1;
@@ -35992,14 +35800,14 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={639.19617,66.641441,11919.368};
+										position[]={633.15375,66.641441,11950.636};
 										angles[]={0,4.8668132,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Mike_SaniP""];" \n "group this setGroupId [""Mike""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Mike_SaniP""];" \n "group this setGroupId [""Mike""];";
 										name="Mike5";
 										description="Sanitäter / Fahrzeugführer@Mike";
 										isPlayable=1;
@@ -36067,14 +35875,14 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={641.17218,66.641449,11919.06};
+										position[]={635.12976,66.641449,11950.327};
 										angles[]={0,4.8668132,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Mike_Sani""];" \n "group this setGroupId [""Mike""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Mike_Sani""];" \n "group this setGroupId [""Mike""];";
 										name="Mike6";
 										description="Sanitäter@Mike";
 										isPlayable=1;
@@ -36143,14 +35951,14 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={640.86365,66.641785,11917.084};
+										position[]={634.82123,66.641441,11948.352};
 										angles[]={0,4.8668132,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Mike_SaniL_Tech""];" \n "group this setGroupId [""Mike""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Mike_SaniL_Tech""];" \n "group this setGroupId [""Mike""];";
 										name="Mike8";
 										description="L-San-Tech@Mike";
 										isPlayable=1;
@@ -36256,23 +36064,23 @@ class Mission
 							side="West";
 							class Entities
 							{
-								items=8;
+								items=6;
 								class Item0
 								{
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={642.28168,66.641441,11939.129};
-										angles[]={0,4.8386087,0};
+										position[]={625.63245,66.698517,11912.295};
+										angles[]={0,4.8386111,0};
 									};
 									side="West";
 									flags=7;
 									class Attributes
 									{
 										rank="SERGEANT";
-										init="this setVariable [""GR_unitLoadout"", ""Lima_GF""];" \n "group this setGroupId [""Lima""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Lima_GF""];" \n "group this setGroupId [""Lima""];";
 										name="Lima1";
-										description="Gruppenführer / LuftMobOffz@Lima";
+										description="Gruppenführer@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -36351,17 +36159,17 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={644.25775,66.641441,11938.82};
-										angles[]={0,4.8520823,0};
+										position[]={627.60846,66.692963,11911.986};
+										angles[]={0,4.8520851,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
 										rank="CORPORAL";
-										init="this setVariable [""GR_unitLoadout"", ""Lima_GF""];" \n "group this setGroupId [""Lima""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Lima_GF""];" \n "group this setGroupId [""Lima""];";
 										name="Lima2";
-										description="Truppführer / MarschFhr@Lima";
+										description="Truppführer@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -36440,16 +36248,16 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={641.97314,66.641441,11937.153};
-										angles[]={0,4.8565159,0};
+										position[]={625.32446,66.706123,11910.319};
+										angles[]={0,4.8565183,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
 										name="Lima3";
-										description="Logistik-Koor.@Lima";
+										description="Logistiker@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -36515,16 +36323,16 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={641.66455,66.641441,11935.177};
-										angles[]={0,4.8565159,0};
+										position[]={625.01544,66.713745,11908.343};
+										angles[]={0,4.8565183,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Lima_Sani""];" \n "group this setGroupId [""Lima""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Lima_Sani""];" \n "group this setGroupId [""Lima""];";
 										name="Lima4";
-										description="Logistiker/San@Lima";
+										description="Logistiker@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -36590,16 +36398,16 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={643.94916,66.641441,11936.845};
-										angles[]={0,4.8565159,0};
+										position[]={627.30048,66.700569,11910.011};
+										angles[]={0,4.8565183,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
 										name="Lima5";
-										description="Mun.-Logistiker@Lima";
+										description="Logistiker@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -36665,16 +36473,16 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={643.64062,66.641441,11934.868};
-										angles[]={0,4.8565159,0};
+										position[]={626.99146,66.708183,11908.034};
+										angles[]={0,4.8565183,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
 										name="Lima6";
-										description="Pionier-Koor.@Lima";
+										description="Logistiker@Lima";
 										isPlayable=1;
 										class Inventory
 										{
@@ -36690,156 +36498,6 @@ class Mission
 										};
 									};
 									id=4205;
-									type="B_engineer_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="ace_isEngineer";
-											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=2;
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male08ENG";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.95999998;
-												};
-											};
-										};
-										nAttributes=3;
-									};
-								};
-								class Item6
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={641.35602,66.641441,11933.201};
-										angles[]={0,4.8565159,0};
-									};
-									side="West";
-									flags=5;
-									class Attributes
-									{
-										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
-										name="Lima7";
-										description="Sprengpionier@Lima";
-										isPlayable=1;
-										class Inventory
-										{
-											class uniform
-											{
-												typeName="CUP_U_B_GER_Fleck_Crye";
-												isBackpack=0;
-											};
-											map="ItemMap";
-											compass="ItemCompass";
-											watch="ItemWatch";
-											radio="ItemRadio";
-										};
-									};
-									id=4206;
-									type="B_engineer_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="ace_isEngineer";
-											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=2;
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male08ENG";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.95999998;
-												};
-											};
-										};
-										nAttributes=3;
-									};
-								};
-								class Item7
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={643.33209,66.641441,11932.893};
-										angles[]={0,4.8565159,0};
-									};
-									side="West";
-									flags=5;
-									class Attributes
-									{
-										init="this setVariable [""GR_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
-										name="Lima8";
-										description="InstMechaniker@Lima";
-										isPlayable=1;
-										class Inventory
-										{
-											class uniform
-											{
-												typeName="CUP_U_B_GER_Fleck_Crye";
-												isBackpack=0;
-											};
-											map="ItemMap";
-											compass="ItemCompass";
-											watch="ItemWatch";
-											radio="ItemRadio";
-										};
-									};
-									id=4207;
 									type="B_engineer_F";
 									class CustomAttributes
 									{
@@ -36934,7 +36592,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={652.16199,66.641441,11937.586};
+										position[]={651.51617,66.641441,11935.104};
 										angles[]={0,4.8721018,0};
 									};
 									side="West";
@@ -36942,7 +36600,7 @@ class Mission
 									class Attributes
 									{
 										rank="LIEUTENANT";
-										init="this setVariable [""GR_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Foxtrot""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Foxtrot""];";
 										name="Fox1";
 										description="Zugführer@Foxtrot";
 										isPlayable=1;
@@ -36997,7 +36655,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={651.85339,66.641441,11935.61};
+										position[]={651.20758,66.641441,11933.128};
 										angles[]={0,4.8721018,0};
 									};
 									side="West";
@@ -37005,7 +36663,7 @@ class Mission
 									class Attributes
 									{
 										rank="LIEUTENANT";
-										init="this setVariable [""GR_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Foxtrot""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Foxtrot""];";
 										name="Fox2";
 										description="Stellvertretender Zugführer@Foxtrot";
 										isPlayable=1;
@@ -37060,14 +36718,14 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={651.54486,66.641441,11933.634};
+										position[]={650.89905,66.641441,11931.151};
 										angles[]={0,4.8668137,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""ZugSani""];" \n "group this setGroupId [""Foxtrot""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""ZugSani""];" \n "group this setGroupId [""Foxtrot""];";
 										name="Fox3";
 										description="Zug-Sanitäter@Foxtrot";
 										isPlayable=1;
@@ -37122,14 +36780,14 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={651.23993,66.641441,11931.823};
+										position[]={650.59412,66.641441,11929.341};
 										angles[]={0,4.8603382,0};
 									};
 									side="West";
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""ZugFahr""];" \n "group this setGroupId [""Foxtrot""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""ZugFahr""];" \n "group this setGroupId [""Foxtrot""];";
 										name="Fox4";
 										description="Nahsicherer / JTAC";
 										isPlayable=1;
@@ -37312,7 +36970,7 @@ class Mission
 									class Attributes
 									{
 										rank="CORPORAL";
-										init="this setVariable [""GR_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Alpha""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Alpha""];";
 										name="Alpha2";
 										description="Truppführer@Alpha";
 										isPlayable=1;
@@ -37375,7 +37033,7 @@ class Mission
 									class Attributes
 									{
 										rank="CORPORAL";
-										init="this setVariable [""GR_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Alpha""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Alpha""];";
 										name="Alpha3";
 										description="Truppführer@Alpha";
 										isPlayable=1;
@@ -37437,7 +37095,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Sanitaeter""];" \n "group this setGroupId [""Alpha""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Sanitaeter""];" \n "group this setGroupId [""Alpha""];";
 										name="Alpha6";
 										description="Sanitäter@Alpha";
 										isPlayable=1;
@@ -37499,7 +37157,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Alpha""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Alpha""];";
 										name="Alpha7";
 										description="LMG-Schütze@Alpha";
 										isPlayable=1;
@@ -37561,7 +37219,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Alpha""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Alpha""];";
 										name="Alpha8";
 										description="LMG-Schütze@Alpha";
 										isPlayable=1;
@@ -37623,7 +37281,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Alpha""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Alpha""];";
 										name="Alpha5";
 										description="Grenadier@Alpha";
 										isPlayable=1;
@@ -37685,7 +37343,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Alpha""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Alpha""];";
 										name="Alpha4";
 										description="Grenadier@Alpha";
 										isPlayable=1;
@@ -37747,7 +37405,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Breacher""];" \n "group this setGroupId [""Alpha""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Breacher""];" \n "group this setGroupId [""Alpha""];";
 										name="Alpha9";
 										description="Breacher@Alpha";
 										isPlayable=1;
@@ -37809,7 +37467,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Alpha""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Alpha""];";
 										name="Alpha11";
 										description="Schütze@Alpha";
 										isPlayable=1;
@@ -37871,7 +37529,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Alpha""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Alpha""];";
 										name="Alpha10";
 										description="Schütze@Alpha";
 										isPlayable=1;
@@ -37965,7 +37623,7 @@ class Mission
 									class Attributes
 									{
 										rank="SERGEANT";
-										init="this setVariable [""GR_unitLoadout"", ""GrpFhr_WaGru""];" \n "group this setGroupId [""Bravo""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""GrpFhr_WaGru""];" \n "group this setGroupId [""Bravo""];";
 										name="Bravo1";
 										description="Gruppenführer@Bravo";
 										isPlayable=1;
@@ -38040,7 +37698,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Sanitaeter_WaGru""];" \n "group this setGroupId [""Bravo""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Sanitaeter_WaGru""];" \n "group this setGroupId [""Bravo""];";
 										name="Bravo2";
 										description="Sanitäter@Bravo";
 										isPlayable=1;
@@ -38102,7 +37760,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Spezialpionier""];" \n "group this setGroupId [""Bravo""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Spezialpionier""];" \n "group this setGroupId [""Bravo""];";
 										name="Bravo9";
 										description="Spezialpionier";
 										isPlayable=1;
@@ -38173,7 +37831,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Waffen_Spez""];" \n "group this setGroupId [""Bravo""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Waffen_Spez""];" \n "group this setGroupId [""Bravo""];";
 										name="Bravo3";
 										description="Waffenspezialist@Bravo";
 										isPlayable=1;
@@ -38235,7 +37893,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Waffen_Assi""];" \n "group this setGroupId [""Bravo""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Waffen_Assi""];" \n "group this setGroupId [""Bravo""];";
 										name="Bravo4";
 										description="Waffenassistent@Bravo";
 										isPlayable=1;
@@ -38297,7 +37955,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Waffen_Spez""];" \n "group this setGroupId [""Bravo""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Waffen_Spez""];" \n "group this setGroupId [""Bravo""];";
 										name="Bravo5";
 										description="Waffenspezialist@Bravo";
 										isPlayable=1;
@@ -38359,7 +38017,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Waffen_Assi""];" \n "group this setGroupId [""Bravo""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Waffen_Assi""];" \n "group this setGroupId [""Bravo""];";
 										name="Bravo6";
 										description="Waffenassistent@Bravo";
 										isPlayable=1;
@@ -38421,7 +38079,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Waffen_Spez""];" \n "group this setGroupId [""Bravo""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Waffen_Spez""];" \n "group this setGroupId [""Bravo""];";
 										name="Bravo7";
 										description="Waffenspezialist@Bravo";
 										isPlayable=1;
@@ -38483,7 +38141,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Waffen_Assi""];" \n "group this setGroupId [""Bravo""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Waffen_Assi""];" \n "group this setGroupId [""Bravo""];";
 										name="Bravo8";
 										description="Waffenassistent@Bravo";
 										isPlayable=1;
@@ -38577,7 +38235,7 @@ class Mission
 									class Attributes
 									{
 										rank="SERGEANT";
-										init="this setVariable [""GR_unitLoadout"", ""GrpFhr""];" \n "group this setGroupId [""Charlie""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""GrpFhr""];" \n "group this setGroupId [""Charlie""];";
 										name="Charlie1";
 										description="Gruppenführer@Charlie";
 										isPlayable=1;
@@ -38653,7 +38311,7 @@ class Mission
 									class Attributes
 									{
 										rank="CORPORAL";
-										init="this setVariable [""GR_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Charlie""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Charlie""];";
 										name="Charlie2";
 										description="Truppführer@Charlie";
 										isPlayable=1;
@@ -38716,7 +38374,7 @@ class Mission
 									class Attributes
 									{
 										rank="CORPORAL";
-										init="this setVariable [""GR_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Charlie""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Charlie""];";
 										name="Charlie3";
 										description="Truppführer@Charlie";
 										isPlayable=1;
@@ -38778,7 +38436,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Sanitaeter""];" \n "group this setGroupId [""Charlie""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Sanitaeter""];" \n "group this setGroupId [""Charlie""];";
 										name="Charlie6";
 										description="Sanitäter@Charlie";
 										isPlayable=1;
@@ -38840,7 +38498,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Charlie""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Charlie""];";
 										name="Charlie7";
 										description="LMG-Schütze@Charlie";
 										isPlayable=1;
@@ -38902,7 +38560,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Breacher""];" \n "group this setGroupId [""Charlie""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Breacher""];" \n "group this setGroupId [""Charlie""];";
 										name="Charlie9";
 										description="Breacher@Charlie";
 										isPlayable=1;
@@ -38964,7 +38622,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Charlie""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Charlie""];";
 										name="Charlie5";
 										description="Grenadier@Charlie";
 										isPlayable=1;
@@ -39026,7 +38684,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Charlie""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Charlie""];";
 										name="Charlie4";
 										description="Grenadier@Charlie";
 										isPlayable=1;
@@ -39088,7 +38746,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze_EHB""];" \n "group this setGroupId [""Charlie""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_EHB""];" \n "group this setGroupId [""Charlie""];";
 										name="Charlie8";
 										description="EHB-Schütze@Charlie";
 										isPlayable=1;
@@ -39150,7 +38808,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Charlie""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Charlie""];";
 										name="Charlie11";
 										description="Schütze@Charlie";
 										isPlayable=1;
@@ -39212,7 +38870,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Charlie""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Charlie""];";
 										name="Charlie10";
 										description="Schütze@Charlie";
 										isPlayable=1;
@@ -39305,7 +38963,7 @@ class Mission
 									flags=7;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
 										name="Foxtrot_Ueberhang1";
 										description="Schütze Überhang@Foxtrot Überhang";
 										isPlayable=1;
@@ -39367,7 +39025,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
 										name="Foxtrot_Ueberhang2";
 										description="Schütze Überhang@Foxtrot Überhang";
 										isPlayable=1;
@@ -39429,7 +39087,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
 										name="Foxtrot_Ueberhang3";
 										description="Schütze Überhang@Foxtrot Überhang";
 										isPlayable=1;
@@ -39491,7 +39149,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
 										name="Foxtrot_Ueberhang4";
 										description="Schütze Überhang@Foxtrot Überhang";
 										isPlayable=1;
@@ -39553,7 +39211,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
 										name="Foxtrot_Ueberhang5";
 										description="Schütze Überhang@Foxtrot Überhang";
 										isPlayable=1;
@@ -39615,7 +39273,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
 										name="Foxtrot_Ueberhang6";
 										description="Schütze Überhang@Foxtrot Überhang";
 										isPlayable=1;
@@ -39677,7 +39335,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
 										name="Foxtrot_Ueberhang7";
 										description="Schütze Überhang@Foxtrot Überhang";
 										isPlayable=1;
@@ -39739,7 +39397,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
 										name="Foxtrot_Ueberhang8";
 										description="Schütze Überhang@Foxtrot Überhang";
 										isPlayable=1;
@@ -39801,7 +39459,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""FoxUeber""];";
 										name="Foxtrot_Ueberhang9";
 										description="Schütze Überhang@Foxtrot Überhang";
 										isPlayable=1;
@@ -39878,7 +39536,7 @@ class Mission
 									class Attributes
 									{
 										rank="LIEUTENANT";
-										init="this setVariable [""GR_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Victor""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Victor""];";
 										name="Victor1";
 										description="Zugführer@Victor";
 										isPlayable=1;
@@ -39941,7 +39599,7 @@ class Mission
 									class Attributes
 									{
 										rank="LIEUTENANT";
-										init="this setVariable [""GR_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Victor""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Victor""];";
 										name="Victor2";
 										description="Stellvertretender Zugführer@Victor";
 										isPlayable=1;
@@ -40004,7 +39662,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""ZugSani""];" \n "group this setGroupId [""Victor""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""ZugSani""];" \n "group this setGroupId [""Victor""];";
 										name="Victor3";
 										description="Zug-Sanitäter@Victor";
 										isPlayable=1;
@@ -40066,7 +39724,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""ZugFahr""];" \n "group this setGroupId [""Victor""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""ZugFahr""];" \n "group this setGroupId [""Victor""];";
 										name="Victor4";
 										description="Nahsicherer / JTAC";
 										isPlayable=1;
@@ -40173,7 +39831,7 @@ class Mission
 									class Attributes
 									{
 										rank="SERGEANT";
-										init="this setVariable [""GR_unitLoadout"", ""GrpFhr""];" \n "group this setGroupId [""Zulu""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""GrpFhr""];" \n "group this setGroupId [""Zulu""];";
 										name="Zulu1";
 										description="Gruppenführer@Zulu";
 										isPlayable=1;
@@ -40249,7 +39907,7 @@ class Mission
 									class Attributes
 									{
 										rank="CORPORAL";
-										init="this setVariable [""GR_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Zulu""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Zulu""];";
 										name="Zulu2";
 										description="Truppführer@Zulu";
 										isPlayable=1;
@@ -40312,7 +39970,7 @@ class Mission
 									class Attributes
 									{
 										rank="CORPORAL";
-										init="this setVariable [""GR_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Zulu""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Zulu""];";
 										name="Zulu3";
 										description="Truppführer@Zulu";
 										isPlayable=1;
@@ -40374,7 +40032,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Sanitaeter""];" \n "group this setGroupId [""Zulu""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Sanitaeter""];" \n "group this setGroupId [""Zulu""];";
 										name="Zulu6";
 										description="Sanitäter@Zulu";
 										isPlayable=1;
@@ -40436,7 +40094,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Zulu""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Zulu""];";
 										name="Zulu7";
 										description="LMG-Schütze@Zulu";
 										isPlayable=1;
@@ -40499,7 +40157,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""FueAss""];" \n "group this setGroupId [""Zulu""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""FueAss""];" \n "group this setGroupId [""Zulu""];";
 										name="Zulu9";
 										description="Führungsassistent@Zulu";
 										isPlayable=1;
@@ -40561,7 +40219,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Zulu""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Zulu""];";
 										name="Zulu5";
 										description="Grenadier@Zulu";
 										isPlayable=1;
@@ -40624,7 +40282,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Zulu""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Zulu""];";
 										name="Zulu4";
 										description="Grenadier@Zulu";
 										isPlayable=1;
@@ -40687,7 +40345,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Zulu""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Zulu""];";
 										name="Zulu8";
 										description="LMG-Schütze@Zulu";
 										isPlayable=1;
@@ -40749,7 +40407,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Zulu""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Zulu""];";
 										name="Zulu11";
 										description="Schütze@Zulu";
 										isPlayable=1;
@@ -40811,7 +40469,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Zulu""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Zulu""];";
 										name="Zulu10";
 										description="Schütze@Zulu";
 										isPlayable=1;
@@ -40905,7 +40563,7 @@ class Mission
 									class Attributes
 									{
 										rank="SERGEANT";
-										init="this setVariable [""GR_unitLoadout"", ""GrpFhr_WaGru""];" \n "group this setGroupId [""Yankee""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""GrpFhr_WaGru""];" \n "group this setGroupId [""Yankee""];";
 										name="Yankee1";
 										description="Gruppenführer@Yankee";
 										isPlayable=1;
@@ -40982,7 +40640,7 @@ class Mission
 									class Attributes
 									{
 										health=0.97482562;
-										init="this setVariable [""GR_unitLoadout"", ""Sanitaeter_WaGru""];" \n "group this setGroupId [""Yankee""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Sanitaeter_WaGru""];" \n "group this setGroupId [""Yankee""];";
 										name="Yankee2";
 										description="Sanitäter@Yankee";
 										isPlayable=1;
@@ -41044,7 +40702,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Spezialpionier""];" \n "group this setGroupId [""Yankee""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Spezialpionier""];" \n "group this setGroupId [""Yankee""];";
 										name="Yankee9";
 										description="Spezialpionier";
 										isPlayable=1;
@@ -41102,7 +40760,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Waffen_Spez""];" \n "group this setGroupId [""Yankee""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Waffen_Spez""];" \n "group this setGroupId [""Yankee""];";
 										name="Yankee3";
 										description="Waffenspezialist@Yankee";
 										isPlayable=1;
@@ -41165,7 +40823,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Waffen_Assi""];" \n "group this setGroupId [""Yankee""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Waffen_Assi""];" \n "group this setGroupId [""Yankee""];";
 										name="Yankee4";
 										description="Waffenassistent@Yankee";
 										isPlayable=1;
@@ -41228,7 +40886,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Waffen_Spez""];" \n "group this setGroupId [""Yankee""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Waffen_Spez""];" \n "group this setGroupId [""Yankee""];";
 										name="Yankee5";
 										description="Waffenspezialist@Yankee";
 										isPlayable=1;
@@ -41291,7 +40949,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Waffen_Assi""];" \n "group this setGroupId [""Yankee""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Waffen_Assi""];" \n "group this setGroupId [""Yankee""];";
 										name="Yankee6";
 										description="Waffenassistent@Yankee";
 										isPlayable=1;
@@ -41354,7 +41012,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Waffen_Spez""];" \n "group this setGroupId [""Yankee""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Waffen_Spez""];" \n "group this setGroupId [""Yankee""];";
 										name="Yankee7";
 										description="Waffenspezialist@Yankee";
 										isPlayable=1;
@@ -41417,7 +41075,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Waffen_Assi""];" \n "group this setGroupId [""Yankee""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Waffen_Assi""];" \n "group this setGroupId [""Yankee""];";
 										name="Yankee8";
 										description="Waffenassistent@Yankee";
 										isPlayable=1;
@@ -41512,7 +41170,7 @@ class Mission
 									class Attributes
 									{
 										rank="SERGEANT";
-										init="this setVariable [""GR_unitLoadout"", ""GrpFhr""];" \n "group this setGroupId [""X-Ray""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""GrpFhr""];" \n "group this setGroupId [""X-Ray""];";
 										name="Xray1";
 										description="Gruppenführer@X-Ray";
 										isPlayable=1;
@@ -41589,7 +41247,7 @@ class Mission
 									class Attributes
 									{
 										rank="CORPORAL";
-										init="this setVariable [""GR_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""X-Ray""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""X-Ray""];";
 										name="Xray2";
 										description="Truppführer@X-Ray";
 										isPlayable=1;
@@ -41652,7 +41310,7 @@ class Mission
 									class Attributes
 									{
 										rank="CORPORAL";
-										init="this setVariable [""GR_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""X-Ray""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""X-Ray""];";
 										name="Xray3";
 										description="Truppführer@X-Ray";
 										isPlayable=1;
@@ -41715,7 +41373,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Sanitaeter""];" \n "group this setGroupId [""X-Ray""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Sanitaeter""];" \n "group this setGroupId [""X-Ray""];";
 										name="Xray6";
 										description="Sanitäter@X-Ray";
 										isPlayable=1;
@@ -41777,7 +41435,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""X-Ray""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""X-Ray""];";
 										name="Xray7";
 										description="LMG-Schütze@X-Ray";
 										isPlayable=1;
@@ -41839,7 +41497,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""X-Ray""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""X-Ray""];";
 										name="Xray9";
 										description="Schütze (Flex)@X-Ray";
 										isPlayable=1;
@@ -41901,7 +41559,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""X-Ray""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""X-Ray""];";
 										name="Xray5";
 										description="Grenadier@X-Ray";
 										isPlayable=1;
@@ -41963,7 +41621,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""X-Ray""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""X-Ray""];";
 										name="Xray4";
 										description="Grenadier@X-Ray";
 										isPlayable=1;
@@ -42025,7 +41683,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""X-Ray""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""X-Ray""];";
 										name="Xray8";
 										description="LMG-Schütze@X-Ray";
 										isPlayable=1;
@@ -42087,7 +41745,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""X-Ray""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""X-Ray""];";
 										name="Xray11";
 										description="Schütze@X-Ray";
 										isPlayable=1;
@@ -42149,7 +41807,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""X-Ray""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""X-Ray""];";
 										name="Xray10";
 										description="Schütze@X-Ray";
 										isPlayable=1;
@@ -42243,7 +41901,7 @@ class Mission
 									flags=7;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
 										name="Victor_Ueberhang1";
 										description="Schütze Überhang@Victor Überhang";
 										isPlayable=1;
@@ -42305,7 +41963,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
 										name="Victor_Ueberhang2";
 										description="Schütze Überhang@Victor Überhang";
 										isPlayable=1;
@@ -42368,7 +42026,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
 										name="Victor_Ueberhang3";
 										description="Schütze Überhang@Victor Überhang";
 										isPlayable=1;
@@ -42431,7 +42089,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
 										name="Victor_Ueberhang5";
 										description="Schütze Überhang@Victor Überhang";
 										isPlayable=1;
@@ -42493,7 +42151,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
 										name="Victor_Ueberhang4";
 										description="Schütze Überhang@Victor Überhang";
 										isPlayable=1;
@@ -42555,7 +42213,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
 										name="Victor_Ueberhang7";
 										description="Schütze Überhang@Victor Überhang";
 										isPlayable=1;
@@ -42617,7 +42275,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
 										name="Victor_Ueberhang6";
 										description="Schütze Überhang@Victor Überhang";
 										isPlayable=1;
@@ -42679,7 +42337,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
 										name="Victor_Ueberhang9";
 										description="Schütze Überhang@Victor Überhang";
 										isPlayable=1;
@@ -42741,7 +42399,7 @@ class Mission
 									flags=5;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];";
 										name="Victor_Ueberhang8";
 										description="Schütze Überhang@Victor Überhang";
 										isPlayable=1;
@@ -42817,7 +42475,7 @@ class Mission
 									flags=7;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];" \n "Alpha = group this;";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];" \n "Alpha = group this;";
 										name="Victor_Ueberhang8_1";
 										description="Schütze Überhang@Victor Überhang";
 										class Inventory
@@ -42892,7 +42550,7 @@ class Mission
 									flags=7;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];" \n "Bravo = group this;";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];" \n "Bravo = group this;";
 										name="Victor_Ueberhang8_2";
 										description="Schütze Überhang@Victor Überhang";
 										class Inventory
@@ -42967,7 +42625,7 @@ class Mission
 									flags=7;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];" \n "Charlie = group this;";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];" \n "Charlie = group this;";
 										name="Victor_Ueberhang8_3";
 										description="Schütze Überhang@Victor Überhang";
 										class Inventory
@@ -43042,7 +42700,7 @@ class Mission
 									flags=7;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];" \n "Delta = group this;";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];" \n "Delta = group this;";
 										name="Victor_Ueberhang8_4";
 										description="Schütze Überhang@Victor Überhang";
 										class Inventory
@@ -43117,7 +42775,7 @@ class Mission
 									flags=7;
 									class Attributes
 									{
-										init="this setVariable [""GR_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];" \n "Zulu = group this;";
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""VicUeber""];" \n "Zulu = group this;";
 										name="Victor_Ueberhang8_5";
 										description="Schütze Überhang@Victor Überhang";
 										class Inventory
@@ -43241,12 +42899,13 @@ class Mission
 						angles[]={0.02666023,3.9409611,6.231565};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=4310;
 					type="rhs_msv_emr_crew";
+					atlOffset=2.0254364;
 				};
 				class Item1
 				{
@@ -43257,12 +42916,12 @@ class Mission
 						angles[]={0.02666023,3.9409611,6.231565};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=4311;
 					type="rhs_msv_emr_crew";
+					atlOffset=4.6798744;
 				};
 				class Item2
 				{
@@ -43273,12 +42932,12 @@ class Mission
 						angles[]={0.02666023,3.9409611,6.231565};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=4312;
 					type="rhs_msv_emr_crew_commander";
+					atlOffset=4.6798744;
 				};
 			};
 			class Attributes
@@ -43328,6 +42987,7 @@ class Mission
 				};
 			};
 			id=4309;
+			atlOffset=-0.0019989014;
 		};
 		class Item357
 		{
@@ -43345,6 +43005,7 @@ class Mission
 			};
 			id=4313;
 			type="rhs_bmp3mera_msv";
+			atlOffset=-0.0019989014;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -43405,12 +43066,13 @@ class Mission
 						angles[]={0.0083294781,4.8649406,6.2748561};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=4315;
 					type="rhs_msv_emr_crew";
+					atlOffset=1.4104004;
 				};
 				class Item1
 				{
@@ -43421,12 +43083,12 @@ class Mission
 						angles[]={0.0083294781,4.8649406,6.2748561};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=4316;
 					type="rhs_msv_emr_crew";
+					atlOffset=4.0648308;
 				};
 				class Item2
 				{
@@ -43437,12 +43099,12 @@ class Mission
 						angles[]={0.0083294781,4.8649406,6.2748561};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=4317;
 					type="rhs_msv_emr_crew_commander";
+					atlOffset=4.0648308;
 				};
 			};
 			class Attributes
@@ -43492,6 +43154,7 @@ class Mission
 				};
 			};
 			id=4314;
+			atlOffset=-0.0013923645;
 		};
 		class Item359
 		{
@@ -43509,6 +43172,7 @@ class Mission
 			};
 			id=4318;
 			type="rhs_bmp3m_msv";
+			atlOffset=-0.0013923645;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -43569,12 +43233,13 @@ class Mission
 						angles[]={0.06988623,4.7242498,6.1851668};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=4320;
 					type="rhs_msv_emr_crew";
+					atlOffset=0.47285652;
 				};
 				class Item1
 				{
@@ -43585,12 +43250,12 @@ class Mission
 						angles[]={0.06988623,4.7242498,6.1851668};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=4321;
 					type="rhs_msv_emr_crew";
+					atlOffset=3.1279697;
 				};
 				class Item2
 				{
@@ -43601,12 +43266,12 @@ class Mission
 						angles[]={0.06988623,4.7242498,6.1851668};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=4322;
 					type="rhs_msv_emr_crew_commander";
+					atlOffset=3.1279697;
 				};
 			};
 			class Attributes
@@ -43656,6 +43321,7 @@ class Mission
 				};
 			};
 			id=4319;
+			atlOffset=0.00051689148;
 		};
 		class Item361
 		{
@@ -43672,6 +43338,7 @@ class Mission
 			};
 			id=4323;
 			type="rhs_bmp3_late_msv";
+			atlOffset=0.00051689148;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -43739,7 +43406,6 @@ class Mission
 					};
 					id=4326;
 					type="rhs_msv_emr_officer";
-					atlOffset=9.5367432e-07;
 				};
 				class Item1
 				{
@@ -43757,6 +43423,7 @@ class Mission
 					};
 					id=4327;
 					type="rhs_msv_emr_officer_armored";
+					atlOffset=-9.5367432e-07;
 				};
 				class Item2
 				{
@@ -43774,6 +43441,7 @@ class Mission
 					};
 					id=4328;
 					type="rhs_msv_emr_officer_armored";
+					atlOffset=-1.9073486e-06;
 				};
 				class Item3
 				{
@@ -43791,6 +43459,7 @@ class Mission
 					};
 					id=4329;
 					type="rhs_msv_emr_rifleman";
+					atlOffset=-9.5367432e-07;
 				};
 			};
 			class Attributes
@@ -43798,7 +43467,6 @@ class Mission
 				dynamicSimulation=1;
 			};
 			id=4325;
-			atlOffset=9.5367432e-07;
 		};
 		class Item363
 		{
@@ -43815,7 +43483,7 @@ class Mission
 			};
 			id=4332;
 			type="rhs_bmp1_msv";
-			atlOffset=0.40793896;
+			atlOffset=0.40512085;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -44300,7 +43968,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7505.9966,28.831882,10622.66};
-						angles[]={0,4.1433105,-0};
+						angles[]={0,4.1433105,0};
 					};
 					side="East";
 					flags=5;
@@ -44396,7 +44064,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7611.5947,26.05534,10975.893};
-						angles[]={0,3.3600104,-0};
+						angles[]={0,3.3600104,0};
 					};
 					side="East";
 					flags=5;
@@ -44470,7 +44138,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7617.0552,26.016785,10975.82};
-						angles[]={0,3.9197831,-0};
+						angles[]={0,3.9197831,0};
 					};
 					side="East";
 					flags=5;
@@ -44531,7 +44199,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7452.438,33.895603,10477.577};
-						angles[]={0,5.2730045,-0};
+						angles[]={0,5.2730045,0};
 					};
 					side="East";
 					flags=5;
@@ -44666,7 +44334,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={7416.5581,28.413389,10681.774};
-						angles[]={0,5.3853483,-0};
+						angles[]={0,5.3853483,0};
 					};
 					side="East";
 					flags=5;
@@ -44893,6 +44561,7 @@ class Mission
 					};
 					id=4363;
 					type="rhs_msv_crew";
+					atlOffset=-1.8064232;
 				};
 				class Item1
 				{
@@ -44909,6 +44578,7 @@ class Mission
 					};
 					id=4364;
 					type="rhs_msv_crew";
+					atlOffset=-0.15009689;
 				};
 				class Item2
 				{
@@ -44925,6 +44595,7 @@ class Mission
 					};
 					id=4365;
 					type="rhs_msv_crew_commander";
+					atlOffset=-0.15009689;
 				};
 			};
 			class Attributes
@@ -44974,6 +44645,7 @@ class Mission
 				};
 			};
 			id=4362;
+			atlOffset=-0.0024967194;
 		};
 		class Item368
 		{
@@ -44990,6 +44662,7 @@ class Mission
 			};
 			id=4366;
 			type="rhs_t80b";
+			atlOffset=-0.0024967194;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -45801,14 +45474,14 @@ class Mission
 						angles[]={0.093063012,5.1511641,6.2815294};
 					};
 					side="East";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						skill=0.40000001;
 					};
 					id=4400;
 					type="rhs_msv_emr_rifleman";
-					atlOffset=3.8146973e-06;
+					atlOffset=2.193018;
 				};
 			};
 			class Attributes
@@ -45837,7 +45510,7 @@ class Mission
 				};
 			};
 			id=4399;
-			atlOffset=3.8146973e-06;
+			atlOffset=-0.0013656616;
 		};
 		class Item389
 		{
@@ -45854,7 +45527,7 @@ class Mission
 			};
 			id=4401;
 			type="rhs_Kornet_9M133_2_msv";
-			atlOffset=3.8146973e-06;
+			atlOffset=-0.0013656616;
 		};
 		class Item390
 		{
@@ -46242,13 +45915,12 @@ class Mission
 						angles[]={6.2491088,0,0.052537706};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=253;
 					type="rhs_msv_crew";
-					atlOffset=-0.00039863586;
+					atlOffset=0.34664917;
 				};
 				class Item1
 				{
@@ -46265,7 +45937,7 @@ class Mission
 					};
 					id=254;
 					type="rhs_msv_crew";
-					atlOffset=-0.00039863586;
+					atlOffset=0.18463707;
 				};
 				class Item2
 				{
@@ -46276,13 +45948,13 @@ class Mission
 						angles[]={6.2491088,0,0.052537706};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=255;
 					type="rhs_msv_crew";
-					atlOffset=-0.00039863586;
+					atlOffset=0.34451103;
 				};
 			};
 			class Attributes
@@ -46631,13 +46303,12 @@ class Mission
 						angles[]={6.245708,0,0.055227071};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=278;
 					type="rhs_msv_crew";
-					atlOffset=-4.9591064e-05;
+					atlOffset=0.34652138;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -46697,7 +46368,7 @@ class Mission
 					};
 					id=279;
 					type="rhs_msv_crew";
-					atlOffset=-4.9591064e-05;
+					atlOffset=0.18449783;
 				};
 			};
 			class Attributes
@@ -47224,7 +46895,7 @@ class Mission
 					};
 					id=295;
 					type="rhs_msv_emr_crew";
-					atlOffset=-0.010473251;
+					atlOffset=0.16674232;
 				};
 				class Item1
 				{
@@ -47241,7 +46912,7 @@ class Mission
 					};
 					id=296;
 					type="rhs_msv_emr_crew";
-					atlOffset=-0.010473251;
+					atlOffset=0.15621758;
 				};
 				class Item2
 				{
@@ -47258,7 +46929,7 @@ class Mission
 					};
 					id=297;
 					type="rhs_msv_emr_crew_commander";
-					atlOffset=-0.010473251;
+					atlOffset=0.16573715;
 				};
 			};
 			class Attributes
@@ -47393,7 +47064,7 @@ class Mission
 					};
 					id=299;
 					type="rhs_msv_emr_crew";
-					atlOffset=-0.0089359283;
+					atlOffset=0.17544937;
 				};
 				class Item1
 				{
@@ -47410,7 +47081,7 @@ class Mission
 					};
 					id=300;
 					type="rhs_msv_emr_crew";
-					atlOffset=-0.0089359283;
+					atlOffset=0.14979553;
 				};
 				class Item2
 				{
@@ -47427,7 +47098,7 @@ class Mission
 					};
 					id=301;
 					type="rhs_msv_emr_crew_commander";
-					atlOffset=-0.0089359283;
+					atlOffset=0.16931725;
 				};
 			};
 			class Attributes
@@ -47556,13 +47227,13 @@ class Mission
 						angles[]={6.2794189,0,0.0017605233};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=304;
 					type="rhs_msv_emr_crew";
-					atlOffset=0.15056038;
+					atlOffset=0.32531548;
 				};
 				class Item1
 				{
@@ -47573,13 +47244,12 @@ class Mission
 						angles[]={6.2794189,0,0.0017605233};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=305;
 					type="rhs_msv_emr_crew";
-					atlOffset=0.15056038;
+					atlOffset=0.31809807;
 				};
 				class Item2
 				{
@@ -47590,13 +47260,12 @@ class Mission
 						angles[]={6.2794189,0,0.0017605233};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=306;
 					type="rhs_msv_emr_crew_commander";
-					atlOffset=0.15056038;
+					atlOffset=0.32667351;
 				};
 			};
 			class Attributes
@@ -47747,13 +47416,12 @@ class Mission
 						angles[]={6.2487192,0,0.058207981};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=315;
 					type="rhs_msv_crew";
-					atlOffset=-4.3869019e-05;
+					atlOffset=0.34531593;
 				};
 				class Item1
 				{
@@ -47770,7 +47438,7 @@ class Mission
 					};
 					id=316;
 					type="rhs_msv_crew";
-					atlOffset=-4.3869019e-05;
+					atlOffset=0.18325615;
 				};
 			};
 			class Attributes
@@ -48108,13 +47776,12 @@ class Mission
 						angles[]={6.2405534,0,0.10408928};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=318;
 					type="rhs_msv_crew";
-					atlOffset=-0.00028800964;
+					atlOffset=0.31739998;
 				};
 				class Item1
 				{
@@ -48131,7 +47798,7 @@ class Mission
 					};
 					id=319;
 					type="rhs_msv_crew";
-					atlOffset=-0.00028800964;
+					atlOffset=0.18121719;
 				};
 			};
 			class Attributes
@@ -48469,13 +48136,12 @@ class Mission
 						angles[]={6.2310491,0,0.098660134};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=323;
 					type="rhs_msv_crew";
-					atlOffset=0.14477158;
+					atlOffset=0.47024536;
 				};
 				class Item1
 				{
@@ -48486,13 +48152,13 @@ class Mission
 						angles[]={6.2310491,0,0.098660134};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=324;
 					type="rhs_msv_crew";
-					atlOffset=0.14477158;
+					atlOffset=0.32702446;
 				};
 			};
 			class Attributes
@@ -49018,7 +48684,7 @@ class Mission
 					};
 					id=326;
 					type="rhs_msv_crew";
-					atlOffset=0.34561539;
+					atlOffset=0.67647362;
 				};
 				class Item1
 				{
@@ -49035,7 +48701,7 @@ class Mission
 					};
 					id=327;
 					type="rhs_msv_crew";
-					atlOffset=0.34561539;
+					atlOffset=0.54857254;
 				};
 			};
 			class Attributes
@@ -49574,7 +49240,7 @@ class Mission
 					};
 					id=341;
 					type="rhs_msv_crew";
-					atlOffset=-1.7166138e-05;
+					atlOffset=0.13596725;
 				};
 				class Item1
 				{
@@ -49591,7 +49257,7 @@ class Mission
 					};
 					id=342;
 					type="rhs_msv_crew";
-					atlOffset=-1.7166138e-05;
+					atlOffset=0.1341095;
 				};
 				class Item2
 				{
@@ -49608,7 +49274,7 @@ class Mission
 					};
 					id=343;
 					type="rhs_msv_crew_commander";
-					atlOffset=-1.7166138e-05;
+					atlOffset=0.13525963;
 				};
 			};
 			class Attributes
@@ -49723,7 +49389,7 @@ class Mission
 					};
 					id=368;
 					type="rhs_msv_crew";
-					atlOffset=-0.050502777;
+					atlOffset=0.1465416;
 				};
 				class Item1
 				{
@@ -49740,7 +49406,7 @@ class Mission
 					};
 					id=369;
 					type="rhs_msv_crew";
-					atlOffset=-0.050502777;
+					atlOffset=0.15202713;
 				};
 				class Item2
 				{
@@ -49757,7 +49423,7 @@ class Mission
 					};
 					id=370;
 					type="rhs_msv_crew_commander";
-					atlOffset=-0.050502777;
+					atlOffset=0.14045715;
 				};
 			};
 			class Attributes
@@ -49848,7 +49514,7 @@ class Mission
 					};
 					id=372;
 					type="rhs_msv_crew";
-					atlOffset=-0.12837029;
+					atlOffset=0.069648743;
 				};
 				class Item1
 				{
@@ -49865,7 +49531,7 @@ class Mission
 					};
 					id=373;
 					type="rhs_msv_crew";
-					atlOffset=-0.12837029;
+					atlOffset=0.070201874;
 				};
 				class Item2
 				{
@@ -49882,7 +49548,7 @@ class Mission
 					};
 					id=374;
 					type="rhs_msv_crew_commander";
-					atlOffset=-0.12837029;
+					atlOffset=0.064781189;
 				};
 			};
 			class Attributes
@@ -49973,7 +49639,7 @@ class Mission
 					};
 					id=388;
 					type="rhs_msv_emr_armoredcrew";
-					atlOffset=-0.15155411;
+					atlOffset=0.043020248;
 				};
 				class Item1
 				{
@@ -49990,7 +49656,7 @@ class Mission
 					};
 					id=389;
 					type="rhs_msv_emr_armoredcrew";
-					atlOffset=-0.15155411;
+					atlOffset=0.047178268;
 				};
 				class Item2
 				{
@@ -50007,7 +49673,7 @@ class Mission
 					};
 					id=390;
 					type="rhs_msv_emr_crew_commander";
-					atlOffset=-0.15155411;
+					atlOffset=0.040102005;
 				};
 			};
 			class Attributes
@@ -50101,7 +49767,7 @@ class Mission
 					};
 					id=398;
 					type="rhs_msv_crew";
-					atlOffset=0.018762589;
+					atlOffset=0.14733696;
 				};
 				class Item1
 				{
@@ -50118,7 +49784,7 @@ class Mission
 					};
 					id=399;
 					type="rhs_msv_crew";
-					atlOffset=0.018762589;
+					atlOffset=0.14103889;
 				};
 				class Item2
 				{
@@ -50135,7 +49801,7 @@ class Mission
 					};
 					id=400;
 					type="rhs_msv_crew_commander";
-					atlOffset=0.018762589;
+					atlOffset=0.14474297;
 				};
 			};
 			class Attributes
@@ -50282,7 +49948,7 @@ class Mission
 					};
 					id=412;
 					type="rhs_msv_crew";
-					atlOffset=0.080190659;
+					atlOffset=0.20460892;
 				};
 				class Item1
 				{
@@ -50299,7 +49965,7 @@ class Mission
 					};
 					id=413;
 					type="rhs_msv_crew";
-					atlOffset=0.080190659;
+					atlOffset=0.2034111;
 				};
 				class Item2
 				{
@@ -50316,7 +49982,7 @@ class Mission
 					};
 					id=414;
 					type="rhs_msv_crew_commander";
-					atlOffset=0.080190659;
+					atlOffset=0.21075058;
 				};
 			};
 			class Attributes
@@ -50695,12 +50361,12 @@ class Mission
 						angles[]={6.2385516,6.2788649,6.2701335};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=576;
 					type="rhs_msv_crew";
+					atlOffset=0.3270092;
 				};
 				class Item5
 				{
@@ -50717,6 +50383,7 @@ class Mission
 					};
 					id=577;
 					type="rhs_msv_crew";
+					atlOffset=0.18472862;
 				};
 			};
 			class Attributes
@@ -52471,12 +52138,13 @@ class Mission
 						angles[]={6.2533174,6.2788649,0.04975234};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=579;
 					type="rhs_msv_crew";
+					atlOffset=0.34487724;
 				};
 				class Item1
 				{
@@ -52493,6 +52161,7 @@ class Mission
 					};
 					id=580;
 					type="rhs_msv_crew";
+					atlOffset=0.18287277;
 				};
 			};
 			class Attributes
@@ -52834,7 +52503,7 @@ class Mission
 					};
 					id=583;
 					type="rhs_msv_crew";
-					atlOffset=-0.077507019;
+					atlOffset=0.23663712;
 				};
 				class Item1
 				{
@@ -52851,7 +52520,7 @@ class Mission
 					};
 					id=584;
 					type="rhs_msv_crew";
-					atlOffset=-0.077507019;
+					atlOffset=0.086147308;
 				};
 			};
 			class Attributes
@@ -53195,7 +52864,7 @@ class Mission
 					};
 					id=587;
 					type="rhs_msv_crew";
-					atlOffset=-2.4795532e-05;
+					atlOffset=0.13362122;
 				};
 				class Item1
 				{
@@ -53212,7 +52881,7 @@ class Mission
 					};
 					id=588;
 					type="rhs_msv_crew";
-					atlOffset=-2.4795532e-05;
+					atlOffset=0.12909508;
 				};
 				class Item2
 				{
@@ -53229,7 +52898,7 @@ class Mission
 					};
 					id=589;
 					type="rhs_msv_crew_commander";
-					atlOffset=-2.4795532e-05;
+					atlOffset=0.13648033;
 				};
 			};
 			class Attributes
@@ -53337,14 +53006,14 @@ class Mission
 						angles[]={6.2130241,0,0.055054031};
 					};
 					side="East";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						rank="SERGEANT";
 					};
 					id=664;
 					type="rhs_msv_emr_rifleman";
-					atlOffset=-0.00051879883;
+					atlOffset=0.70235825;
 				};
 			};
 			class Attributes
@@ -53476,14 +53145,14 @@ class Mission
 						angles[]={6.2130241,0,0.047021531};
 					};
 					side="East";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						rank="SERGEANT";
 					};
 					id=666;
 					type="rhs_msv_emr_rifleman";
-					atlOffset=-0.00038146973;
+					atlOffset=0.70278358;
 				};
 			};
 			class Attributes
@@ -53615,14 +53284,14 @@ class Mission
 						angles[]={6.204628,0,0.048689902};
 					};
 					side="East";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						rank="SERGEANT";
 					};
 					id=668;
 					type="rhs_msv_emr_rifleman";
-					atlOffset=-0.00084686279;
+					atlOffset=0.71100044;
 				};
 			};
 			class Attributes
@@ -53754,13 +53423,13 @@ class Mission
 						angles[]={6.2409611,0,0.0775332};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=607;
 					type="rhs_msv_crew";
-					atlOffset=-0.00080108643;
+					atlOffset=0.33589554;
 				};
 				class Item1
 				{
@@ -53777,7 +53446,7 @@ class Mission
 					};
 					id=608;
 					type="rhs_msv_crew";
-					atlOffset=-0.00080108643;
+					atlOffset=0.17279434;
 				};
 			};
 			class Attributes
@@ -54123,7 +53792,7 @@ class Mission
 					};
 					id=662;
 					type="rhs_msv_emr_officer_armored";
-					atlOffset=0.0015678406;
+					atlOffset=0.21920395;
 				};
 			};
 			class Attributes
@@ -54582,13 +54251,13 @@ class Mission
 						angles[]={6.1916075,6.2047591,0.057233665};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=733;
 					type="rhs_msv_crew";
-					atlOffset=-0.00074195862;
+					atlOffset=0.53442764;
 				};
 				class Item1
 				{
@@ -54599,13 +54268,12 @@ class Mission
 						angles[]={6.1916075,6.2047591,0.057233665};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=735;
 					type="rhs_msv_crew";
-					atlOffset=-0.00074195862;
+					atlOffset=0.53156853;
 				};
 			};
 			class Attributes
@@ -54722,13 +54390,12 @@ class Mission
 						angles[]={0.028440984,0,0.057919364};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=743;
 					type="rhs_msv_armoredcrew";
-					atlOffset=-7.6293945e-06;
+					atlOffset=0.28446198;
 				};
 				class Item1
 				{
@@ -54739,13 +54406,13 @@ class Mission
 						angles[]={0.028440984,0,0.057919364};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=744;
 					type="rhs_msv_armoredcrew";
-					atlOffset=-7.6293945e-06;
+					atlOffset=0.28007126;
 				};
 			};
 			class Attributes
@@ -54901,12 +54568,12 @@ class Mission
 						angles[]={6.2813916,0,0.062035121};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=746;
 					type="rhs_msv_armoredcrew";
+					atlOffset=0.2859478;
 				};
 				class Item1
 				{
@@ -54917,12 +54584,13 @@ class Mission
 						angles[]={6.2813916,0,0.062035121};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=747;
 					type="rhs_msv_armoredcrew";
+					atlOffset=0.2828846;
 				};
 			};
 			class Attributes
@@ -55076,13 +54744,12 @@ class Mission
 						angles[]={0.037359677,0,0.037063278};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=751;
 					type="rhs_msv_armoredcrew";
-					atlOffset=-4.196167e-05;
+					atlOffset=0.26535606;
 				};
 				class Item1
 				{
@@ -55093,13 +54760,13 @@ class Mission
 						angles[]={0.037359677,0,0.037063278};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=752;
 					type="rhs_msv_armoredcrew";
-					atlOffset=-4.196167e-05;
+					atlOffset=0.26092339;
 				};
 			};
 			class Attributes
@@ -55272,13 +54939,13 @@ class Mission
 						angles[]={6.2750516,0,0.060050741};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=835;
 					type="rhs_msv_driver";
-					atlOffset=-0.0020275116;
+					atlOffset=0.69650841;
 				};
 			};
 			class Attributes
@@ -55410,13 +55077,13 @@ class Mission
 						angles[]={0.012515713,0,0.05734089};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=837;
 					type="rhs_msv_driver";
-					atlOffset=-0.0020198822;
+					atlOffset=0.69541931;
 				};
 			};
 			class Attributes
@@ -55548,13 +55215,13 @@ class Mission
 						angles[]={0.016783867,0,0.054205853};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=840;
 					type="rhs_msv_driver";
-					atlOffset=-0.0016212463;
+					atlOffset=0.69551849;
 				};
 			};
 			class Attributes
@@ -55686,13 +55353,12 @@ class Mission
 						angles[]={0.014640428,0,0.019214643};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=844;
 					type="rhs_msv_armoredcrew";
-					atlOffset=-5.3405762e-05;
+					atlOffset=0.34277534;
 				};
 				class Item1
 				{
@@ -55703,13 +55369,13 @@ class Mission
 						angles[]={0.014640428,0,0.019214643};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=845;
 					type="rhs_msv_armoredcrew";
-					atlOffset=-5.3405762e-05;
+					atlOffset=0.34569359;
 				};
 			};
 			class Attributes
@@ -55865,13 +55531,12 @@ class Mission
 						angles[]={0.0083865309,0,0.016783867};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=847;
 					type="rhs_msv_armoredcrew";
-					atlOffset=1.9073486e-06;
+					atlOffset=0.33561516;
 				};
 				class Item1
 				{
@@ -55882,13 +55547,13 @@ class Mission
 						angles[]={0.0083865309,0,0.016783867};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=848;
 					type="rhs_msv_armoredcrew";
-					atlOffset=1.9073486e-06;
+					atlOffset=0.33091736;
 				};
 			};
 			class Attributes
@@ -56044,13 +55709,12 @@ class Mission
 						angles[]={0.020073388,0,0.025957827};
 					};
 					side="East";
-					flags=4;
 					class Attributes
 					{
 					};
 					id=851;
 					type="rhs_msv_armoredcrew";
-					atlOffset=1.9073486e-06;
+					atlOffset=0.30482864;
 				};
 				class Item1
 				{
@@ -56061,13 +55725,13 @@ class Mission
 						angles[]={0.020073388,0,0.025957827};
 					};
 					side="East";
-					flags=6;
+					flags=2;
 					class Attributes
 					{
 					};
 					id=852;
 					type="rhs_msv_armoredcrew";
-					atlOffset=1.9073486e-06;
+					atlOffset=0.34406471;
 				};
 			};
 			class Attributes
@@ -57841,14 +57505,14 @@ class Mission
 						angles[]={0.040609475,0,0.029892143};
 					};
 					side="East";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						rank="SERGEANT";
 					};
 					id=1128;
 					type="rhs_msv_emr_rifleman";
-					atlOffset=-0.00051879883;
+					atlOffset=0.70375633;
 				};
 			};
 			class Attributes
@@ -57980,14 +57644,14 @@ class Mission
 						angles[]={0.037914094,0,0.026586341};
 					};
 					side="East";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						rank="SERGEANT";
 					};
 					id=1131;
 					type="rhs_msv_emr_rifleman";
-					atlOffset=-0.00038146973;
+					atlOffset=0.70275497;
 				};
 			};
 			class Attributes
@@ -58119,14 +57783,14 @@ class Mission
 						angles[]={0.039164059,0,0.022506481};
 					};
 					side="East";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						rank="SERGEANT";
 					};
 					id=1134;
 					type="rhs_msv_emr_rifleman";
-					atlOffset=-0.00084686279;
+					atlOffset=0.70064354;
 				};
 			};
 			class Attributes
@@ -58266,7 +57930,7 @@ class Mission
 					};
 					id=1137;
 					type="rhs_msv_emr_officer_armored";
-					atlOffset=0.0015678406;
+					atlOffset=0.22084427;
 				};
 			};
 			class Attributes
@@ -58556,7 +58220,7 @@ class Mission
 					};
 					id=1144;
 					type="rhs_msv_emr_rifleman";
-					atlOffset=-8.392334e-05;
+					atlOffset=0.023574829;
 				};
 			};
 			class Attributes
@@ -58627,7 +58291,7 @@ class Mission
 					};
 					id=1156;
 					type="rhs_msv_emr_rifleman";
-					atlOffset=5.7220459e-06;
+					atlOffset=-0.0054225922;
 				};
 			};
 			class Attributes
@@ -58698,7 +58362,7 @@ class Mission
 					};
 					id=1154;
 					type="rhs_msv_emr_rifleman";
-					atlOffset=-2.2888184e-05;
+					atlOffset=0.019029617;
 				};
 			};
 			class Attributes
@@ -61229,7 +60893,7 @@ class Mission
 					};
 					id=4330;
 					type="rhs_msv_crew";
-					atlOffset=0.40793896;
+					atlOffset=1.1558094;
 				};
 				class Item1
 				{
@@ -61245,7 +60909,7 @@ class Mission
 					};
 					id=4331;
 					type="rhs_msv_crew";
-					atlOffset=0.40793896;
+					atlOffset=3.3956165;
 				};
 			};
 			class Attributes
@@ -61285,7 +60949,7 @@ class Mission
 				};
 			};
 			id=4787;
-			atlOffset=0.40793896;
+			atlOffset=0.40512085;
 		};
 		class Item627
 		{
@@ -61990,7 +61654,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={3933.8049,16.338585,7943.877};
-			angle=0.21345372;
+			angle=0.21345368;
 			class Attributes
 			{
 				onActivation="[] spawn { " \n "    private _allUnits = (units Zulu) + (units Alpha) + (units Bravo) + (units Charlie) + (units Delta); " \n "     { " \n "        if (isPlayer _x) then { " \n "            [{ titleCut ["""", ""BLACK OUT"", 2]; }] remoteExec [""call"", _x]; " \n "        }; " \n "    } forEach _allUnits; " \n " " \n "    sleep 3; " \n "" \n "" \n "{" \n "    deleteVehiclecrew _x;" \n "    deleteVehicle _x;" \n "} forEach [helo_1, helo_2, helo_3, helo_4];" \n "" \n "" \n "     { _x setPosATL (getPosATL helio1_teleport); } forEach (units Alpha); " \n "    { _x setPosATL (getPosATL helio2_teleport); } forEach (units Bravo); " \n "    { _x setPosATL (getPosATL helio3_teleport); } forEach (units Charlie); " \n "    { _x setPosATL (getPosATL helio4_teleport); } forEach (units Delta); " \n "    { _x setPosATL (getPosATL helio5_teleport); } forEach (units Zulu); " \n " " \n "    { " \n "        if (isPlayer _x) then { " \n "            [{ titleCut ["""", ""BLACK IN"", 2]; }] remoteExec [""call"", _x]; " \n "        }; " \n "    } forEach _allUnits; " \n "  };" \n "";
@@ -62010,7 +61674,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4793.8066,1.8217657,9221.5791};
+				position[]={4793.8066,1.8217658,9221.5791};
 			};
 			side="Empty";
 			class Attributes
@@ -62019,7 +61683,7 @@ class Mission
 			};
 			id=4846;
 			type="Land_HelipadEmpty_F";
-			atlOffset=0.088001013;
+			atlOffset=0.088001132;
 		};
 		class Item636
 		{
@@ -62036,7 +61700,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={3587.8999,60.213482,6166.6162};
-			angle=0.37259284;
+			angle=0.37259272;
 			class Attributes
 			{
 				onActivation="{ " \n "    deleteVehicleCrew _x; " \n "    deleteVehicle _x; " \n "} count (thisList select {_x isKindOf ""Helicopter""});" \n "";
@@ -62054,7 +61718,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={3937.5972,21.721449,7955.8892};
-				angles[]={0,0.23920333,-0};
+				angles[]={0,0.23920333,0};
 			};
 			side="Empty";
 			flags=5;
@@ -62094,7 +61758,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9660.6299,120.5125,3160.2876};
-				angles[]={0,2.837877,-0};
+				angles[]={0,2.837877,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62105,6 +61769,7 @@ class Mission
 			};
 			id=4889;
 			type="rnt_graben_t";
+			atlOffset=-7.6293945e-06;
 		};
 		class Item642
 		{
@@ -62112,7 +61777,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9657.3223,120.29761,3170.3408};
-				angles[]={0,5.9216194,-0};
+				angles[]={0,5.9216194,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62130,7 +61795,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9650.0654,120.59092,3155.0044};
-				angles[]={0,4.4269924,-0};
+				angles[]={0,4.4269924,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62149,7 +61814,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9649.1348,120.60284,3144.1101};
-				angles[]={0,1.2866215,-0};
+				angles[]={0,1.2866215,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62168,7 +61833,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9641.1045,120.61359,3137.55};
-				angles[]={0,4.4241772,-0};
+				angles[]={0,4.4241772,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62179,7 +61844,7 @@ class Mission
 			};
 			id=4893;
 			type="rnt_graben_ecke";
-			atlOffset=0.027511597;
+			atlOffset=0.027503967;
 		};
 		class Item646
 		{
@@ -62187,7 +61852,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9643.9561,120.5125,3120.3396};
-				angles[]={0,2.8747518,-0};
+				angles[]={0,2.8747518,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62198,6 +61863,7 @@ class Mission
 			};
 			id=4894;
 			type="rnt_graben_t";
+			atlOffset=-7.6293945e-06;
 		};
 		class Item647
 		{
@@ -62205,7 +61871,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9636.3242,120.29761,3118.2856};
-				angles[]={0,4.4543428,-0};
+				angles[]={0,4.4543428,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62223,7 +61889,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9690.415,120.62732,3153.4946};
-				angles[]={0,5.9740601,-0};
+				angles[]={0,5.9740601,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62242,7 +61908,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9679.502,120.60119,3154.1658};
-				angles[]={0,2.8336823,-0};
+				angles[]={0,2.8336823,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62261,7 +61927,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9672.7529,120.58729,3162.0388};
-				angles[]={0,5.9712434,-0};
+				angles[]={0,5.9712434,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62280,7 +61946,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9697.4043,120.52902,3138.562};
-				angles[]={0,2.8089085,-0};
+				angles[]={0,2.8089085,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62299,7 +61965,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9705.1387,120.31848,3141.3499};
-				angles[]={0,1.2025616,-0};
+				angles[]={0,1.2025616,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62318,7 +61984,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9658.6855,120.58608,3122.2432};
-				angles[]={0,6.0240889,-0};
+				angles[]={0,6.0240889,0};
 			};
 			side="Empty";
 			flags=5;
@@ -62336,7 +62002,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9687.8203,120.89996,3135.2578};
-				angles[]={0,4.3808556,-0};
+				angles[]={0,4.3808556,0};
 			};
 			side="Empty";
 			flags=5;
@@ -62355,7 +62021,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={9663.8438,120.36472,3110.1572};
-				angles[]={0,2.9086506,-0};
+				angles[]={0,2.9086506,0};
 			};
 			side="Empty";
 			flags=5;
@@ -62373,7 +62039,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7471.396,27.038687,9923.791};
-				angles[]={0,1.2738191,-0};
+				angles[]={0,1.2738191,0};
 			};
 			side="Empty";
 			class Attributes
@@ -62391,7 +62057,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7461.3203,26.82379,9920.5518};
-				angles[]={0,4.3575621,-0};
+				angles[]={0,4.3575621,0};
 			};
 			side="Empty";
 			class Attributes
@@ -62409,7 +62075,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7476.6079,27.117102,9913.1914};
-				angles[]={0,2.8629346,-0};
+				angles[]={0,2.8629346,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62428,7 +62094,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7487.4946,27.129019,9912.1875};
-				angles[]={0,6.0057492,-0};
+				angles[]={0,6.0057492,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62447,7 +62113,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7494.0005,27.139776,9904.1133};
-				angles[]={0,2.8601196,-0};
+				angles[]={0,2.8601196,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62466,7 +62132,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7511.2305,27.038687,9906.8486};
-				angles[]={0,1.3106939,-0};
+				angles[]={0,1.3106939,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62485,7 +62151,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7513.2329,26.82379,9899.2031};
-				angles[]={0,2.8902853,-0};
+				angles[]={0,2.8902853,0};
 			};
 			side="Empty";
 			flags=4;
@@ -62504,7 +62170,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7478.3896,27.153502,9953.5303};
-				angles[]={0,4.4100027,-0};
+				angles[]={0,4.4100027,0};
 			};
 			side="Empty";
 			class Attributes
@@ -62522,7 +62188,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7477.644,27.127371,9942.6221};
-				angles[]={0,1.2696245,-0};
+				angles[]={0,1.2696245,0};
 			};
 			side="Empty";
 			class Attributes
@@ -62540,7 +62206,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7469.7256,27.11347,9935.9258};
-				angles[]={0,4.4071865,-0};
+				angles[]={0,4.4071865,0};
 			};
 			side="Empty";
 			class Attributes
@@ -62558,7 +62224,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7493.3677,27.055204,9960.4189};
-				angles[]={0,1.2448506,-0};
+				angles[]={0,1.2448506,0};
 			};
 			side="Empty";
 			class Attributes
@@ -62576,7 +62242,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7490.6333,26.844664,9968.1709};
-				angles[]={0,5.9216895,-0};
+				angles[]={0,5.9216895,0};
 			};
 			side="Empty";
 			class Attributes
@@ -62594,7 +62260,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7509.4258,27.112265,9921.5898};
-				angles[]={0,4.4600315,-0};
+				angles[]={0,4.4600315,0};
 			};
 			side="Empty";
 			flags=5;
@@ -62613,7 +62279,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7496.6074,27.426146,9950.8135};
-				angles[]={0,2.8167977,-0};
+				angles[]={0,2.8167977,0};
 			};
 			side="Empty";
 			flags=1;
@@ -62632,7 +62298,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7521.5469,26.890905,9926.667};
-				angles[]={0,1.3445928,-0};
+				angles[]={0,1.3445928,0};
 			};
 			side="Empty";
 			flags=5;
@@ -63100,10 +62766,9 @@ class Mission
 			class PositionInfo
 			{
 				position[]={7498.4521,26.182455,9953.1631};
-				angles[]={-0,1.2598653,0};
+				angles[]={0,1.2598653,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				createAsLocalObject=1;
@@ -63111,6 +62776,7 @@ class Mission
 			};
 			id=4931;
 			type="Land_PortableDesk_01_olive_F";
+			atlOffset=0.59783173;
 		};
 		class Item673
 		{
@@ -63442,7 +63108,7 @@ class Mission
 			};
 			id=4944;
 			type="rnt_graben_ecke";
-			atlOffset=3.8146973e-06;
+			atlOffset=7.6293945e-06;
 		};
 		class Item685
 		{
@@ -63497,6 +63163,7 @@ class Mission
 			};
 			id=4947;
 			type="rnt_graben_t";
+			atlOffset=-3.8146973e-06;
 		};
 		class Item688
 		{
@@ -63515,6 +63182,7 @@ class Mission
 			};
 			id=4948;
 			type="rnt_graben_stellung";
+			atlOffset=-3.8146973e-06;
 		};
 		class Item689
 		{
@@ -63522,7 +63190,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8444.0303,64.502327,8931.2158};
-				angles[]={6.2098331,2.8167977,-0};
+				angles[]={6.2098331,2.8167977,0};
 			};
 			side="Empty";
 			flags=5;
@@ -63533,6 +63201,7 @@ class Mission
 			};
 			id=4950;
 			type="rnt_graben_bunker";
+			atlOffset=3.8146973e-06;
 		};
 		class Item690
 		{
@@ -63894,6 +63563,7 @@ class Mission
 					};
 					id=4961;
 					type="rhs_msv_emr_rifleman";
+					atlOffset=3.8146973e-06;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -63990,7 +63660,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8445.875,63.630486,8933.5654};
-				angles[]={-0,1.2598653,0};
+				angles[]={0,1.2598653,0};
 			};
 			side="Empty";
 			flags=4;
@@ -64001,7 +63671,7 @@ class Mission
 			};
 			id=4964;
 			type="Land_PortableDesk_01_olive_F";
-			atlOffset=0.20250702;
+			atlOffset=0.2025032;
 		};
 		class Item692
 		{
