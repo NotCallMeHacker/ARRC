@@ -232,5 +232,5 @@
     "ACE_Spraypaintgreen",
     "ACE_SpraypaintRed",
     "ACE_SpraypaintWhite",
-    "ACE_SpraypaintYellow",
+    "ACE_SpraypaintYellow"
 ];

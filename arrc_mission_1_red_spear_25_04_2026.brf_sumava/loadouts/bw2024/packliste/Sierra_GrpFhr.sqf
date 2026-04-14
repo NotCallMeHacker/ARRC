@@ -442,6 +442,6 @@
 
 	"ACE_CableTie",
 	"ACE_IR_Strobe_Item",
-	"ACE_UAVBattery",
+	"ACE_UAVBattery"
 
 ];

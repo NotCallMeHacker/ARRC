@@ -285,5 +285,5 @@
     "ace_flags_yellow",
     "ACE_UAVBattery",
     "kat_gasmaskFilter",
-    "kat_sealant",
+    "kat_sealant"
 ];
