@@ -1,6 +1,6 @@
 [
     "Sierra Typ 9 - Ausrüstung",
-    "GerRng_faction_Box_P_Sierra_IX",
+    "Land_PlasticCase_01_medium_black_F",
     ["ACE_NVG_Gen4_Black_WP", 8],
     ["SmokeShell", 8],
     ["SmokeShellGreen", 8],

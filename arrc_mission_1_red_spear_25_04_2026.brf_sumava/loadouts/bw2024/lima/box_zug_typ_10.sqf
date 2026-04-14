@@ -1,6 +1,6 @@
 [
     "Zug Typ 10 - Elektronik",
-    "GerRng_faction_Box_U_Zug_X",
+    "Box_NATO_Equip_F",
     ["Laserbatteries", 2],
     ["Laserdesignator_02_ghex_F", 2],
     ["ItemAndroid", 2],
