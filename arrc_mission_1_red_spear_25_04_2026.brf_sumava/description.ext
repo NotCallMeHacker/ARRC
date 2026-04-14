@@ -110,53 +110,10 @@ class Params {
 class CfgMusic
 {
 	tracks[] = {};
-	
-	class PRIntro
-	{
-		name	= "PRIntro";
-		sound[]	= {"sounds\GR_Intro_PR_Shrt.ogg", db + 0, 1.0 };
-	};
-
-	class RockIntro
-	{
-		name	= "RockIntro";
-		sound[]	= {"sounds\GR_Intro_Rock_Shrt.ogg", db + 0, 1.0 };
-	};
-
 	class KAIntro
 	{
 		name	= "KAIntro";
 		sound[]	= {"sounds\GR_Intro_KA_Shrt.ogg", db + 0, 1.0 };
-	};
-
-	class SicIntro
-	{
-		name	= "SicIntro";
-		sound[]	= {"sounds\GR_Intro_Sic_Shrt.ogg", db + 0, 1.0 };
-	};
-
-	class BHDIntro
-	{
-		name	= "BHDIntro";
-		sound[]	= {"sounds\GR_Intro_BHD_Shrt.ogg", db + 0, 1.0 };
-	};
-	
-	class Outro_SuccessMGS
-	{
-		name	= "Outro_SuccessMGS";
-		sound[]	= {"sounds\GR_Outro_MGS3.ogg", db - 1, 1.0 };
-	};
-
-	class Outro_SuccessPR1
-	{
-		name	= "Outro_SuccessPR1";
-		sound[]	= {"sounds\GR_Outro_PR1.ogg", db - 1, 1.0 };
-	};
-
-	class Outro_SuccessPR2
-	{
-		name	= "Outro_SuccessPR2";
-		sound[]	= {"sounds\GR_Outro_PR2.ogg", db - 1, 1.0 };
 	};
 
 	class Outro_SuccessRock
@@ -164,13 +121,6 @@ class CfgMusic
 		name	= "Outro_SuccessRock";
 		sound[]	= {"sounds\GR_Outro_Rock.ogg", db - 1, 1.0 };
 	};
-
-	class Outro_SuccessAFO
-	{
-		name	= "Outro_SuccessAFO";
-		sound[]	= {"sounds\GR_Outro_AFO.ogg", db - 1, 1.0 };
-	};
-
 
 // Niemals löschen, wird benötigt falls Mission fortgesetzt wird
 	class Outro_Continue
