@@ -13,29 +13,14 @@ private _supplyCategories = _dialog displayCtrl 220914;
 _categories lbAdd "Zug Boxen";
 _categories lbSetData [0, "zug"];
 
-_categories lbAdd "WaGru Boxen";
-_categories lbSetData [1, "wagru"];
-
-_categories lbAdd "WaGru Boxen Static";
-_categories lbSetData [2, "wagruStatic"];
-
-_categories lbAdd "EOD Boxen";
-_categories lbSetData [3, "eod"];
-
-_categories lbAdd "CBRN Boxen";
-_categories lbSetData [4, "cbrn"];
-
 _categories lbAdd "San Boxen";
-_categories lbSetData [5, "san"];
-
-_categories lbAdd "Verpflegungs Boxen";
-_categories lbSetData [6, "vpfl"];
+_categories lbSetData [1, "san"];
 
 _categories lbAdd "Sierra Boxen";
-_categories lbSetData [7, "sierra"];
+_categories lbSetData [2, "sierra"];
 
 _categories lbAdd "Transport Boxen (leer)";
-_categories lbSetData [8, "supply"];
+_categories lbSetData [3, "supply"];
 
 
 _categories lbSetCurSel 0;

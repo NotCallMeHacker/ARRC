@@ -32,7 +32,9 @@
     ["kat_scalpel",2],
     ["kat_oxygenTank_150",5],
     ["kat_BVM",2],
-
-    ["GerRng_kat_changes_glucometerSet",2],
-    ["GerRng_kat_changes_GSCI",9]
+    ["ACE_surgicalKit",2],
+    ["ACE_suture",100],
+    ["kat_Penthrox",5],
+    ["kat_stethoscope",2]
 ];
+
