@@ -1,7 +1,8 @@
 [
-    "Zug Typ 5 - Unterlaufgranaten",
+    "Zug Typ 5 - Granaten",
     "Box_NATO_Ammo_F",
-    ["GerRng_bandoliers_grenade_8_8_exp_40mm",8],
-    ["GerRng_bandoliers_grenade_8_8_flare_40mm",2],
-    ["GerRng_bandoliers_grenade_8_8_smoke_40mm",2]
+    ["SmokeShell", 20],
+    ["SmokeShellPurple", 5],
+    ["HandGrenade", 10],
+    ["ACE_M84", 10]
 ];

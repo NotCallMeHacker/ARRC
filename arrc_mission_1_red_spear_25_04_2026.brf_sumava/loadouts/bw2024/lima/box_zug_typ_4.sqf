@@ -1,9 +1,10 @@
 [
-    "Zug Typ 4 - Panzerbrechend",
+    "Zug Typ 4 - Unterlaufgranaten",
     "Box_NATO_Ammo_F",
-    ["SPS_HKG3PMAG_30Rnd_556x45_B_M995",30],
-    ["SPS_HKG3PMAG_30Rnd_556x45_B_Mk318",20],
-    ["SPS_20Rnd_762x51mm_M80A1_EPR_Tracer",5],
-    ["ACE_20Rnd_762x51_M993_AP_Mag",10],
-    ["SPS_20Rnd_762x51mm_M80A1_EPR",10]
+    ["3Rnd_Smoke_Grenade_shell", 5],
+    ["rhs_mag_M441_HE", 20],
+    ["rhs_mag_M583A1_white", 15],
+    ["rhs_mag_m714_white", 15],
+    ["ACE_40mm_Flare_ir", 10],
+    ["ACE_HuntIR_M203", 5]
 ];
