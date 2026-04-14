@@ -57,7 +57,7 @@ private _uniqueWeaponSelection = [
 	"Sierra_GrpFhr",
 	"Sierra_NaSi",
 	"Sierra_Scharf",
-	"Sierra_Spotter",
+	"Sierra_Spotter"
 
 ];
 if(!(_unitLoadout in _uniqueWeaponSelection)) then {

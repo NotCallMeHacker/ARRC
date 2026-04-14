@@ -97,7 +97,7 @@
     "BWA3_CarlGustav_HEAT",
     "BWA3_CarlGustav_HEDP",
     "BWA3_CarlGustav_Illum",
-    "BWA3_CarlGustav_Smoke",
+    "BWA3_CarlGustav_Smoke"
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Grenades / throw

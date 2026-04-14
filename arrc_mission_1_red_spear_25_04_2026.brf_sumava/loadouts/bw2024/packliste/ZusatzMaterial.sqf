@@ -8,5 +8,5 @@
 [
 	//"H_Hat_Tinfoil_F"
 	"BWA3_Beret_Falli",
-    "BWA3_Beret_PzGren",
+    "BWA3_Beret_PzGren"
 ];
