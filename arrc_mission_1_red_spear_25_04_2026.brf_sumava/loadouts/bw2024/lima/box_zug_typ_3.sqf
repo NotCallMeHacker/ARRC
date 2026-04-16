@@ -1,6 +1,8 @@
 [
     "Zug Typ 3 - LMG-Munition",
-    "GerRng_faction_Box_A_Zug_III",
-    ["GerRng_bandoliers_mg_4_4_m249_200Rnd",4],
-    ["CUP_100Rnd_556x45_BetaCMag",5]
+    "Box_NATO_Ammo_F",
+    ["BWA3_120Rnd_762x51", 8],
+    ["BWA3_120Rnd_762x51_Tracer", 4],
+    ["BWA3_200Rnd_556x45", 8],
+    ["BWA3_200Rnd_556x45_Tracer", 4]
 ];

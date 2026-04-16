@@ -28,7 +28,7 @@ compileLoadout		= true;			// Sets if Loadout files are compiled on Mission Start
 //------------------------------------------------------------------
 //------------------------------------------------------------------
 
-intro 				= "Video";		// Choose the Intro Music that is played (please delete mmc_sequence_xxx.sqf files that you don't need and the corresponding intro soundfiles under sounds/)
+intro 				= "KA";		// Choose the Intro Music that is played (please delete mmc_sequence_xxx.sqf files that you don't need and the corresponding intro soundfiles under sounds/)
 									// "PR" Pacific Rim | Rockig, Episch | 0:42
 									// "Rock" The Rock | Episch, Orchestral | 0:55
 									// "Sic" Sicario | Düster, Elektronisch | 0:46
@@ -38,14 +38,14 @@ intro 				= "Video";		// Choose the Intro Music that is played (please delete mm
 									// TODO: add intro
 
 einleitung 			= "Audentis fortuna iuvat";
-auftrag 			= "Auftrag: <br/>1. Auftrag<br/>2. Auftrag<br/>3. Auftrag"; // TODO
+auftrag 			= "Auftrag: <br/>Verlegen in die AOO<br/>Feind an Östlichen Fluss zurückdrängen";
 titleOrtEinheit		= "Š u m a v a - 25.04.2026 - ARRC";
 titleMissionsname 	= "Red Spear";
 
-tickerCountry 		= "Sinești, Westliches Moldawien";
-tickerLocation 		= "Map-Location";
+tickerCountry 		= "Westliches Moldawien";
+tickerLocation 		= "Sinești";
 
-outro 				= "Video";		// Hier kannst du die Musik wählen, die bei einem Erfolgreichen Missionsende gespielt wird Rock
+outro 				= "Rock";		// Hier kannst du die Musik wählen, die bei einem Erfolgreichen Missionsende gespielt wird Rock
 									// "PR1" Pacific Rim | Rockig, Episch | 0:30
 									// "PR2" Pacific Rim | Rockig, Episch, etwas schwerer als PR1 | 0:30
 									// "Rock" The Rock | Episch, Orchestral | 0:40

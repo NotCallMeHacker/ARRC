@@ -1,6 +1,6 @@
 [
     "Zug Typ 9 - Ausrüstung",
-    "GerRng_faction_Box_U_Zug_IX",
+    "Box_NATO_Equip_F",
     ["ACE_EarPlugs",15],
     ["ACE_CableTie",30],
     ["ACE_EntrenchingTool",5],
