@@ -14,12 +14,12 @@
 	https://community.bistudio.com/wiki/FXY_File_Format#Arma_3
  */
 
-_gerrng = player createDiarySubject ["GerRng","German Rangers"];
+_gerrng = player createDiarySubject ["GerRng","ARRC"];
 
 player createDiaryRecord ["GerRng",["Mission Control Center","
 <font face='PuristaMedium' size=18 color='#fc9700'>Mission Control Center</font><br/>
 <br/>
-Das Mission Control Center ist ein Menü für den Zeus / Kilo. Es ist nur in der Zeus Ansicht über ACE (standardmäßig 'WINDOWS-Taste') aufrufbar.<br/>
+Das Mission Control Center ist ein Menü für den Zeus / X-Ray. Es ist nur in der Zeus Ansicht über ACE (standardmäßig 'WINDOWS-Taste') aufrufbar.<br/>
 Hier kann die Mission gestartet werden. Danach ist das Base Menü nur noch in der Basis verfügbar (wichtig bei Missionen wo die Spieler im Feld starten). Spieler die nachjoinen oder reconnecten starten in der Basis.<br/>
 <br/>
 Es gibt aber auch zwei verschiedene Enden ('To Be Continued' für den Fall das die Mission nicht beendet wurde und zu einem späteren Zeitpunkt fortgesetzt wird, 'Mission Erfüllt' für den Fall das die Mission erfolgreich abgeschlossen wurde).<br/>
@@ -45,7 +45,7 @@ Die Funktion zum spawnen der Kisten kann über das ACE Interaction Menü aufgeru
 "]];
 
 player createDiaryRecord ["GerRng",["Base Menü","
-<font face='PuristaMedium' size=18 color='#fc9700'>GerRng Base Menü</font><br/>
+<font face='PuristaMedium' size=18 color='#fc9700'>ARRC Base Menü</font><br/>
 <br/>
 <font face='PuristaMedium' size=14 color='#fc9700'>Aufruf</font><br/>
 <br/>

@@ -19,7 +19,7 @@ cutText ["", "BLACK IN", 3, true, true];
 
 _playerName = (toUpper profileName) splitString "" joinString " ";;
 
-_personalText =  format ["<br/><br/><br/><br/><img image='images\ARRC_Logo_2025v2.paa' shadow='0' size='10'/><br/><br/><t color='#ffffff' size='3' font='RobotoCondensed' shadow = '2' >G U T E   A R B E I T ,   %1</t><br/><br/><t color='#ffffff' size='1.5' font='RobotoCondensed' shadow = '2' >Danke für deinen Dienst bei den German Rangers!</t>", _playerName];
+_personalText =  format ["<br/><br/><br/><br/><img image='images\ARRC_Logo_2025v2.paa' shadow='0' size='10'/><br/><br/><t color='#ffffff' size='3' font='RobotoCondensed' shadow = '2' >G U T E   A R B E I T ,   %1</t><br/><br/><t color='#ffffff' size='1.5' font='RobotoCondensed' shadow = '2' >Danke für deinen Dienst bei ARRC!</t>", _playerName];
 titleText [_personalText, "PLAIN", 1, true, true];
 
 //Camera creating - always add to the script to make the camera work
