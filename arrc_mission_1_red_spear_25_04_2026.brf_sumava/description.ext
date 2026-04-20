@@ -7,7 +7,7 @@
 
 //Mission Head ==================================================
 author			= "ARRC Team";
-loadScreen 		= "a3\map_malden\data\ui_malden_ca.paa";
+loadScreen 		= "images\ARRC_intro_20260425.jpg";
 
 OnLoadName 		= "ARRC | Red Spear - Mission 1";
 OnLoadMission   = "Audentis fortuna iuvat - Das Glück ist mit den Mutigen";
@@ -15,7 +15,7 @@ OnLoadIntro 	= "";
 
 overviewText 		= "ARRC Mission 1 - Red Spear - 25.04.2026";
 overviewTextLocked 	= "";
-overviewPicture 	= "a3\missions_f_gamma\data\img\MP_COOP_m03_overview_CA.paa";
+overviewPicture 	= "images\ARRC_intro_20260425.jpg";
 
 //  ===  Punktvergabe  ==========================================
 minScore		= 0;
