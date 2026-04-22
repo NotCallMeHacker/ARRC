@@ -3,3 +3,6 @@
 
 # An alle Führungsmitglieder:
 - Nicht am Admin menü rumspielen
+
+# TODOs
+- 
