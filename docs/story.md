@@ -116,7 +116,7 @@
 - Offensive kommt vor Sinești zum Erliegen
 - **Russische Lage:** Erste Verluste, Gegenangriff wird erwartet
 
-### **Samstag, 25.04.2026 18:00 | Gegenangriff der NATO beginnt**
+### **Samstag, 25.04.2026 11:00 | Gegenangriff der NATO beginnt**
 - Deutsche & rumänische Verstärkungen treffen ein
 - Gegenangriff wird eingeleitet
 - **Ziel:** Russen zurück über den Dnjestr drängen, Offensive brechen
@@ -183,5 +183,5 @@
 - Deutsche Kräfte treffen in Einsatzgebiet ein
 - Moldauische Einheiten koordinieren Gegenangriff mit deutschen Verstärkungen
 
-#### **Samstag, 25.04.2026 18:00 | Gegenangriff beginnt**
+#### **Samstag, 25.04.2026 10:00 | Gegenangriff beginnt**
 - Deutsche & rumänische Kräfte starten Gegenoffensive

@@ -64,3 +64,9 @@ sleep 5;
 sleep 8;
 private _t = [daytime, "HH:MM"] call BIS_fnc_timeToString;			// time at missionstart as a string
 [["Time: "+_t],safeZoneX / 4, safeZoneH / 2,true,"<t font='PuristaBold'>%1</t>",[],{ false },true] spawn BIS_fnc_typeText2;
+
+helo2 engineOn true; 
+helo1 engineOn true; 
+helo3 engineOn true; 
+helo4 engineOn true; 
+[]execVM "helo.sqf";

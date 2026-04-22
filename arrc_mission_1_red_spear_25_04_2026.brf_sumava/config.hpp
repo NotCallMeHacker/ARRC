@@ -37,13 +37,13 @@ intro 				= "KA";		// Choose the Intro Music that is played (please delete mmc_s
 									// "Video" Musik wird im Intro-File festgelegt
 									// TODO: add intro
 
-einleitung 			= "Audentis fortuna iuvat";
+einleitung 			= "Am 22.04.2026 haben Russische Kräfte den Dnjestr überschritten und damit unseren Verbündeten Moldau aus Transnistrien angegriffen.<br/>Die ARRC wurde aus einer Übung in Rumänien abgezogen und bildet nun den Gegenangriff auf die gestoppte offensive.";
 auftrag 			= "Auftrag: <br/>Verlegen in die AOO<br/>Feind an Östlichen Fluss zurückdrängen";
-titleOrtEinheit		= "Š u m a v a - 25.04.2026 - ARRC";
+titleOrtEinheit		= "S u m a v a - 25.04.2026 - ARRC";
 titleMissionsname 	= "Red Spear";
 
 tickerCountry 		= "Westliches Moldawien";
-tickerLocation 		= "Sinești";
+tickerLocation 		= "Sinesti";
 
 outro 				= "Rock";		// Hier kannst du die Musik wählen, die bei einem Erfolgreichen Missionsende gespielt wird Rock
 									// "PR1" Pacific Rim | Rockig, Episch | 0:30
