@@ -37,7 +37,7 @@ intro 				= "KA";		// Choose the Intro Music that is played (please delete mmc_s
 									// "Video" Musik wird im Intro-File festgelegt
 									// TODO: add intro
 
-einleitung 			= "Audentis fortuna iuvat";
+einleitung 			= "Am 25.04.2026 treffen Deutsche Kräfte in Sinești, Moldawien ein, um die dort stationierten Truppen zu unterstützen. <br/><br/>Die Lage in der Region ist angespannt, da feindliche Kräfte versuchen, die Kontrolle über das Gebiet zu erlangen. <br/><br/>Unsere Hauptaufgabe besteht darin, die feindlichen Truppen zurückzudrängen und die Sicherheit der Region zu gewährleisten. <br/><br/>Wir müssen uns auf intensive Kämpfe einstellen und eng mit unseren Verbündeten zusammenarbeiten, um erfolgreich zu sein.";
 auftrag 			= "Auftrag: <br/>Verlegen in die AOO<br/>Feind an Östlichen Fluss zurückdrängen";
 titleOrtEinheit		= "Š u m a v a - 25.04.2026 - ARRC";
 titleMissionsname 	= "Red Spear";
