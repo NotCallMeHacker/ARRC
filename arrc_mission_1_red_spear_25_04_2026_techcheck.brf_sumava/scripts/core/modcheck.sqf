@@ -100,6 +100,10 @@ _whitelistedMods = 	[
 						//ASA Modliste
 						"@[ASA] Arma 3 Squad Alliance - ARRC Modliste", "3704645388",
 
+// 2 Kommandokompanie Sumava 
+
+"@Sumava", "2947655994" ,
+
 						//Additional Maps
 						"@Jbad", "520618345",
 						"@Bala Murghab, Afghanistan", "2781043850",
