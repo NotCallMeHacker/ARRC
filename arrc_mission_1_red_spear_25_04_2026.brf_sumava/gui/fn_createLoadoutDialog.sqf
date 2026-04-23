@@ -23,7 +23,7 @@ private _groupRoles = [];
 
 // Zugführung
 if (_groupName in ["zulu","yankee"]) then {
-	_groupRoles = GR_ZugFhrRollen;
+	_groupRoles = ARRC_ZugFhrRollen;
 };
 
 // Zulu Zug Gruppen

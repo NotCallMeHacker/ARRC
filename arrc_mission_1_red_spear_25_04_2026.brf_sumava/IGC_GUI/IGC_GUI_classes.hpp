@@ -1058,7 +1058,7 @@ class IGC_GUI_PRE_DialogTitleS: IGC_GUI_PRE_Title {
 
 // Cross symbol
 class IGC_GUI_PRE_DialogCrossS: IGC_GUI_PRE_CloseCross {
-    x = safeZoneX + safeZoneW * (IGC_X_VAL_S + IGC_WIDTH_VAL_S - 0.02)
+    x = safeZoneX + safeZoneW * (IGC_X_VAL_S + IGC_WIDTH_VAL_S - 0.02);
     y = IGC_GETY_CROSS(IGC_Y_VAL_S);
 };
 
