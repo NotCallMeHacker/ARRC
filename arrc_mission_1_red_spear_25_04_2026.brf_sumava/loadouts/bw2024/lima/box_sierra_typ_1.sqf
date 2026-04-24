@@ -1,8 +1,10 @@
 [
-    "Sierra Typ 1 - Trupp 1 - S",
+    "Sierra Typ 1 - 5.56 / 7.62",
     "Land_PlasticCase_01_medium_black_F",
-    ["SPS_AI_AXMC_338_300gr_Berger_Mag", 15],
-    ["SPS_AI_AXMC_762x67_Berger_Hybrid_OTM_Mag", 15],
-    ["SPS_AI_AXMC_762x51_Berger_JOTM_Mag", 15],
-    ["CUP_17Rnd_9x19_glock17", 6]
+    ["BWA3_30Rnd_556x45_G36", 15],
+    ["BWA3_30Rnd_556x45_G36_Tracer", 10], 
+    ["BWA3_30Rnd_556x45_G36_AP", 10],
+    ["BWA3_20Rnd_762x51_G28_AP", 20],
+    ["BWA3_20Rnd_762x51_G28_Tracer", 20],
+    ["BWA3_20Rnd_762x51_G28_LR", 15]
 ];

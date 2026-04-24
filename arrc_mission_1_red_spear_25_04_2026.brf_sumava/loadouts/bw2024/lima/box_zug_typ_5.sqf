@@ -1,8 +1,8 @@
 [
     "Zug Typ 5 - Granaten",
     "Box_NATO_Ammo_F",
-    ["SmokeShell", 20],
+    ["SmokeShell", 25],
     ["SmokeShellPurple", 5],
-    ["HandGrenade", 10],
-    ["ACE_M84", 10]
+    ["HandGrenade", 30],
+    ["ACE_M84", 15]
 ];
