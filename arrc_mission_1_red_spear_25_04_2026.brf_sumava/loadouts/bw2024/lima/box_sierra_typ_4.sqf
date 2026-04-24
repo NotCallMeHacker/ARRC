@@ -1,9 +1,16 @@
 [
-    "Sierra Typ 4 - Trupp 1 - A",
+    "Sierra Typ 4 - Unterlaufgranaten",
     "Land_PlasticCase_01_medium_black_F",
-    ["SPS_20Rnd_762x51mm_M80A1_EPR_IR", 14],
-    ["B_UAV_01_backpack_F", 1],
-    ["B_UAV_06_backpack_F", 1],
-    ["ACE_UAVBattery", 4],
-    ["B_UavTerminal", 2]
+    ["3Rnd_Smoke_Grenade_shell", 5],
+    ["rhs_mag_M441_HE", 10],
+    ["rhs_mag_M583A1_white", 15],
+    ["rhs_mag_m714_white", 15],
+    ["ACE_40mm_Flare_ir", 10],
+    ["ACE_HuntIR_M203", 10]
 ];
+
+
+
+
+
+    
