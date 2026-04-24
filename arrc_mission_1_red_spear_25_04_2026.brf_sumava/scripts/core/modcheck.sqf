@@ -89,6 +89,7 @@ _whitelistedMods = 	[
 						"@RHSUSAF", "843577117",
 						"@Redd'n'Tank Vehicles", "1128145626",
 						"@Šumava", "2947655994",
+						"@Sumava", "2947655994",
 						"@RHSSAF", "843632231",
 						"@BettIR NVG", "2260572637",
 						"@Deformer", "2822758266",
