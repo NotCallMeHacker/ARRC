@@ -101,10 +101,27 @@ _whitelistedMods = 	[
 						//ASA Modliste
 						"@[ASA] Arma 3 Squad Alliance - ARRC Modliste", "3704645388",
 
+						//ASA Immersion Modliste
+						"@Arma III Squad Alliance - Immersion", "3495686574",
+						"@Photon VFX", "2953412769",
+						"@Aaren's Blast Effects", "2424322922",
+						"@Blastcore Murr Edition", "2257686620",
+						"@Enhanced Soundscape", "825179978",
+						"@Reduced Haze Mod v3.1", "1397683809",
+						"@Dynamic Lights Extended", "2429580300",
+						"@WBK Immersive Animations", "3165450999",
+						"@Funny's Tactical Animation(ARMA3 Animation Replacement)", "2693900972",
+						"@DynaSound 2", "825181638",
+						"@Better Inventory", "2791403093",
+						"@JSRS SOUNDMOD 2025", "3407948300",
+						"@Death and Hit reactions", "2993442344",
+						"@Arsenal Search", "2060770170",
+						"@Enhanced Map", "2467589125",
+						"@ReColor", "649832908",
+						"@Splendid Lighting Plus", "3588716250",
 
-      //2 Kommandopkompanie Sumava Workaround
-
-      "@Sumava", "2947655994",
+      					//2 Kommandopkompanie Sumava Workaround
+						"@Sumava", "2947655994",
 
 						//Additional Maps
 						"@Jbad", "520618345",
