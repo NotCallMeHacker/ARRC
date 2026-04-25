@@ -201,7 +201,6 @@ _whitelistedMods = 	[
 						"@「RSS」 Immersive Hud", "3581479215",
 						"@Blastcore Compiled By isky", "2884936024",
 						"@Splendid Lighting Modification", "2070681304",
-						"@Splendid Lighting Plus", "3588716250",
 						
 						//Sound
 						"@DynaSound 2", "825181638",
