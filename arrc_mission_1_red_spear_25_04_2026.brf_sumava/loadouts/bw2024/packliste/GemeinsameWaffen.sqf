@@ -68,6 +68,9 @@
     "BWA3_optic_ZO4x30i_RSAS",
     "BWA3_optic_ZO4x30i_RSAS_sand",
     "BWA3_optic_ZO4x30i_sand",
+    "rhsusf_acc_su230_mrds_c",
+    "rhsusf_acc_su230a_mrds_c",
+    "optic_Aco",
     // ------------------------------------------------------------------
     // ------------------------------------------------------------------
     // Pointer
