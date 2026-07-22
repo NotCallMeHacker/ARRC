@@ -1,0 +1,7141 @@
+version=54;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	mods[]=
+	{
+		"3denEnhanced"
+	};
+	class ItemIDProvider
+	{
+		nextID=121;
+	};
+	class LayerIndexProvider
+	{
+		nextID=7;
+	};
+	class Camera
+	{
+		pos[]={8876.0576,436.08441,10769.034};
+		dir[]={0.13535874,-0.84888685,-0.51096314};
+		up[]={0.21737987,0.52857631,-0.82058185};
+		aside[]={-0.96666604,-8.9449168e-07,-0.25607961};
+	};
+};
+binarizationWanted=0;
+sourceName="arrc_mission_2_black_beaver_05_09_2026";
+addons[]=
+{
+	"CUP_WarfareBuildings",
+	"CUP_StandaloneTerrains_Core_Faction",
+	"A3_Structures_F_Bootcamp_VR_Helpers",
+	"A3_Supplies_F_Heli_Slingload",
+	"ace_cargo",
+	"A3_Ui_F",
+	"CUP_Misc_e_Config",
+	"A3_Characters_F",
+	"A3_Weapons_F",
+	"ace_explosives"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=10;
+		class Item0
+		{
+			className="CUP_WarfareBuildings";
+			name="CUP_WarfareBuildings";
+		};
+		class Item1
+		{
+			className="CUP_StandaloneTerrains_Core_Faction";
+			name="CUP_StandaloneTerrains_Core_Faction";
+		};
+		class Item2
+		{
+			className="A3_Structures_F_Bootcamp";
+			name="Arma 3 Bootcamp Update - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item3
+		{
+			className="A3_Supplies_F_Heli";
+			name="Arma 3 Helicopters - Ammoboxes and Supplies";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item4
+		{
+			className="ace_cargo";
+			name="ACE3 - Cargo";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item5
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item6
+		{
+			className="CUP_Misc_e_Config";
+			name="CUP_Misc_e_Config";
+		};
+		class Item7
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item8
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item9
+		{
+			className="ace_explosives";
+			name="ACE3 - Explosives";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+	};
+};
+dlcs[]=
+{
+	"Heli"
+};
+randomSeed=3380449;
+class ScenarioData
+{
+	author="NotCallMeHacker";
+};
+class CustomAttributes
+{
+	class Category1
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="mts_zeus_comments_3DENComments";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					singleType="ARRAY";
+					class value
+					{
+						items=4;
+						class Item0
+						{
+							class data
+							{
+								singleType="ARRAY";
+								class value
+								{
+									items=2;
+									class Item0
+									{
+										class data
+										{
+											singleType="STRING";
+											value="3den:1";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=3;
+												class Item0
+												{
+													class data
+													{
+														singleType="ARRAY";
+														class value
+														{
+															items=3;
+															class Item0
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=9306.4512;
+																};
+															};
+															class Item1
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=9395.5645;
+																};
+															};
+															class Item2
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=9.5997362;
+																};
+															};
+														};
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="STRING";
+														value="Jäger";
+													};
+												};
+												class Item2
+												{
+													class data
+													{
+														singleType="STRING";
+														value="";
+													};
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+						class Item1
+						{
+							class data
+							{
+								singleType="ARRAY";
+								class value
+								{
+									items=2;
+									class Item0
+									{
+										class data
+										{
+											singleType="STRING";
+											value="3den:9";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=3;
+												class Item0
+												{
+													class data
+													{
+														singleType="ARRAY";
+														class value
+														{
+															items=3;
+															class Item0
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=9321.1797;
+																};
+															};
+															class Item1
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=9428.0518;
+																};
+															};
+															class Item2
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=9.6994238;
+																};
+															};
+														};
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="STRING";
+														value="Static Supply Point";
+													};
+												};
+												class Item2
+												{
+													class data
+													{
+														singleType="STRING";
+														value="";
+													};
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+						class Item2
+						{
+							class data
+							{
+								singleType="ARRAY";
+								class value
+								{
+									items=2;
+									class Item0
+									{
+										class data
+										{
+											singleType="STRING";
+											value="3den:10";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=3;
+												class Item0
+												{
+													class data
+													{
+														singleType="ARRAY";
+														class value
+														{
+															items=3;
+															class Item0
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=9306.2617;
+																};
+															};
+															class Item1
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=9422.498;
+																};
+															};
+															class Item2
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=10.813263;
+																};
+															};
+														};
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="STRING";
+														value="Mobile Supply Point";
+													};
+												};
+												class Item2
+												{
+													class data
+													{
+														singleType="STRING";
+														value="";
+													};
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+						class Item3
+						{
+							class data
+							{
+								singleType="ARRAY";
+								class value
+								{
+									items=2;
+									class Item0
+									{
+										class data
+										{
+											singleType="STRING";
+											value="3den:120";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											singleType="ARRAY";
+											class value
+											{
+												items=3;
+												class Item0
+												{
+													class data
+													{
+														singleType="ARRAY";
+														class value
+														{
+															items=3;
+															class Item0
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=9318.2998;
+																};
+															};
+															class Item1
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=9418.3115;
+																};
+															};
+															class Item2
+															{
+																class data
+																{
+																	singleType="SCALAR";
+																	value=9.8950825;
+																};
+															};
+														};
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														singleType="STRING";
+														value="Paletten Supply Point";
+													};
+												};
+												class Item2
+												{
+													class data
+													{
+														singleType="STRING";
+														value="";
+													};
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+					};
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		wavesForced=1;
+		windForced=1;
+		year=2026;
+		month=6;
+		day=8;
+		hour=5;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=7;
+		class Item0
+		{
+			dataType="Layer";
+			name="000_Spawn";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Comment";
+					class PositionInfo
+					{
+						position[]={9306.4512,9.5997362,9395.5645};
+						angles[]={6.1967349,0,6.2332273};
+					};
+					title="Jäger";
+					id=1;
+				};
+			};
+			id=0;
+		};
+		class Item1
+		{
+			dataType="Layer";
+			name="German Rangers - Template";
+			class Entities
+			{
+				items=3;
+				class Item0
+				{
+					dataType="Layer";
+					name="Lima Supplypoint";
+					class Entities
+					{
+						items=3;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9317.4365,11.400672,9430.5898};
+								angles[]={0.0050033992,3.3207934,6.2132993};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="[this, [-4,-1,0], 15] call IGC_CF_fnc_initSupplyPoint;";
+								name="limasupplypointstatic";
+								dynamicSimulation=1;
+							};
+							id=4;
+							type="USMC_WarfareBVehicleServicePoint";
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9321.3252,9.6711025,9430.0127};
+								angles[]={6.278194,1.7359874,0.0099949092};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+								name="limasupplypointstaticmarker";
+								dynamicSimulation=1;
+							};
+							id=5;
+							type="VR_Area_01_square_2x2_grey_F";
+						};
+						class Item2
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9307.6396,12.101838,9427.1748};
+								angles[]={0.010000871,0.19363958,6.2215962};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								init="[this, [0,-6,0.5], 15] call IGC_CF_fnc_initSupplyPoint;";
+								name="limasupplypointmobile";
+								dynamicSimulation=1;
+							};
+							id=6;
+							type="B_Slingload_01_Cargo_F";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="ammoBox";
+									expression="[_this,_value] call bis_fnc_initAmmoBox;";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+					};
+					id=3;
+					atlOffset=-0.019510269;
+				};
+				class Item1
+				{
+					dataType="Marker";
+					position[]={9296.958,10.951178,9413.3818};
+					name="respawn_west";
+					type="Empty";
+					id=7;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9298.0957,15.040442,9417.752};
+						angles[]={6.249866,1.5862525,6.268187};
+					};
+					side="Empty";
+					flags=4;
+					class Attributes
+					{
+						name="GR_baseFlag";
+						dynamicSimulation=1;
+					};
+					id=8;
+					type="FlagCarrierGermany_EP1";
+				};
+			};
+			id=2;
+			atlOffset=-0.17452431;
+		};
+		class Item2
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={9321.1797,9.6994238,9428.0518};
+				angles[]={0.0050033992,3.3008146,6.1983895};
+			};
+			title="Static Supply Point";
+			id=9;
+		};
+		class Item3
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={9306.2617,10.813263,9422.498};
+				angles[]={6.278182,4.9234819,6.2099833};
+			};
+			title="Mobile Supply Point";
+			id=10;
+		};
+		class Item4
+		{
+			dataType="Layer";
+			name="German Rangers - Template_1";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Layer";
+					name="Aufstellung";
+					class Entities
+					{
+						items=13;
+						class Item0
+						{
+							dataType="Group";
+							side="West";
+							class Entities
+							{
+								items=3;
+								class Item0
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9318.6494,9.6458063,9410.7637};
+										angles[]={0,4.8721018,0};
+									};
+									side="West";
+									flags=7;
+									class Attributes
+									{
+										rank="MAJOR";
+										init="this setVariable [""ARRC_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Kilo""];";
+										name="Kilo1";
+										description="Kompanieführer@Kilo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=14;
+									type="B_officer_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.01;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item1
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9318.3428,9.6056967,9408.7998};
+										angles[]={0,4.8721018,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CAPTAIN";
+										init="this setVariable [""ARRC_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Kilo""];";
+										name="Kilo2";
+										description="Stellvertretender Kompanieführer@Kilo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=15;
+									type="B_officer_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item2
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9318.1084,9.5597143,9407.0293};
+										angles[]={0,4.8721042,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CAPTAIN";
+										init="this setVariable [""ARRC_unitLoadout"", ""KpFhr""];" \n "group this setGroupId [""Kilo""];";
+										name="Kilo3";
+										description="Funker@Kilo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=16;
+									type="B_officer_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+							};
+							class Attributes
+							{
+								name="GrpKilo";
+							};
+							id=13;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="TFAR_freq_lr";
+									expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; } else { _value = [str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; }";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="67";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="TFAR_freq_sr";
+									expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="50";
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item1
+						{
+							dataType="Group";
+							side="West";
+							class Entities
+							{
+								items=6;
+								class Item0
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9318.5645,9.3280878,9402.4014};
+										angles[]={0,0.2314579,0};
+									};
+									side="West";
+									flags=7;
+									class Attributes
+									{
+										rank="SERGEANT";
+										init="this setVariable [""ARRC_unitLoadout"", ""Lima_GF""];" \n "group this setGroupId [""Lima""];";
+										name="Lima1";
+										description="Gruppenführer@Lima";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=18;
+									type="B_Soldier_SL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ace_isEngineer";
+											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male06ENG";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.98000002;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="ace_isEOD";
+											expression="_this setVariable ['ACE_isEOD', _value, true]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item1
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9318.0498,9.2620392,9400.4688};
+										angles[]={0,0.24493191,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CORPORAL";
+										init="this setVariable [""ARRC_unitLoadout"", ""Lima_GF""];" \n "group this setGroupId [""Lima""];";
+										name="Lima2";
+										description="Truppführer@Lima";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=19;
+									type="B_Soldier_TL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ace_isEngineer";
+											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male07ENG";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="ace_isEOD";
+											expression="_this setVariable ['ACE_isEOD', _value, true]";
+											class Value
+											{
+												class data
+												{
+													singleType="BOOL";
+													value=1;
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item2
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9316.6318,9.4963999,9402.915};
+										angles[]={0,0.24936505,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
+										name="Lima3";
+										description="Logistiker@Lima";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=20;
+									type="B_engineer_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ace_isEngineer";
+											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.95999998;
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item3
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9314.6982,9.6587629,9403.4297};
+										angles[]={0,0.24936505,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Lima_Sani""];" \n "group this setGroupId [""Lima""];";
+										name="Lima4";
+										description="Logistiker@Lima";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=21;
+									type="B_engineer_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ace_isEngineer";
+											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.95999998;
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item4
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9316.1172,9.4354486,9400.9824};
+										angles[]={0,0.24936505,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
+										name="Lima5";
+										description="Logistiker@Lima";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=22;
+									type="B_engineer_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ace_isEngineer";
+											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.95999998;
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item5
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9314.1846,9.6080847,9401.4971};
+										angles[]={0,0.24936505,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Lima""];" \n "group this setGroupId [""Lima""];";
+										name="Lima6";
+										description="Logistiker@Lima";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=23;
+									type="B_engineer_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ace_isEngineer";
+											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=2;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.95999998;
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+							};
+							class Attributes
+							{
+								name="GrpLima";
+							};
+							id=17;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="TFAR_freq_lr";
+									expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; } else { _value = [str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; }";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="52";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="TFAR_freq_sr";
+									expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="51";
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item2
+						{
+							dataType="Group";
+							side="West";
+							class Entities
+							{
+								items=5;
+								class Item0
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9324.5117,7.6206169,9386.708};
+										angles[]={0,4.8735151,0};
+									};
+									side="West";
+									flags=7;
+									class Attributes
+									{
+										rank="SERGEANT";
+										init="this setVariable [""ARRC_unitLoadout"", ""Sierra_GrpFhr""];" \n "group this setGroupId [""Sierra""];";
+										name="Sierra1";
+										description="Gruppenführer@Sierra";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=25;
+									type="B_Soldier_SL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male06ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.98000002;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="TFAR_freq_sr";
+											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="55";
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="TFAR_freq_lr";
+											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; } else { _value = [str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; }";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="67";
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item1
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9326.4883,7.4379501,9386.3994};
+										angles[]={0,4.8998523,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										health=0.97482562;
+										init="this setVariable [""ARRC_unitLoadout"", ""Sierra_AufSan""];" \n "group this setGroupId [""Sierra""];";
+										name="Sierra2";
+										description="Aufklärungssanitäter";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=26;
+									type="B_medic_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male07ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.97000003;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="TFAR_freq_sr";
+											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="55";
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="TFAR_freq_lr";
+											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; } else { _value = [str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; }";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="75";
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item2
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9328.4414,7.248724,9386.0449};
+										angles[]={0,4.8858395,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Sierra_Schuetze""];" \n "group this setGroupId [""Sierra""];";
+										name="Sierra4";
+										description="Scharfschütze";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=27;
+									type="B_recon_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ace_isMedic";
+											expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male02ENG";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="TFAR_freq_sr";
+											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="56";
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item3
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9330.1904,7.074676,9385.8164};
+										angles[]={0,4.8858395,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Sierra_Spotter""];" \n "group this setGroupId [""Sierra""];";
+										name="Sierra5";
+										description="Spotter";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=28;
+									type="B_recon_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ace_isMedic";
+											expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male02ENG";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="TFAR_freq_sr";
+											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="56";
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+								class Item4
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9331.8516,6.8962431,9385.5586};
+										angles[]={0,4.8858395,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Sierra_NaSi""];" \n "group this setGroupId [""Sierra""];";
+										name="Sierra8";
+										description="Nah-Sicherer";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=29;
+									type="B_recon_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ace_isMedic";
+											expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1;
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male02ENG";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="TFAR_freq_sr";
+											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="57";
+												};
+											};
+										};
+										nAttributes=4;
+									};
+								};
+							};
+							class Attributes
+							{
+								name="GrpSierra";
+							};
+							id=24;
+						};
+						class Item3
+						{
+							dataType="Group";
+							side="West";
+							class Entities
+							{
+								items=3;
+								class Item0
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9292.7373,9.5068445,9393.4824};
+										angles[]={0,4.8721042,0};
+									};
+									side="West";
+									flags=7;
+									class Attributes
+									{
+										rank="LIEUTENANT";
+										init="this setVariable [""ARRC_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Zulu""];";
+										name="Zulu1";
+										description="Zugführer@Zulu";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=31;
+									type="B_officer_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male11ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item1
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9292.4297,9.3013983,9391.5068};
+										angles[]={0,4.8721042,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="LIEUTENANT";
+										init="this setVariable [""ARRC_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Zulu""];";
+										name="Zulu2";
+										description="Stellvertretender Zugführer@Zulu";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=32;
+									type="B_officer_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male11ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item2
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9292.1201,9.1124582,9389.5303};
+										angles[]={0,4.8668156,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_EHC""];" \n "group this setGroupId [""Zulu""];";
+										name="Zulu3";
+										description="Zug-Sanitäter@Zulu";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=33;
+									type="B_medic_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male07ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.97000003;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+							};
+							class Attributes
+							{
+								name="GrpZulu";
+							};
+							id=30;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="TFAR_freq_lr";
+									expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; } else { _value = [str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; }";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="61";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="TFAR_freq_sr";
+									expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="49";
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item4
+						{
+							dataType="Group";
+							side="West";
+							class Entities
+							{
+								items=10;
+								class Item0
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9295.5674,9.5319567,9393.25};
+										angles[]={0,4.8386111,0};
+									};
+									side="West";
+									flags=7;
+									class Attributes
+									{
+										rank="SERGEANT";
+										init="this setVariable [""ARRC_unitLoadout"", ""GrpFhr""];" \n "group this setGroupId [""Alpha""];";
+										name="Alpha1";
+										description="Gruppenführer@Alpha";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=35;
+									type="B_Soldier_SL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male09ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.01;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="TFAR_freq_lr";
+											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; } else { _value = [str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; }";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="61";
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item1
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9297.8691,9.510457,9392.9453};
+										angles[]={0,4.8520823,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CORPORAL";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Alpha""];";
+										name="Alpha2";
+										description="Truppführer@Alpha";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=36;
+									type="B_Soldier_TL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male07ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item2
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9299.8174,9.4560499,9392.3877};
+										angles[]={0,4.8520823,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CORPORAL";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Alpha""];";
+										name="Alpha3";
+										description="Truppführer@Alpha";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=37;
+									type="B_Soldier_TL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male09ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.03;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item3
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9297.6689,9.3430891,9391.2217};
+										angles[]={0,4.8493624,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_EHB""];" \n "group this setGroupId [""Alpha""];";
+										name="Alpha6";
+										description="Schuetze EHB@Alpha";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=38;
+									type="B_medic_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.97000003;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item4
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9297.0928,9.0479193,9388.417};
+										angles[]={0,4.8543344,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Alpha""];";
+										name="Alpha7";
+										description="LMG-Schütze@Alpha";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=39;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item5
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9298.75,9.0105305,9387.9629};
+										angles[]={0,4.8543344,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Alpha""];";
+										name="Alpha8";
+										description="LMG-Schütze@Alpha";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=40;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item6
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9297.3516,9.1983919,9389.8115};
+										angles[]={0,4.845819,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_AT""];" \n "group this setGroupId [""Alpha""];";
+										name="Alpha5";
+										description="Schütze AT@Alpha";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=41;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male04ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item7
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9299.457,9.3131752,9390.8223};
+										angles[]={0,4.8564987,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Alpha""];";
+										name="Alpha4";
+										description="Grenadier@Alpha";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=42;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male05ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.98000002;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item8
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9299.0566,9.1553841,9389.3018};
+										angles[]={0,4.8431668,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_EHA""];" \n "group this setGroupId [""Alpha""];";
+										name="Alpha9";
+										description="Schütze EHA@Alpha";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=43;
+									type="B_soldier_M_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male02ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.04;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item9
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9298.3799,8.8687639,9386.6572};
+										angles[]={0,4.8739514,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Alpha""];";
+										name="Alpha10";
+										description="Schütze@Alpha";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=44;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male05ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.98000002;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+							};
+							class Attributes
+							{
+								name="GrpAlpha";
+							};
+							id=34;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="TFAR_freq_sr";
+									expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="30";
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item5
+						{
+							dataType="Group";
+							side="West";
+							class Entities
+							{
+								items=10;
+								class Item0
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9301.8252,9.3873348,9392.1719};
+										angles[]={0,4.8386111,0};
+									};
+									side="West";
+									flags=7;
+									class Attributes
+									{
+										rank="SERGEANT";
+										init="this setVariable [""ARRC_unitLoadout"", ""GrpFhr""];" \n "group this setGroupId [""Bravo""];";
+										name="Bravo1";
+										description="Gruppenführer@Bravo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=46;
+									type="B_Soldier_SL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male09ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.01;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="TFAR_freq_lr";
+											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; } else { _value = [str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; }";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="61";
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item1
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9304.1279,9.2978649,9391.8662};
+										angles[]={0,4.8520851,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CORPORAL";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Bravo""];";
+										name="Bravo2";
+										description="Truppführer@Bravo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=47;
+									type="B_Soldier_TL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male07ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item2
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9306.0752,9.2001286,9391.3086};
+										angles[]={0,4.8520851,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CORPORAL";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Bravo""];";
+										name="Bravo3";
+										description="Truppführer@Bravo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=48;
+									type="B_Soldier_TL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male09ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.03;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item3
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9303.9268,9.1453056,9390.1436};
+										angles[]={0,4.8493624,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_EHB""];" \n "group this setGroupId [""Bravo""];";
+										name="Bravo6";
+										description="Schuetze EHB@Bravo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=49;
+									type="B_medic_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.97000003;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item4
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9303.3506,8.8807945,9387.3369};
+										angles[]={0,4.8543363,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Bravo""];";
+										name="Bravo7";
+										description="LMG-Schütze@Bravo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=50;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item5
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9305.0088,8.7913113,9386.8838};
+										angles[]={0,4.8543363,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Bravo""];";
+										name="Bravo8";
+										description="LMG-Schütze@Bravo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=51;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item6
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9303.6094,9.0135727,9388.7334};
+										angles[]={0,4.845819,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_AT""];" \n "group this setGroupId [""Bravo""];";
+										name="Bravo5";
+										description="Schütze AT@Bravo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=52;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male04ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item7
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9305.7158,9.0584021,9389.7432};
+										angles[]={0,4.8565006,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Bravo""];";
+										name="Bravo4";
+										description="Grenadier@Bravo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=53;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male05ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.98000002;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item8
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9305.3145,8.9170542,9388.2227};
+										angles[]={0,4.8431668,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_EHA""];" \n "group this setGroupId [""Bravo""];";
+										name="Bravo9";
+										description="Schütze EHA@Bravo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=54;
+									type="B_soldier_M_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male02ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.04;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item9
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9304.6387,8.6705847,9385.5781};
+										angles[]={0,4.8739538,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Bravo""];";
+										name="Bravo10";
+										description="Schütze@Bravo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=55;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male05ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.98000002;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+							};
+							class Attributes
+							{
+								name="GrpBravo";
+							};
+							id=45;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="TFAR_freq_sr";
+									expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="30";
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item6
+						{
+							dataType="Group";
+							side="West";
+							class Entities
+							{
+								items=7;
+								class Item0
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9308.332,9.0866423,9391.0684};
+										angles[]={0,4.8386111,0};
+									};
+									side="West";
+									flags=7;
+									class Attributes
+									{
+										rank="SERGEANT";
+										init="this setVariable [""ARRC_unitLoadout"", ""GrpFhr""];" \n "group this setGroupId [""Charlie""];";
+										name="Charlie1";
+										description="Gruppenführer@Charlie";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=57;
+									type="B_Soldier_SL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male09ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.01;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="TFAR_freq_lr";
+											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; } else { _value = [str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; }";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="61";
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item1
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9310.6338,8.9650383,9390.7627};
+										angles[]={0,4.8520851,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CORPORAL";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Charlie""];";
+										name="Charlie2";
+										description="Truppführer@Charlie";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=58;
+									type="B_Soldier_TL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male07ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item2
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9310.4326,8.8015251,9389.04};
+										angles[]={0,4.8493624,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_EHB""];" \n "group this setGroupId [""Charlie""];";
+										name="Charlie6";
+										description="Schuetze EHB@Charlie";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=59;
+									type="B_medic_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.97000003;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item3
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9309.8564,8.5392103,9386.2334};
+										angles[]={0,4.8543363,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Charlie""];";
+										name="Charlie7";
+										description="LMG-Schütze@Charlie";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=60;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item4
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9310.1152,8.6707935,9387.6299};
+										angles[]={0,4.845819,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_AT""];" \n "group this setGroupId [""Charlie""];";
+										name="Charlie5";
+										description="Schütze AT@Charlie";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=61;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male04ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item5
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9309.5078,8.4319391,9385.0166};
+										angles[]={0,4.8565006,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Charlie""];";
+										name="Charlie4";
+										description="Grenadier@Charlie";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=62;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male05ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.98000002;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item6
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9309.3779,8.3038874,9383.7197};
+										angles[]={0,4.8739538,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Charlie""];";
+										name="Charlie10";
+										description="Schütze@Charlie";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=63;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male05ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.98000002;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+							};
+							class Attributes
+							{
+								name="GrpCharlie";
+							};
+							id=56;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="TFAR_freq_sr";
+									expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="30";
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item7
+						{
+							dataType="Group";
+							side="West";
+							class Entities
+							{
+								items=7;
+								class Item0
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9312.6562,8.8226786,9390.2998};
+										angles[]={0,4.8386111,0};
+									};
+									side="West";
+									flags=7;
+									class Attributes
+									{
+										rank="SERGEANT";
+										init="this setVariable [""ARRC_unitLoadout"", ""GrpFhr""];" \n "group this setGroupId [""Delta""];";
+										name="Delta1";
+										description="Gruppenführer@Delta";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=65;
+									type="B_Soldier_SL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male09ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.01;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="TFAR_freq_lr";
+											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; } else { _value = [str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; }";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="61";
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item1
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9314.959,8.6533289,9389.9932};
+										angles[]={0,4.8520851,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CORPORAL";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Delta""];";
+										name="Delta2";
+										description="Truppführer@Delta";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=66;
+									type="B_Soldier_TL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male07ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item2
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9314.7578,8.4936581,9388.2725};
+										angles[]={0,4.8493624,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_EHB""];" \n "group this setGroupId [""Delta""];";
+										name="Delta6";
+										description="Schuetze EHB@Delta";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=67;
+									type="B_medic_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.97000003;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item3
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9314.1816,8.2443886,9385.4648};
+										angles[]={0,4.8543363,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Delta""];";
+										name="Delta7";
+										description="LMG-Schütze@Delta";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=68;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item4
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9314.4404,8.3708763,9386.8613};
+										angles[]={0,4.845819,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_AT""];" \n "group this setGroupId [""Delta""];";
+										name="Delta5";
+										description="Schütze AT@Delta";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=69;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male04ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item5
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9313.833,8.1416235,9384.248};
+										angles[]={0,4.8565006,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Delta""];";
+										name="Delta4";
+										description="Grenadier@Delta";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=70;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male05ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.98000002;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item6
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9313.7021,8.0194464,9382.9512};
+										angles[]={0,4.8739538,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze""];" \n "group this setGroupId [""Delta""];";
+										name="Delta10";
+										description="Schütze@Delta";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=71;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male05ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.98000002;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+							};
+							class Attributes
+							{
+								name="GrpDelta";
+							};
+							id=64;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="TFAR_freq_sr";
+									expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="30";
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item8
+						{
+							dataType="Group";
+							side="West";
+							class Entities
+							{
+								items=3;
+								class Item0
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9285.8828,11.099781,9421.2588};
+										angles[]={0,4.8721042,0};
+									};
+									side="West";
+									flags=7;
+									class Attributes
+									{
+										rank="LIEUTENANT";
+										init="this setVariable [""ARRC_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Yankee""];";
+										name="Yankee1";
+										description="Zugführer@Yankee";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=73;
+									type="B_officer_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male11ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item1
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9285.5752,10.990729,9419.2803};
+										angles[]={0,4.8721042,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="LIEUTENANT";
+										init="this setVariable [""ARRC_unitLoadout"", ""ZugFhr""];" \n "group this setGroupId [""Yankee""];";
+										name="Yankee2";
+										description="Stellvertretender Zugführer@Yankee";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=74;
+									type="B_officer_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male11ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item2
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9285.2666,10.875714,9417.3057};
+										angles[]={0,4.8668156,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_EHC""];" \n "group this setGroupId [""Yankee""];";
+										name="Yankee3";
+										description="Zug-Sanitäter@Yankee";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=75;
+									type="B_medic_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male07ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.97000003;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+							};
+							class Attributes
+							{
+								name="GrpYankee";
+							};
+							id=72;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="TFAR_freq_lr";
+									expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; } else { _value = [str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; }";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="62";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="TFAR_freq_sr";
+									expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="99";
+										};
+									};
+								};
+								nAttributes=2;
+							};
+						};
+						class Item9
+						{
+							dataType="Group";
+							side="West";
+							class Entities
+							{
+								items=9;
+								class Item0
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9292.0664,10.402894,9403.7617};
+										angles[]={0,2.5854492,0};
+									};
+									side="West";
+									flags=7;
+									class Attributes
+									{
+										rank="SERGEANT";
+										init="this setVariable [""ARRC_unitLoadout"", ""GrpFhr""];" \n "group this setGroupId [""Echo""];";
+										name="Echo1";
+										description="Kommandant@Echo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=77;
+									type="B_Soldier_SL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male09ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.01;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="TFAR_freq_lr";
+											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; } else { _value = [str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; }";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="62";
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item1
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9293.0703,10.464899,9404.4502};
+										angles[]={0,2.5989239,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CORPORAL";
+										init="this setVariable [""ARRC_unitLoadout"", ""Richtschuetze""];" \n "group this setGroupId [""Echo""];";
+										name="Echo2";
+										description="Richtschuetze@Echo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=78;
+									type="B_Soldier_TL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male07ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item2
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9290.8711,10.483791,9405.5938};
+										angles[]={0,2.5989239,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CORPORAL";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Echo""];";
+										name="Echo3";
+										description="Truppführer@Echo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=79;
+									type="B_Soldier_TL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male09ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.03;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item3
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9296.3691,10.730708,9408.9365};
+										angles[]={0,2.5962012,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_EHB""];" \n "group this setGroupId [""Echo""];";
+										name="Echo6";
+										description="Schütze EHB@Echo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=80;
+									type="B_medic_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.97000003;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item4
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9295.1533,10.6927,9408.2695};
+										angles[]={0,2.6011755,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Echo""];";
+										name="Echo7";
+										description="LMG-Schütze@Echo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=81;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item5
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9291.9854,10.548666,9406.3682};
+										angles[]={0,2.5926583,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Echo""];";
+										name="Echo5";
+										description="Grenadier@Echo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=82;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male04ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item6
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9294.2656,10.520347,9405.1934};
+										angles[]={0,2.6033394,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Fahrer""];" \n "group this setGroupId [""Echo""];";
+										name="Echo4";
+										description="Fahrer@Echo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=83;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male05ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.98000002;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item7
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9293.0059,10.604802,9407.0176};
+										angles[]={0,2.6011755,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_AT""];" \n "group this setGroupId [""Echo""];";
+										name="Echo8";
+										description="Schütze AT@Echo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=84;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item8
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9294.2129,10.651776,9407.5684};
+										angles[]={0,2.6011755,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_AT""];" \n "group this setGroupId [""Echo""];";
+										name="Echo10";
+										description="Schütze AT@Echo";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=85;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+							};
+							class Attributes
+							{
+								name="GrpEcho";
+							};
+							id=76;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="TFAR_freq_sr";
+									expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="80";
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item10
+						{
+							dataType="Group";
+							side="West";
+							class Entities
+							{
+								items=9;
+								class Item0
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9294.7402,11.251213,9423.3701};
+										angles[]={0,3.0872254,0};
+									};
+									side="West";
+									flags=7;
+									class Attributes
+									{
+										rank="SERGEANT";
+										init="this setVariable [""ARRC_unitLoadout"", ""GrpFhr""];" \n "group this setGroupId [""Foxtrot""];";
+										name="Foxtrot1";
+										description="Kommandant@Foxtrot";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=87;
+									type="B_Soldier_SL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male09ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.01;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="TFAR_freq_lr";
+											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; } else { _value = [str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; }";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="62";
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item1
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9295.9531,11.235222,9423.4902};
+										angles[]={0,3.1006994,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CORPORAL";
+										init="this setVariable [""ARRC_unitLoadout"", ""Richtschuetze""];" \n "group this setGroupId [""Foxtrot""];";
+										name="Foxtrot2";
+										description="Richtschuetze@Foxtrot";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=88;
+									type="B_Soldier_TL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male07ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item2
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9294.5752,11.292639,9425.5518};
+										angles[]={0,3.1006994,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CORPORAL";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Foxtrot""];";
+										name="Foxtrot3";
+										description="Truppführer@Foxtrot";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=89;
+									type="B_Soldier_TL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male09ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.03;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item3
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9301.0029,11.091879,9425.8369};
+										angles[]={0,3.0979769,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_EHB""];" \n "group this setGroupId [""Foxtrot""];";
+										name="Foxtrot6";
+										description="Schütze EHB@Foxtrot";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=90;
+									type="B_medic_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.97000003;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item4
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9299.8271,11.144681,9425.7188};
+										angles[]={0,3.102951,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Foxtrot""];";
+										name="Foxtrot7";
+										description="LMG-Schütze@Foxtrot";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=91;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item5
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9295.9238,11.255144,9425.6934};
+										angles[]={0,3.094434,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Foxtrot""];";
+										name="Foxtrot5";
+										description="Grenadier@Foxtrot";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=92;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male04ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item6
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9297.3574,11.203901,9423.5674};
+										angles[]={0,3.1051154,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Fahrer""];" \n "group this setGroupId [""Foxtrot""];";
+										name="Foxtrot4";
+										description="Fahrer@Foxtrot";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=93;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male05ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.98000002;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item7
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9297.1318,11.221313,9425.7715};
+										angles[]={0,3.102951,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_AT""];" \n "group this setGroupId [""Foxtrot""];";
+										name="Foxtrot8";
+										description="Schütze AT@Foxtrot";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=94;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item8
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9298.4531,11.183389,9425.6738};
+										angles[]={0,3.102951,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_AT""];" \n "group this setGroupId [""Foxtrot""];";
+										name="Foxtrot10";
+										description="Schütze AT@Foxtrot";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=95;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+							};
+							class Attributes
+							{
+								name="GrpFoxtrot";
+							};
+							id=86;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="TFAR_freq_sr";
+									expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="80";
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item11
+						{
+							dataType="Group";
+							side="West";
+							class Entities
+							{
+								items=9;
+								class Item0
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9289.4961,10.743153,9410.8096};
+										angles[]={0,2.1187584,0};
+									};
+									side="West";
+									flags=7;
+									class Attributes
+									{
+										rank="SERGEANT";
+										init="this setVariable [""ARRC_unitLoadout"", ""GrpFhr""];" \n "group this setGroupId [""Golf""];";
+										name="Golf1";
+										description="Kommandant@Golf";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=97;
+									type="B_Soldier_SL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male09ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.01;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="TFAR_freq_lr";
+											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; } else { _value = [str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; }";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="62";
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item1
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9290.083,10.81354,9411.876};
+										angles[]={0,2.1322324,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CORPORAL";
+										init="this setVariable [""ARRC_unitLoadout"", ""Richtschuetze""];" \n "group this setGroupId [""Golf""];";
+										name="Golf2";
+										description="Richtschuetze@Golf";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=98;
+									type="B_Soldier_TL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male07ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item2
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9287.6055,10.753292,9411.9082};
+										angles[]={0,2.1322324,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CORPORAL";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Golf""];";
+										name="Golf3";
+										description="Truppführer@Golf";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=99;
+									type="B_Soldier_TL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male09ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.03;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item3
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9291.0107,11.119952,9417.3672};
+										angles[]={0,2.1295097,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_EHB""];" \n "group this setGroupId [""Golf""];";
+										name="Golf6";
+										description="Schütze EHB@Golf";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=100;
+									type="B_medic_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.97000003;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item4
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9290.2246,11.052135,9416.2236};
+										angles[]={0,2.1344841,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Golf""];";
+										name="Golf7";
+										description="LMG-Schütze@Golf";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=101;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item5
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9288.251,10.844216,9413.0996};
+										angles[]={0,2.1259668,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Golf""];";
+										name="Golf5";
+										description="Grenadier@Golf";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=102;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male04ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item6
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9290.8154,10.903466,9413.0771};
+										angles[]={0,2.1366479,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Fahrer""];" \n "group this setGroupId [""Golf""];";
+										name="Golf4";
+										description="Fahrer@Golf";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=103;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male05ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.98000002;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item7
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9288.8711,10.917583,9414.1396};
+										angles[]={0,2.1344841,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_AT""];" \n "group this setGroupId [""Golf""];";
+										name="Golf8";
+										description="Schütze AT@Golf";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=104;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item8
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9289.7002,10.988296,9415.1738};
+										angles[]={0,2.1344841,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_AT""];" \n "group this setGroupId [""Golf""];";
+										name="Golf10";
+										description="Schütze AT@Golf";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=105;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+							};
+							class Attributes
+							{
+								name="GrpGolf";
+							};
+							id=96;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="TFAR_freq_sr";
+									expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="80";
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+						class Item12
+						{
+							dataType="Group";
+							side="West";
+							class Entities
+							{
+								items=9;
+								class Item0
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9303.3408,10.897152,9417.7871};
+										angles[]={0,4.8560643,0};
+									};
+									side="West";
+									flags=7;
+									class Attributes
+									{
+										rank="SERGEANT";
+										init="this setVariable [""ARRC_unitLoadout"", ""GrpFhr""];" \n "group this setGroupId [""Hotel""];";
+										name="Hotel1";
+										description="Kommandant@Hotel";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=107;
+									type="B_Soldier_SL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male09ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.01;
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="TFAR_freq_lr";
+											expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; } else { _value = [str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; }";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="62";
+												};
+											};
+										};
+										nAttributes=3;
+									};
+								};
+								class Item1
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9303.2207,10.87214,9416.5752};
+										angles[]={0,4.8695383,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CORPORAL";
+										init="this setVariable [""ARRC_unitLoadout"", ""Richtschuetze""];" \n "group this setGroupId [""Hotel""];";
+										name="Hotel2";
+										description="Richtschuetze@Hotel";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=108;
+									type="B_Soldier_TL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male07ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item2
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9305.5117,10.786005,9417.5205};
+										angles[]={0,4.8695364,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										rank="CORPORAL";
+										init="this setVariable [""ARRC_unitLoadout"", ""TrpFhr""];" \n "group this setGroupId [""Hotel""];";
+										name="Hotel3";
+										description="Truppführer@Hotel";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=109;
+									type="B_Soldier_TL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male09ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.03;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item3
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9304.5957,10.606237,9410.8242};
+										angles[]={0,4.8668156,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_EHB""];" \n "group this setGroupId [""Hotel""];";
+										name="Hotel6";
+										description="Schütze EHB@Hotel";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=110;
+									type="B_medic_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male08ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.97000003;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item4
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9304.8008,10.666345,9412.5234};
+										angles[]={0,4.871788,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_LMG""];" \n "group this setGroupId [""Hotel""];";
+										name="Hotel7";
+										description="LMG-Schütze@Hotel";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=111;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item5
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9305.3867,10.760561,9416.1709};
+										angles[]={0,4.8632708,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Grenadier""];" \n "group this setGroupId [""Hotel""];";
+										name="Hotel5";
+										description="Grenadier@Hotel";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=112;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male04ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=1.02;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item6
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9303.0205,10.833422,9415.1826};
+										angles[]={0,4.8739538,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Fahrer""];" \n "group this setGroupId [""Hotel""];";
+										name="Hotel4";
+										description="Fahrer@Hotel";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=113;
+									type="B_Soldier_GL_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male05ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.98000002;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item7
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9305.2266,10.740321,9414.9707};
+										angles[]={0,4.8717899,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_AT""];" \n "group this setGroupId [""Hotel""];";
+										name="Hotel8";
+										description="Schütze AT@Hotel";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=114;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+								class Item8
+								{
+									dataType="Object";
+									class PositionInfo
+									{
+										position[]={9304.8701,10.710524,9413.6943};
+										angles[]={0,4.8717899,0};
+									};
+									side="West";
+									flags=5;
+									class Attributes
+									{
+										init="this setVariable [""ARRC_unitLoadout"", ""Schuetze_AT""];" \n "group this setGroupId [""Hotel""];";
+										name="Hotel10";
+										description="Schütze AT@Hotel";
+										isPlayable=1;
+										class Inventory
+										{
+											class uniform
+											{
+												typeName="CUP_U_B_GER_Fleck_Crye";
+												isBackpack=0;
+											};
+											map="ItemMap";
+											compass="ItemCompass";
+											watch="ItemWatch";
+											radio="ItemRadio";
+										};
+									};
+									id=115;
+									type="B_soldier_AR_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="speaker";
+											expression="_this setspeaker _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Male10ENG";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="pitch";
+											expression="_this setpitch _value;";
+											class Value
+											{
+												class data
+												{
+													singleType="SCALAR";
+													value=0.99000001;
+												};
+											};
+										};
+										nAttributes=2;
+									};
+								};
+							};
+							class Attributes
+							{
+								name="GrpHotel";
+							};
+							id=106;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="TFAR_freq_sr";
+									expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="80";
+										};
+									};
+								};
+								nAttributes=1;
+							};
+						};
+					};
+					id=12;
+					atlOffset=-0.17026711;
+				};
+			};
+			id=11;
+			atlOffset=-0.17026711;
+		};
+		class Item5
+		{
+			dataType="Layer";
+			name="W - Speznaz Trupp 3";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Layer";
+					name="Lima Supplypoint_1";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9314.8477,11.577683,9419.6924};
+								angles[]={6.2598572,3.3682225,6.2133002};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								name="limapalettpointstatic";
+								dynamicSimulation=1;
+							};
+							id=118;
+							type="USMC_WarfareBVehicleServicePoint";
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={9318.874,9.8850088,9420.0898};
+								angles[]={6.278194,1.7834159,0};
+							};
+							side="Empty";
+							flags=5;
+							class Attributes
+							{
+								name="limapalettpointstaticmarker";
+								dynamicSimulation=1;
+							};
+							id=119;
+							type="VR_Area_01_square_2x2_grey_F";
+						};
+					};
+					id=117;
+					atlOffset=-0.0081291199;
+				};
+			};
+			id=116;
+			atlOffset=-0.0081291199;
+		};
+		class Item6
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={9318.2998,9.8950825,9418.3115};
+				angles[]={6.2598572,3.348238,6.1983895};
+			};
+			title="Paletten Supply Point";
+			id=120;
+		};
+	};
+};
